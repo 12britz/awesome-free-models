@@ -4,7 +4,7 @@
 
 ![Last Updated](https://img.shields.io/badge/Last%20Checked-June%2019%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-38-blue?style=flat-square)
-![Tools](https://img.shields.io/badge/Tools-213-blue?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-214-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-16-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 
@@ -209,6 +209,7 @@ Free tools that integrate AI into your development workflow.
 | [Cline](https://cline.bot/) | Popular autonomous VS Code agent. Creates/edits files, runs terminal commands, browses web. Open-source, BYOK (bring your own API key). [GitHub](https://github.com/cline/cline) |
 | [Roo Code](https://github.com/RooVetGit/Roo-Code) | Community fork of Cline with faster feature releases. Open-source VS Code agent with deep model integration. |
 | [OpenHands](https://all-hands.dev/) | Autonomous AI software engineer. Navigates file systems, runs shell commands, tests code in browser. Self-hostable. [GitHub](https://github.com/All-Hands-AI/OpenHands) |
+| [Windshift](https://windshift.sh/) | Self-hosted work management platform with coding-agent orchestration: assign work items to agents, run jobs against repositories, and review changes through pull requests. AGPL-3.0. [GitHub](https://github.com/Windshiftapp/core) |
 | [Twinny](https://github.com/twinnydotdev/twinny) | Local-first AI coding extension for VS Code. Works entirely offline with local LLMs (Ollama, llama.cpp). Zero external dependencies. |
 | [Kodu (Claude Coder)](https://github.com/kodu-ai/claude-coder) | VS Code autonomous coding agent. Builds projects from scratch, handles complex tasks with natural language. |
 | [Goose](https://block.github.io/goose/) | Open-source CLI agent for complex software engineering tasks. Extensible plugin system. Built by Block/Square. [GitHub](https://github.com/block/goose) |
