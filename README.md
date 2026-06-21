@@ -105,7 +105,6 @@ Providers offering free tiers to access models via API — no local hardware req
 | [Amazon Bedrock](https://aws.amazon.com/bedrock/) | **$200 AWS credits** for new customers. Access to Llama, Mistral, Claude, Titan, and other foundation models via API. |
 | [Azure AI Foundry](https://azure.microsoft.com/en-us/products/ai-foundry/) | **$200 free trial credits** (30 days). Access GPT-4o, Llama, Mistral, Phi, and other models via Azure's unified AI platform. |
 | [RunPod](https://runpod.io/) | Free credits for serverless GPU inference. Deploy open-weight models as serverless endpoints. Supports Llama, Qwen, DeepSeek, and more. |
-| [OpenCode](https://opencode.ai/) | Go-based terminal AI coding assistant. Model-neutral, supports multiple LLM providers, LSP integration, and MCP tools. Free and open-source. [GitHub](https://github.com/opencode-ai/opencode) |
 
 ---
 
@@ -125,12 +124,12 @@ Run models on your own machine — no API keys needed, full privacy.
 | [text-generation-webui (Oobabooga)](https://github.com/oobabooga/text-generation-webui) | Feature-rich web UI. Supports multiple backends (Transformers, llama.cpp, ExLlama, AutoGPTQ). |
 | [LocalAI](https://localai.io/) | Drop-in OpenAI API replacement. Run models locally with an OpenAI-compatible API. [GitHub](https://github.com/mudler/LocalAI) |
 | [KoboldCPP](https://github.com/LostRuins/koboldcpp) | Single-file executable for running GGUF models. Focused on story generation but general-purpose. |
-| [llamafile (Mozilla)](https://github.com/Mozilla-Ocho/llamafile) | Distributable single-file executables that run LLMs. No installation needed. |
+| [llamafile (Mozilla)](https://github.com/mozilla-ai/llamafile) | Distributable single-file executables that run LLMs. No installation needed. |
 | [vLLM](https://github.com/vllm-project/vllm) | High-throughput production inference engine. Uses PagedAttention for efficient serving. |
 | [SGLang](https://github.com/sgl-project/sglang) | Fast inference framework with structured generation and RadixAttention. |
 | [TensorRT-LLM (NVIDIA)](https://github.com/NVIDIA/TensorRT-LLM) | NVIDIA's optimized inference engine. Best performance on NVIDIA GPUs. |
 | [ExLlamaV2](https://github.com/turboderp/exllamav2) | Optimized inference for Llama-family models. Fastest option for single-GPU inference. |
-| [Aphrodite Engine](https://github.com/PygmalionAI/aphrodite-engine) | High-performance LLM serving engine with advanced quantization support. |
+| [Aphrodite Engine](https://github.com/dphnAI/aphrodite-engine) | High-performance LLM serving engine with advanced quantization support. |
 | [TabbyAPI](https://github.com/theroyallab/tabbyAPI) | Lightweight, fast OpenAI-compatible API server for ExLlamaV2. |
 | [LlamaEdge](https://llamaedge.com/) | Lightweight inference framework for edge devices. OpenAI-compatible API for open-source models. Runs on WasmEdge for portability. [GitHub](https://github.com/LlamaEdge/LlamaEdge) |
 | [MLC LLM](https://github.com/mlc-ai/mlc-llm) | Universal deployment engine by UW/SJTU. Runs LLMs on any hardware — laptops, phones, browsers. OpenAI-compatible API. |
@@ -171,7 +170,7 @@ Free tools that integrate AI into your development workflow.
 | Name | Description |
 |------|-------------|
 | [Continue.dev](https://continue.dev/) | Open-source AI code assistant for VS Code and JetBrains. Chat, autocomplete, and edit with any model. [GitHub](https://github.com/continuedev/continue) |
-| [Aider](https://aider.chat/) | AI pair programming in the terminal. Edits code in your local git repo. Supports GPT, Claude, and local models. [GitHub](https://github.com/paul-gauthier/aider) |
+| [Aider](https://aider.chat/) | AI pair programming in the terminal. Edits code in your local git repo. Supports GPT, Claude, and local models. [GitHub](https://github.com/Aider-AI/aider) |
 | [Codeium (Windsurf)](https://codeium.com/) | Free AI code assistant with autocomplete, chat, and search. Individual plan is free forever. |
 | [Tabby](https://tabby.tabbyml.com/) | Self-hosted AI coding assistant with no dependency on external services. [GitHub](https://github.com/TabbyML/tabby) |
 | [Cody (Sourcegraph)](https://sourcegraph.com/cody) | Free tier for individuals. Chat, autocomplete, and commands with codebase context. |
@@ -183,11 +182,11 @@ Free tools that integrate AI into your development workflow.
 | [CodeBuff](https://www.codebuff.com/) | CLI-based AI coding assistant that understands entire codebases. Multi-agent architecture, works with any model provider through natural language instructions. |
 | [Pi](https://pi.dev/) | Open-source terminal AI coding agent with a unified multi-provider API. Model-agnostic, supports OpenAI, Anthropic, Google, and any OpenAI-compatible endpoint. Extensible plugin architecture. [GitHub](https://github.com/earendil-works/pi) |
 | [Cline](https://cline.bot/) | Popular autonomous VS Code agent. Creates/edits files, runs terminal commands, browses web. Open-source, BYOK (bring your own API key). [GitHub](https://github.com/cline/cline) |
-| [Roo Code](https://github.com/RooVetGit/Roo-Code) | Community fork of Cline with faster feature releases. Open-source VS Code agent with deep model integration. |
-| [OpenHands](https://all-hands.dev/) | Autonomous AI software engineer. Navigates file systems, runs shell commands, tests code in browser. Self-hostable. [GitHub](https://github.com/All-Hands-AI/OpenHands) |
+| [Roo Code](https://github.com/RooCodeInc/Roo-Code) | Community fork of Cline with faster feature releases. Open-source VS Code agent with deep model integration. |
+| [OpenHands](https://all-hands.dev/) | Autonomous AI software engineer. Navigates file systems, runs shell commands, tests code in browser. Self-hostable. [GitHub](https://github.com/OpenHands/OpenHands) |
 | [Twinny](https://github.com/twinnydotdev/twinny) | Local-first AI coding extension for VS Code. Works entirely offline with local LLMs (Ollama, llama.cpp). Zero external dependencies. |
 | [Kodu (Claude Coder)](https://github.com/kodu-ai/claude-coder) | VS Code autonomous coding agent. Builds projects from scratch, handles complex tasks with natural language. |
-| [Goose](https://block.github.io/goose/) | Open-source CLI agent for complex software engineering tasks. Extensible plugin system. Built by Block/Square. [GitHub](https://github.com/block/goose) |
+| [Goose](https://block.github.io/goose/) | Open-source CLI agent for complex software engineering tasks. Extensible plugin system. Built by Block/Square. [GitHub](https://github.com/aaif-goose/goose) |
 
 ---
 
@@ -269,15 +268,15 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 | [Letta (MemGPT)](https://github.com/letta-ai/letta) | Framework for long-term agent memory. Virtual memory management that pages data in/out of context like an OS. Persistent agents. |
 | [Griptape](https://github.com/griptape-ai/griptape) | Enterprise agent framework with strictly typed Pipelines, Workflows, and Agents. Structure-first, production-ready. |
 | [OpenAI Swarm](https://github.com/openai/swarm) | Experimental lightweight multi-agent orchestration. Uses Agents and Handoffs abstractions. Educational and minimalist. |
-| [Atomic Agents](https://github.com/BrainBlend-AI/atomic-agents) | Framework inspired by Atomic Design. Compose agents from small, reusable, modular components. Testable and scalable. |
+| [Atomic Agents](https://github.com/Eigenwise/atomic-agents) | Framework inspired by Atomic Design. Compose agents from small, reusable, modular components. Testable and scalable. |
 | [PraisonAI](https://github.com/MervinPraison/PraisonAI) | Low-code multi-agent framework. Define agent roles, tasks, and flows via YAML configuration. Wraps underlying agent frameworks. |
 | [Cognee](https://github.com/topoteretes/cognee) | GraphRAG framework for agent knowledge management. Builds interconnected knowledge graphs from unstructured data. |
 | [Agent Zero](https://github.com/agent0ai/agent-zero) | Self-healing autonomous agent with web UI. Manages own workflows, tool use, and environment. Self-evolving capabilities. |
-| [MetaGPT](https://github.com/geekan/MetaGPT) | Multi-agent framework simulating a full software team. Assigns Agent, Product Manager, Engineer roles. Implements SOPs for end-to-end code generation. |
+| [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Multi-agent framework simulating a full software team. Assigns Agent, Product Manager, Engineer roles. Implements SOPs for end-to-end code generation. |
 | [ChatDev (OpenBMB)](https://github.com/OpenBMB/ChatDev) | Virtual software company driven by multi-agent collaboration. Follows waterfall model through design, coding, testing, and documentation. |
 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | The original autonomous agent experiment. Sets its own goals, iterates on tasks, and executes without continuous human input. Web browsing and file management. |
 | [Bee Agent Framework (IBM)](https://github.com/i-am-bee/beeai-framework) | Production-ready framework for building reliable AI agents in Python and TypeScript. Modular, with built-in observability and IBM research optimizations. |
-| [Eliza (ai16z)](https://github.com/ai16z/eliza) | Multi-platform agent framework for creating character-driven AI agents. Handles social media interaction, complex decision-making, and autonomous behavior across platforms. |
+| [Eliza (ai16z)](https://github.com/elizaOS/eliza) | Multi-platform agent framework for creating character-driven AI agents. Handles social media interaction, complex decision-making, and autonomous behavior across platforms. |
 | [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | Developer-focused autonomous agent platform with GUI. Built-in resource management, file handling, and multi-tasking for running agents at scale. |
 | [AgentVerse (OpenBMB)](https://github.com/OpenBMB/AgentVerse) | Framework for building and evaluating multi-agent environments. Easily configure agent teams and measure collaborative performance. |
 | [Qwen-Agent (Alibaba)](https://github.com/QwenLM/Qwen-Agent) | Agent framework tightly integrated with the Qwen model family. Optimized for function calling, code execution, RAG, and tool use with Qwen models. |
@@ -294,8 +293,8 @@ Tools to fine-tune free models on your own data — all free and open-source.
 | Name | Description |
 |------|-------------|
 | [Unsloth](https://github.com/unslothai/unsloth) | Fast memory-efficient fine-tuning. 2x faster, 50% less memory. Supports QLoRA, LoRA, full fine-tune. |
-| [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) | Streamlined fine-tuning framework supporting multiple model architectures and quantization methods. |
-| [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) | Easy-to-use fine-tuning with web UI. Supports 100+ models, multiple training methods. |
+| [Axolotl](https://github.com/axolotl-ai-cloud/axolotl) | Streamlined fine-tuning framework supporting multiple model architectures and quantization methods. |
+| [LLaMA-Factory](https://github.com/hiyouga/LlamaFactory) | Easy-to-use fine-tuning with web UI. Supports 100+ models, multiple training methods. |
 | [Hugging Face TRL](https://github.com/huggingface/trl) | Transformer Reinforcement Learning library. SFT, PPO, DPOTrainer, GRPOTrainer for aligning models. |
 | [TorchTune (Meta)](https://github.com/pytorch/torchtune) | Native PyTorch library for fine-tuning LLMs. Simple, extensible, efficient. |
 | [AutoTrain (Hugging Face)](https://github.com/huggingface/autotrain-advanced) | No-code fine-tuning platform. Train models with a web UI or API. |
