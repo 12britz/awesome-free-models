@@ -98,7 +98,7 @@ Providers offering free tiers to access models via API — no local hardware req
 | [Novita AI](https://novita.ai/) | Free credits for testing 100+ models including Llama, Qwen, DeepSeek, and Mistral. OpenAI-compatible API with competitive pricing beyond the free tier. |
 | [Anakin.ai](https://anakin.ai/) | **30 daily free credits** for accessing multiple AI models. Web chat interface and API access. Supports GPT-4, Claude, and open-weight models. |
 | [Anthropic (Claude API)](https://console.anthropic.com/) | **~$5 trial credits** for new API accounts. Access Claude Opus, Sonnet, and Haiku models. Phone verification required. |
-| [Nebius AI](https://nebius.com/) | **$100 free credits** for new users. AI Studio with access to Llama, Qwen, DeepSeek, and other open-weight models. Fast inference on NVIDIA H100 infrastructure. |
+| [Nebius AI](https://nebius.com/) | Free rate-limited access to open models (Llama, Qwen, DeepSeek) via Nebius AI Studio. Pay-as-you-go API with fast inference on NVIDIA H100 infrastructure. Startup credit programs available. |
 | [Fal.ai](https://fal.ai/) | Free starter credits for AI inference. Fast, serverless platform supporting Llama, Flux, and Stable Diffusion models. Pay-as-you-go beyond free tier. |
 | [Vercel AI Gateway](https://vercel.com/ai) | **$5/month free credits** for the AI Gateway. Proxy and cache requests across multiple LLM providers. SDK is open-source and free. |
 | [AI21 Labs](https://www.ai21.com/) | **$10 trial credits** for accessing Jamba 1.5, Jamba 1.6, and other AI21 models. Valid for 3 months. Requires account sign-up. |
@@ -237,9 +237,9 @@ Free tools for building retrieval-augmented generation pipelines — vector stor
 | [R2R (SciPhi)](https://github.com/SciPhi-AI/R2R) | Production-ready RAG engine with API, user management, and observability. |
 | [Docling (IBM)](https://www.docling.ai/) | Document understanding and conversion for RAG pipelines. Extracts PDFs, images, and more. [GitHub](https://github.com/DS4SD/docling) |
 | [Unstructured.io](https://unstructured.io/) | Preprocessing toolkit for documents (PDF, HTML, Word) for RAG pipelines. Free tier available. |
-| [RAGFlow](https://github.com/infiniflow/ragflow) | Open-source RAG engine with deep document parsing, OCR, and knowledge base management. Supports多种 document formats. |
+| [RAGFlow](https://github.com/infiniflow/ragflow) | Open-source RAG engine with deep document parsing, OCR, and knowledge base management. Supports multiple document formats. |
 | [RAGatouille](https://github.com/AnswerDotAI/RAGatouille) | Python package bringing ColBERT-style late interaction retrieval to RAG pipelines. Works as retriever and reranker. Free and open-source. |
-| [Canopy (Pinecone)](https://github.com/pinecone-io/canopy) | Open-source RAG framework built on Pinecone. End-to-end retrieval and generation with built-in chat interface. |
+| ~~[Canopy (Pinecone)](https://github.com/pinecone-io/canopy)~~ | **Archived (Nov 2024).** Open-source RAG framework built on Pinecone. No longer maintained — Pinecone recommends [Pinecone Assistant](https://docs.pinecone.io/guides/assistant/understanding-assistant) instead. |
 | [Ragas](https://github.com/explodinggradients/ragas) | Open-source evaluation framework for RAG pipelines. Measures retrieval accuracy, answer relevance, and faithfulness. |
 
 ---
@@ -272,7 +272,7 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 | [Atomic Agents](https://github.com/BrainBlend-AI/atomic-agents) | Framework inspired by Atomic Design. Compose agents from small, reusable, modular components. Testable and scalable. |
 | [PraisonAI](https://github.com/MervinPraison/PraisonAI) | Low-code multi-agent framework. Define agent roles, tasks, and flows via YAML configuration. Wraps underlying agent frameworks. |
 | [Cognee](https://github.com/topoteretes/cognee) | GraphRAG framework for agent knowledge management. Builds interconnected knowledge graphs from unstructured data. |
-| [AgentZero](https://github.com/Agentzerodotfun/agent-zero-main) | Self-healing autonomous agent with web UI. Manages own workflows, tool use, and environment. Self-evolving capabilities. |
+| [Agent Zero](https://github.com/agent0ai/agent-zero) | Self-healing autonomous agent with web UI. Manages own workflows, tool use, and environment. Self-evolving capabilities. |
 | [MetaGPT](https://github.com/geekan/MetaGPT) | Multi-agent framework simulating a full software team. Assigns Agent, Product Manager, Engineer roles. Implements SOPs for end-to-end code generation. |
 | [ChatDev (OpenBMB)](https://github.com/OpenBMB/ChatDev) | Virtual software company driven by multi-agent collaboration. Follows waterfall model through design, coding, testing, and documentation. |
 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | The original autonomous agent experiment. Sets its own goals, iterates on tasks, and executes without continuous human input. Web browsing and file management. |
@@ -411,9 +411,9 @@ Free courses, books, and tutorials for learning AI and LLMs.
 | [OpenRouter Models](https://openrouter.ai/models) | Browse models available via API with pricing and free tiers. |
 | [Ollama Library](https://ollama.com/library) | Browse models available for one-command local setup. |
 | [cheahjs/free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources) | Community-maintained list of free LLM API resources. |
-| [SweetTea](https://www.sweettea.ai/) | Community voting on model quality and preference. |
-
 ---
+
+
 
 ## 👥 Communities
 
