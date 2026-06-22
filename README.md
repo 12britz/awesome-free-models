@@ -3,12 +3,12 @@
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
 ![Last Updated](https://img.shields.io/badge/Last%20Checked-June%2022%2C%202026-brightgreen?style=for-the-badge)
-![Models](https://img.shields.io/badge/Models-36-blue?style=flat-square)
-![Tools](https://img.shields.io/badge/Tools-219-blue?style=flat-square)
+![Models](https://img.shields.io/badge/Models-31-blue?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-248-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-17-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 
-> ✅ All links verified live on June 22, 2026. ~300 URLs checked. 1 broken link (SweetTea.ai), 2 archived repos, 1 GitHub org rename (OpenCode → anomalyco), 3 inaccurate descriptions fixed, 5 unmaintained projects flagged, 2 pricing changes (Fireworks, Tensorlake).
+> ✅ All links verified live on June 22, 2026. ~300 URLs checked. 1 broken link (SweetTea.ai), 2 archived repos, 1 GitHub org rename (OpenCode → anomalyco), 3 inaccurate descriptions fixed, 5 unmaintained projects flagged, 2 pricing changes (Fireworks, Tensorlake). **+39 new entries added** (10 models, 7 inference tools, 1 chatbot UI, 3 CLI tools, 5 coding assistants, 6 agentic frameworks, 3 RAG tools, 2 fine-tuning tools, 4 prompt engineering/eval tools).
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -65,6 +65,15 @@ Notable open-weight models you can download and run on your own hardware.
 | [Falcon 3 (TII)](https://huggingface.co/tiiuae/Falcon3-7B-Instruct) | **Dec 2024.** Compact high-performance model with strong reasoning. Designed for efficient deployment on resource-constrained hardware. TII Falcon-LLM License 2.0. |
 | [Apple OpenELM](https://huggingface.co/Apple/OpenELM-3B) | **Apr 2024.** Family of efficient on-device SLMs using layer-wise attention scaling. Runs locally on Apple Silicon with full privacy. Apple Sample Code License. |
 | [Nemotron 3 Ultra (NVIDIA)](https://huggingface.co/nvidia) | **Jun 2026.** 550B MoE (55B active). Hybrid Mamba-Transformer, NVFP4 quantization. Optimized for agentic workflows. Fully open (weights, data, recipes). OpenMDW-1.1 license. |
+| [GLM-5.2 (Zhipu AI)](https://huggingface.co/zai-org/GLM-5.2) | **Jun 2026.** 753B MoE. IndexShare architecture (2.9x FLOPs reduction at 1M context). SWE-bench Pro 62.1, AIME 2026 99.2. MIT license. |
+| [DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) | **Apr 2026.** 1.6T/49B active MoE. Hybrid attention (CSA+HCA), 1M context. SWE-bench Verified 80.6, Codeforces 3206. MIT license. |
+| [Kimi-K2.7-Code (Moonshot AI)](https://huggingface.co/moonshotai/Kimi-K2.7-Code) | **Jun 2026.** 1T/32B active MoE (384 experts). 256K context, multimodal (MoonViT). Coding-focused agentic model with interleaved thinking. Modified MIT license. |
+| [Hy3-preview (Tencent)](https://huggingface.co/tencent/Hy3-preview) | **Apr 2026.** 299B/21B active MoE. 256K context, rebuilt training infrastructure. SWE-bench Verified 74.4, GPQA Diamond 87.2. |
+| [DiffusionGemma 26B (Google)](https://huggingface.co/google/diffusiongemma-26B-A4B-it) | **Jun 2026.** 26B/3.8B active MoE. First major open discrete text diffusion LM. Block-autoregressive multi-canvas sampling, 256K context, multimodal. Apache 2.0. |
+| [North-Mini-Code (Cohere)](https://huggingface.co/CohereLabs/North-Mini-Code-1.0) | **Jun 2026.** 30B/3B active MoE. 256K context, 64K max output. Agentic coding specialist with interleaved thinking. SWE-bench Verified 67.6. Apache 2.0. |
+| [ERNIE-4.5-VL-Thinking (Baidu)](https://huggingface.co/baidu/ERNIE-4.5-VL-28B-A3B-Thinking) | **Mar 2026.** 30B/3B active MoE. Multimodal thinking model with "Thinking with Images" feature. Visual grounding, video understanding. Apache 2.0. |
+| [VibeThinker-3B (WeiboAI)](https://huggingface.co/WeiboAI/VibeThinker-3B) | **Jun 2026.** 3B dense. Remarkable small reasoning model — IMO-AnswerBench 76.4, competitive with 671B-1T models. 96.1% LeetCode acceptance rate. MIT license. |
+| [Laguna-M.1 (Poolside)](https://huggingface.co/poolside/Laguna-M.1) | **Jun 2026.** 226B/23B active MoE (256 experts). 262K context, agentic coding focus, native interleaved reasoning. SWE-bench Verified 74.6. Apache 2.0. |
 
 ---
 
@@ -147,6 +156,12 @@ Run models on your own machine — no API keys needed, full privacy.
 | [AirLLM](https://github.com/lyogavin/airllm) | Run large models (70B+) on consumer hardware with limited memory. Loads models layer-by-layer for extreme memory efficiency. |
 | [AI Toolkit for VS Code (Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-windows-ai-studio.windows-ai-studio) | VS Code extension to browse, test, fine-tune, and deploy models locally. Integrates ONNX and llama.cpp. |
 | [Ollama Grid Search](https://github.com/dezoito/ollama-grid-search) | Desktop utility for systematic model evaluation. Test multiple models, prompts, and inference parameters side-by-side via a Rust/React GUI. |
+| [PowerInfer](https://github.com/Tiiny-AI/PowerInfer) | High-speed LLM serving for local deployment. Uses neuron activation patterns for faster inference on consumer hardware. |
+| [LMDeploy (InternLM)](https://github.com/InternLM/lmdeploy) | Toolkit for compressing, deploying, and serving LLMs. Turbomind engine with CUDA kernel optimization. |
+| [OpenVINO (Intel)](https://github.com/openvinotoolkit/openvino) | Intel's open-source toolkit for optimizing and deploying AI inference on CPU/GPU/VPU. Best performance on Intel hardware. |
+| [Cactus](https://github.com/cactus-compute/cactus) | Low-latency AI engine for mobile devices and wearables. Native on-device LLM inference for Android/iOS. |
+| [GPUStack](https://github.com/gpustack/gpustack) | GPU cluster manager orchestrating vLLM/SGLang for high-performance distributed inference. OpenAI-compatible API. |
+| [Docker Model Runner](https://docs.docker.com/ai/model-runner/) | Run models directly in Docker Desktop. Integrated model management with OpenAI-compatible API. |
 
 ---
 
@@ -165,6 +180,7 @@ Free, open-source web interfaces for chatting with AI models — self-host or us
 | [LobeChat](https://lobehub.com/) | Modern, extensible chat framework with plugin system and multi-provider support. [GitHub](https://github.com/lobehub/lobehub) |
 | [Chatbot UI](https://www.chatbotui.com/) | Simple, clean ChatGPT interface. Easy to self-host with any OpenAI-compatible API. ⚠️ Open-source repo unmaintained. [GitHub](https://github.com/mckaywrigley/chatbot-ui) |
 | [NextChat (ChatGPT-Next-Web)](https://github.com/ChatGPTNextWeb/NextChat) | Lightweight cross-platform chat app. Self-host on Vercel or download official desktop/mobile clients. |
+| [RikkaHub](https://github.com/rikkahub/rikkahub) | Native Android app supporting multiple LLM providers. MCP support, Material Design, Kotlin/Jetpack Compose. |
 
 ---
 
@@ -185,6 +201,9 @@ General-purpose terminal-based AI tools — chat, summarization, file operations
 | [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Nous Research's open-source terminal AI agent. Full TUI with slash commands, 40+ tools, persistent memory. Multi-platform gateway (Telegram, Discord, Slack). Apache 2.0. |
 | [Saarthi](https://github.com/snehangshu2002/saarthi-cli) | LangGraph-powered CLI chatbot with persistent memory, multi-agent delegation, MCP integration, and dynamic skill system. Local-first architecture. |
 | [Freebuff](https://freebuff.com/) | An AI-powered CLI, supported by ads, with multi-agent orchestration. |
+| [ByteRover CLI (brv)](https://github.com/campfirein/byterover-cli) | Portable memory layer for autonomous coding agents. Manages persistent context across sessions. |
+| [abtop](https://github.com/graykode/abtop) | Like htop, but for AI coding agents. Rust-based TUI to monitor Claude Code and Codex CLI sessions in real-time. |
+| [git-lrc](https://github.com/HexmosTech/git-lrc) | Free micro AI code reviews that run on every git commit. Go-based, uses Gemini. |
 
 ---
 
@@ -210,6 +229,11 @@ Free tools that integrate AI into your development workflow.
 | [OpenHands](https://openhands.dev/) | Autonomous AI software engineer. Navigates file systems, runs shell commands, tests code in browser. Self-hostable. [GitHub](https://github.com/OpenHands/OpenHands) |
 | [Kodu (Claude Coder)](https://github.com/kodu-ai/claude-coder) | VS Code autonomous coding agent. Builds projects from scratch, handles complex tasks with natural language. |
 | [Goose](https://goose-docs.ai/) | Open-source CLI agent for complex software engineering tasks. Extensible plugin system. Originally by Block, now under the Agentic AI Foundation (AAIF) at the Linux Foundation. [GitHub](https://github.com/aaif-goose/goose) |
+| [Plandex](https://github.com/plandex-ai/plandex) | Open-source AI coding agent for large projects. Terminal-based with cumulative diff review sandbox. Handles up to 2M tokens context. Go-based. |
+| [GPT Engineer](https://github.com/AntonOsika/gpt-engineer) | CLI platform for codegen experimentation. Precursor to Lovable.dev. Generate entire apps from natural language. |
+| [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot) | "The first real AI developer." Generates full applications with testing and debugging. 33K+ stars. |
+| [Archon](https://github.com/coleam00/Archon) | First open-source harness builder for AI coding. Makes AI coding deterministic and repeatable with workflow engine. |
+| [PR Agent](https://github.com/The-PR-Agent/pr-agent) | AI-powered automated code review for pull requests. Supports multiple providers, generates PR descriptions and reviews. |
 
 ---
 
@@ -260,6 +284,9 @@ Free tools for building retrieval-augmented generation pipelines — vector stor
 | [RAGFlow](https://github.com/infiniflow/ragflow) | Open-source RAG engine with deep document parsing, OCR, and knowledge base management. Supports多种 document formats. |
 | [RAGatouille](https://github.com/AnswerDotAI/RAGatouille) | Python package bringing ColBERT-style late interaction retrieval to RAG pipelines. Works as retriever and reranker. Free and open-source. |
 | [Ragas](https://github.com/vibrantlabsai/ragas) | Open-source evaluation framework for RAG pipelines. Measures retrieval accuracy, answer relevance, and faithfulness. |
+| [LightRAG (HKUDS)](https://github.com/HKUDS/LightRAG) | Lightweight, fast RAG with graph-based retrieval. Simple API, graph-based knowledge retrieval. |
+| [Kuzu](https://github.com/kuzudb/kuzu) | Embedded graph database for RAG and knowledge graphs. High-performance, Cypher query support. |
+| [Turso/libSQL](https://github.com/tursodatabase/libsql) | SQLite fork with vector search, replication, and embedded DB capabilities. Edge-friendly, pgvector alternative. |
 
 ---
 
@@ -302,6 +329,11 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 | [Qwen-Agent (Alibaba)](https://github.com/QwenLM/Qwen-Agent) | Agent framework tightly integrated with the Qwen model family. Optimized for function calling, code execution, RAG, and tool use with Qwen models. |
 | [AGiXT](https://github.com/Josh-XT/AGiXT) | Extensible modular AI agent automation platform. Plugin system for swapping LLMs, memory backends, and tools. Highly customizable agent workflows. |
 | [Deus](https://github.com/sliamh11/Deus) | Self-hosted personal AI assistant framework built around long-term memory, a self-improving evolution loop, and multi-agent orchestration. Backend-neutral (Claude Code, OpenAI/Codex, or fully local Ollama models), container-isolated agents, multi-channel (WhatsApp, Telegram, Slack, Discord, Gmail). MIT. |
+| [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | **Jun 2026.** Enterprise successor to AutoGen. Python + .NET, graph-based workflows, A2A + MCP support. Microsoft's official production agent framework. |
+| [Composio](https://github.com/ComposioHQ/composio) | 1000+ tool integrations for agents. OAuth handling, sandboxed workbench, MCP support. Massive tool ecosystem with auth management. |
+| [VoltAgent](https://github.com/VoltAgent/voltagent) | TypeScript AI Agent Engineering Platform with memory, RAG, guardrails, tools, MCP, and workflows. VoltOps observability console. |
+| [Trigger.dev](https://github.com/triggerdotdev/trigger.dev) | Build and deploy fully-managed AI agents and workflows. Background jobs + orchestration with MCP server support. |
+| [AG2](https://github.com/AG2ai/ag2) | Community fork of AutoGen (pre-Microsoft takeover). Open governance, Apache 2.0. Active multi-agent orchestration. |
 
 ---
 
@@ -326,6 +358,8 @@ Tools to fine-tune free models on your own data — all free and open-source.
 | [JAX (Google)](https://github.com/jax-ml/jax) | High-performance ML framework with automatic differentiation and JIT compilation. Powers many modern training pipelines. |
 | [Ray Train](https://github.com/ray-project/ray) | Distributed training framework built on Ray. Supports PyTorch, TensorFlow, and JAX with automatic scaling. |
 | [Determined AI](https://github.com/determined-ai/determined) | Open-source ML training platform with hyperparameter search, GPU scheduling, and experiment tracking. |
+| [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF) | RLHF/DPO/GRPO training framework at scale. Ray-based distributed training, supports 70B+ models. |
+| [MLX LM (Apple)](https://github.com/ml-explore/mlx-examples) | Apple Silicon native fine-tuning and inference. Best-in-class for M-series Mac, LoRA/QLoRA support. |
 
 ---
 
@@ -348,6 +382,10 @@ Free tools for testing, managing, and optimizing prompts.
 | [DeepEval](https://github.com/confident-ai/deepeval) | Open-source evaluation framework for LLM outputs. 50+ metrics, pytest integration, and CI/CD support for prompt regression testing. |
 | [PromptLayer](https://promptlayer.com/) | Prompt versioning and monitoring platform. Tracks prompt versions, cost, latency, and model behavior. Free tier with 10K calls/month. |
 | [OpenPromptHub](https://openprompthub.us/) | Community-driven prompt engineering platform. Discover, share, and contribute prompt patterns. Free and open-source. |
+| [Arize Phoenix](https://github.com/Arize-ai/phoenix) | Open-source AI observability: tracing, evals, datasets, experiments, and playground. OpenTelemetry integration. |
+| [Opik (Comet ML)](https://github.com/comet-ml/opik) | Debug, evaluate, and monitor LLM apps with tracing and dashboards. Open-source LLM evaluation platform. |
+| [AgentOps](https://github.com/AgentOps-AI/agentops) | AI agent monitoring, LLM cost tracking, and benchmarking. Integrates with CrewAI, Agno, LangChain, AutoGen. |
+| [Headroom](https://github.com/headroomlabs-ai/headroom) | Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% token reduction, MCP server support. |
 
 ---
 
