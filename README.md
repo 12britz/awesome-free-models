@@ -178,7 +178,7 @@ General-purpose terminal-based AI tools — chat, summarization, file operations
 
 | Name | Released | Description |
 |------|----------|-------------|
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Feb 2025 | Google's open-source terminal AI agent. **1,000 requests/day free** on personal Google account. General-purpose agent for code, chat, and shell tasks. Gemini 3 models, 1M context. Apache 2.0. 106k stars. |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | Jun 2026 | Google's open-source terminal AI agent 1,000 requests/day free on personal Google account. Gemini 3 models, 1M context. General-purpose agent for code, chat, and shell tasks. Apache 2.0. 106k stars. |
 | [Codex](https://github.com/openai/codex) | May 2025 | OpenAI's lightweight coding agent. Rust-based with OS-level sandboxing (macOS Seatbelt, Linux Landlock). AGENTS.md support, image input, subagents, MCP. Apache 2.0. 93k stars. |
 | [OpenCode](https://opencode.ai/) | Jan 2025 | Go-based terminal AI agent. Model-neutral, supports 75+ LLM providers, LSP integration, and MCP tools. Desktop app in beta. MIT. 178k stars. |
 | [Pi](https://pi.dev/) | 2024 | Open-source terminal AI agent with unified multi-provider API. Model-agnostic, extensible plugin architecture. 65k stars. MIT. |
