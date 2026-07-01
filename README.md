@@ -8,7 +8,7 @@
 ![Sections](https://img.shields.io/badge/Sections-15-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 
-> ✅ All links verified live on June 28, 2026. 5 broken links found and fixed: agno-org→agno-agi, mistralai/codestral removed, Common Corpus and RLAIF-V noted as requiring login, CatGPT removed (domain dead), lmarena.ai→arena.ai corrected.
+> ✅ All links verified live on July 1, 2026. 5 broken links found and fixed: agno-org→agno-agi, mistralai/codestral removed, Common Corpus and RLAIF-V noted as requiring login, CatGPT removed (domain dead), lmarena.ai→arena.ai corrected.
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -36,7 +36,7 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 
 ## 🧠 Open-Weight Models
 
-> 📅 Last checked: June 28, 2026
+> 📅 Last checked: July 1, 2026
 
 Notable open-weight models you can download and run on your own hardware.
 
@@ -65,7 +65,7 @@ Notable open-weight models you can download and run on your own hardware.
 
 ## 🔌 Free API Providers
 
-> 📅 Last checked: June 28, 2026
+> 📅 Last checked: July 1, 2026
 
 Providers offering free tiers to access models via API — no local hardware required.
 
@@ -79,6 +79,7 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Together AI](https://www.together.ai/) — Free trial credits for new users. Fast inference on open-source models.
 - [Fireworks AI](https://fireworks.ai/) — Free tier for community models. Optimized for low latency.
 - [SiliconFlow](https://siliconflow.cn/) — Rising platform with free access to many open-source models.
+- [AI Token Hub](https://aitoken-hub.github.io/aitoken-hub/) — **200+ models with one API key.** Unified access to DeepSeek, Qwen, Llama, and more. OpenAI-compatible format. No contracts, pay-as-you-go. Free trial available.
 - [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) — Free tier for running select open-source models at the edge.
 - [Replicate](https://replicate.com/) — Free tier with limited credits for running open-source models.
 - [Poe (Quora)](https://poe.com/) — Free tier with daily credits for GPT-4 mini, Claude instant, and community bots.
@@ -103,7 +104,7 @@ Providers offering free tiers to access models via API — no local hardware req
 
 ## 💻 Local Inference Tools
 
-> 📅 Last checked: June 28, 2026
+> 📅 Last checked: July 1, 2026
 
 Run models on your own machine — no API keys needed, full privacy.
 
@@ -136,7 +137,7 @@ Run models on your own machine — no API keys needed, full privacy.
 
 ## 💬 AI Chatbot UIs
 
-> 📅 Last checked: June 28, 2026
+> 📅 Last checked: July 1, 2026
 
 Free, open-source web interfaces for chatting with AI models — self-host or use hosted versions.
 
@@ -152,7 +153,7 @@ Free, open-source web interfaces for chatting with AI models — self-host or us
 
 ## 🤖 AI Coding Assistants
 
-> 📅 Last checked: June 28, 2026
+> 📅 Last checked: July 1, 2026
 
 Free tools that integrate AI into your development workflow.
 
@@ -179,7 +180,7 @@ Free tools that integrate AI into your development workflow.
 
 ## 📝 Code Models
 
-> 📅 Last checked: June 28, 2026
+> 📅 Last checked: July 1, 2026
 
 Specialized for code generation, completion, and analysis.
 
@@ -205,7 +206,7 @@ Specialized for code generation, completion, and analysis.
 
 ## 🔍 RAG & Vector Databases
 
-> 📅 Last checked: June 28, 2026
+> 📅 Last checked: July 1, 2026
 
 Free tools for building retrieval-augmented generation pipelines — vector storage, embedding search, and document retrieval.
 
@@ -224,7 +225,7 @@ Free tools for building retrieval-augmented generation pipelines — vector stor
 
 ## 🧩 Agentic Frameworks
 
-> 📅 Last checked: June 28, 2026
+> 📅 Last checked: July 1, 2026
 
 Free, open-source frameworks for building AI agents and multi-agent systems.
 
@@ -263,7 +264,7 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 
 ## 🎛 Fine-tuning Tools
 
-> 📅 Last checked: June 28, 2026
+> 📅 Last checked: July 1, 2026
 
 Tools to fine-tune free models on your own data — all free and open-source.
 
@@ -280,7 +281,7 @@ Tools to fine-tune free models on your own data — all free and open-source.
 
 ## ✨ Prompt Engineering Tools
 
-> 📅 Last checked: June 28, 2026
+> 📅 Last checked: July 1, 2026
 
 Free tools for testing, managing, and optimizing prompts.
 
@@ -295,7 +296,7 @@ Free tools for testing, managing, and optimizing prompts.
 
 ## 📊 Datasets
 
-> 📅 Last checked: June 28, 2026
+> 📅 Last checked: July 1, 2026
 
 Free, open datasets for training, fine-tuning, and evaluating models.
 
@@ -315,7 +316,7 @@ Free, open datasets for training, fine-tuning, and evaluating models.
 
 ## ☁ Model Hosting Platforms
 
-> 📅 Last checked: June 28, 2026
+> 📅 Last checked: July 1, 2026
 
 Free platforms that host models — run inference without downloading anything.
 
@@ -332,7 +333,7 @@ Free platforms that host models — run inference without downloading anything.
 
 ## 📚 Learning Resources
 
-> 📅 Last checked: June 28, 2026
+> 📅 Last checked: July 1, 2026
 
 Free courses, books, and tutorials for learning AI and LLMs.
 
@@ -351,7 +352,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 ## 🏆 Resources & Leaderboards
 
-> 📅 Last checked: June 28, 2026
+> 📅 Last checked: July 1, 2026
 
 - [Perplexity](https://www.perplexity.ai/) — Free AI search and research assistant with real-time answers and source citations.
 - [Hugging Face Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) — The primary benchmark for open-weight models. Updated regularly.
@@ -367,7 +368,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 ## 👥 Communities
 
-> 📅 Last checked: June 28, 2026
+> 📅 Last checked: July 1, 2026
 
 - [Hugging Face Discord](https://discord.gg/huggingface) — Model releases, discussions, and community support.
 - [r/LocalLLaMA](https://reddit.com/r/LocalLLaMA) — The largest Reddit community for running local LLMs.
