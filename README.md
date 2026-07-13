@@ -4,7 +4,7 @@
 
 ![Last Updated](https://img.shields.io/badge/Last%20Checked-July%2013%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-29-blue?style=flat-square)
-![Tools](https://img.shields.io/badge/Tools-135-blue?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-138-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-15-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 
@@ -79,6 +79,9 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Together AI](https://www.together.ai/) — Free trial credits for new users. Fast inference on open-source models.
 - [Fireworks AI](https://fireworks.ai/) — Free tier for community models. Optimized for low latency.
 - [SiliconFlow](https://siliconflow.cn/) — Rising platform with free access to many open-source models.
+- [Cerebras](https://cloud.cerebras.ai/) — **Free tier with all models, no credit card required.** Claims 20x faster inference than OpenAI/Anthropic. Supports Llama, Qwen, DeepSeek, and other open models. OpenAI-compatible API.
+- [SambaNova](https://cloud.sambanova.ai/) — **$5 free credits on signup.** Fast inference on custom RDU chips. Models include DeepSeek-V3.1, DeepSeek-V3.2, Llama 3.3 70B, Gemma 4. OpenAI-compatible API. No credit card required.
+- [DashScope (Alibaba)](https://dashscope.aliyun.com/) — **70M+ free tokens for new users** (90-day validity). Access Qwen 3.7, DeepSeek, GLM, and 100+ third-party models. OpenAI-compatible API. Chinese platform but accessible internationally.
 - [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) — Free tier for running select open-source models at the edge.
 - [Replicate](https://replicate.com/) — Free tier with limited credits for running open-source models.
 - [Poe (Quora)](https://poe.com/) — Free tier with daily credits for GPT-4 mini, Claude instant, and community bots.
