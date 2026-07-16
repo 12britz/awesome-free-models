@@ -167,6 +167,7 @@ Free tools that integrate AI into your development workflow.
 - [Cline](https://cline.bot/) — Popular autonomous VS Code agent. Creates/edits files, runs terminal commands, browses web. Open-source, BYOK (bring your own API key). [GitHub](https://github.com/cline/cline)
 - [OpenHands](https://www.openhands.dev/) — Autonomous AI software engineer. Navigates file systems, runs shell commands, tests code in browser. Self-hostable. [GitHub](https://github.com/All-Hands-AI/OpenHands)
 - [Goose](https://goose-docs.ai/) — Open-source CLI agent for complex software engineering tasks. Extensible plugin system. Built by Block/Square. [GitHub](https://github.com/aaif-goose/goose)
+- [Tura](https://turaai.net/) — Free, open-source local coding agent with custom model providers and CLI, TUI, and desktop interfaces. [GitHub](https://github.com/Tura-AI/tura)
 
 ---
 
