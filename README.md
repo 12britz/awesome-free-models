@@ -128,7 +128,7 @@ Run models on your own machine — no API keys needed, full privacy.
 - [FastChat (LMSYS)](https://github.com/lm-sys/FastChat) — Open platform for training, serving, and evaluating LLMs. Provides OpenAI-compatible API and web UI for local models.
 - [Hugging Face TGI](https://github.com/huggingface/text-generation-inference) — Production-grade serving toolkit for large language models. Optimized for high throughput on local hardware. **Note: Archived Mar 2026, maintenance mode. Consider vLLM or SGLang.**
 - [DeepSpeed (Microsoft)](https://github.com/microsoft/DeepSpeed) — Deep learning optimization library with inference acceleration. Enables running larger models on limited hardware through ZeRO optimization.
-- [AirLLM](https://github.com/lyogavin/airllm) — Run large models (70B+) on consumer hardware with limited memory. Loads models layer-by-layer for extreme memory efficiency.
+- [AirLLM](https://github.com/lyogavin/airllm) — ⚠️ **Unmaintained since Aug 2024.** Run large models (70B+) on consumer hardware with limited memory. Loads models layer-by-layer for extreme memory efficiency.
 - [AI Toolkit for VS Code (Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-windows-ai-studio.windows-ai-studio) — VS Code extension to browse, test, fine-tune, and deploy models locally. Integrates ONNX and llama.cpp.
 - [Ollama Grid Search](https://github.com/dezoito/ollama-grid-search) — Desktop utility for systematic model evaluation. Test multiple models, prompts, and inference parameters side-by-side via a Rust/React GUI.
 
@@ -232,7 +232,7 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 - [Dify](https://dify.ai/) — LLM app development platform with visual workflow builder and agent capabilities. [GitHub](https://github.com/langgenius/dify)
 - [Flowise](https://flowiseai.com/) — Low-code visual LLM flow builder with drag-and-drop interface. **Note: Acquired by Workday.** [GitHub](https://github.com/FlowiseAI/Flowise)
 - [Smolagents (Hugging Face)](https://github.com/huggingface/smolagents) — Minimalist agent library where agents "think in code." Lightweight, zero boilerplate. Supports code agents and tool-calling agents.
-- [Swarms](https://github.com/kyegomez/swarms) — Enterprise-grade multi-agent orchestration framework. Scalable infrastructure for autonomous agent swarms. Highly modular.
+- [Swarms](https://github.com/kyegomez/swarms) — ⚠️ **Unmaintained since Dec 2024.** Enterprise-grade multi-agent orchestration framework. Scalable infrastructure for autonomous agent swarms. Highly modular.
 - [Letta (MemGPT)](https://github.com/letta-ai/letta) — Framework for long-term agent memory. Virtual memory management that pages data in/out of context like an OS. Persistent agents.
 - [Griptape](https://github.com/griptape-ai/griptape) — Enterprise agent framework with strictly typed Pipelines, Workflows, and Agents. Structure-first, production-ready.
 - [Atomic Agents](https://github.com/Eigenwise/atomic-agents) — Framework inspired by Atomic Design. Compose agents from small, reusable, modular components. Testable and scalable.
