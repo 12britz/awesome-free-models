@@ -3,9 +3,9 @@
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
 ![Last Updated](https://img.shields.io/badge/Last%20Checked-July%2017%2C%202026-brightgreen?style=for-the-badge)
-![Models](https://img.shields.io/badge/Models-28-blue?style=flat-square)
-![Tools](https://img.shields.io/badge/Tools-135-blue?style=flat-square)
-![Sections](https://img.shields.io/badge/Sections-15-blue?style=flat-square)
+![Models](https://img.shields.io/badge/Models-32-blue?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-145-blue?style=flat-square)
+![Sections](https://img.shields.io/badge/Sections-16-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 
 > ✅ All links verified live on July 17, 2026. 1 fabricated model removed, 4 license errors fixed, 3 stale URLs updated, 1 archived project marked.
@@ -27,6 +27,7 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 - [🎛 Fine-tuning Tools](#-fine-tuning-tools)
 - [✨ Prompt Engineering Tools](#-prompt-engineering-tools)
 - [📊 Datasets](#-datasets)
+- [🧪 AI Evaluation & Observability](#-ai-evaluation--observability)
 - [☁ Model Hosting Platforms](#-model-hosting-platforms)
 - [📚 Learning Resources](#-learning-resources)
 - [🏆 Resources & Leaderboards](#-resources--leaderboards)
@@ -59,6 +60,10 @@ Notable open-weight models you can download and run on your own hardware.
 - [Hermes 4 (NousResearch)](https://huggingface.co/NousResearch/Hermes-4-70B) — **Feb 2026.** Self-improving agentic model with closed-loop learning. Curates own memory and builds skills from experience. Llama 3 Community License.
 - [Snowflake Arctic](https://huggingface.co/Snowflake/snowflake-arctic-instruct) — **Apr 2024.** Enterprise MoE model balancing high-quality performance with efficient training costs. Optimized for complex data operations. Apache 2.0.
 - [Falcon 3 (TII)](https://huggingface.co/tiiuae/Falcon3-7B-Instruct) — **Dec 2024.** Compact high-performance model with strong reasoning. Designed for efficient deployment on resource-constrained hardware. TII Falcon-LLM License 2.0.
+- [gpt-oss-120b / gpt-oss-20b (OpenAI)](https://huggingface.co/openai/gpt-oss-120b) — **Aug 2025.** OpenAI's first open-weight models since GPT-2. 120B (5.1B active MoE) fits single H100. Configurable reasoning, agentic tool use, chain-of-thought. Apache 2.0. [[20b]](https://huggingface.co/openai/gpt-oss-20b)
+- [OLMo 3 (Ai2)](https://huggingface.co/allenai/Olmo-3-1125-32B) — **Nov 2025.** Most transparent model ever — every training stage, checkpoint, and dataset open. 32B Think variant competitive with Qwen 3 at same scale. Apache 2.0. [[7B]](https://huggingface.co/allenai/Olmo-3-1025-7B)
+- [GLM-4.7 (Z.ai)](https://huggingface.co/zai-org) — 355B MoE (32B active). Budget coding king — 73.8% SWE-bench Verified, 95.7% AIME 2025. MIT license.
+- [Llama Nemotron (NVIDIA)](https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1) — Ultra 253B, Super 49B, Nano 8B. Dynamic reasoning toggle (on/off). RAG, tool calling, 128K context. NVIDIA Open Model License.
 - [Apple OpenELM](https://huggingface.co/Apple/OpenELM-3B) — **Apr 2024.** Family of efficient on-device SLMs using layer-wise attention scaling. Runs locally on Apple Silicon with full privacy. Apple Sample Code License.
 
 ---
@@ -98,6 +103,8 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Amazon Bedrock](https://aws.amazon.com/bedrock/) — **$200 AWS credits** for new customers. Access to Llama, Mistral, Claude, Titan, and other foundation models via API.
 - [Microsoft Foundry (Azure)](https://azure.microsoft.com/en-us/products/ai-foundry/) — **$200 free trial credits** (30 days). Access GPT-4o, Llama, Mistral, Phi, and other models via Azure's unified AI platform.
 - [RunPod](https://www.runpod.io/) — Free credits for serverless GPU inference. Deploy open-weight models as serverless endpoints. Supports Llama, Qwen, DeepSeek, and more.
+- [Cerebras Inference](https://cloud.cerebras.ai) — **Fastest inference available** (2,000+ tok/sec). Free tier: 1M tokens/day, 30 RPM, no credit card. Models: Llama 4 Scout, Qwen3, DeepSeek R1, gpt-oss-120b.
+- [SambaNova Cloud](https://cloud.sambanova.ai) — **$5 free credits** + permanent rate-limited free tier (200K tokens/day). Access DeepSeek V3.1/V3.2, Llama 4 Maverick, Qwen3 on RDU silicon. OpenAI-compatible API.
 
 ---
 
@@ -167,6 +174,7 @@ Free tools that integrate AI into your development workflow.
 - [Cline](https://cline.bot/) — Popular autonomous VS Code agent. Creates/edits files, runs terminal commands, browses web. Open-source, BYOK (bring your own API key). [GitHub](https://github.com/cline/cline)
 - [OpenHands](https://www.openhands.dev/) — Autonomous AI software engineer. Navigates file systems, runs shell commands, tests code in browser. Self-hostable. [GitHub](https://github.com/OpenHands/OpenHands)
 - [Goose](https://goose-docs.ai/) — Open-source CLI agent for complex software engineering tasks. Extensible plugin system. Built by Block/Square, now under the Agentic AI Foundation (AAIF) at the Linux Foundation. [GitHub](https://github.com/aaif-goose/goose)
+- [Kilo Code](https://kilo.ai/code) — Free, open-source AI coding agent for VS Code, JetBrains, and CLI. 60+ providers, 500+ models, free model routing, BYOK. [GitHub](https://github.com/kilocode/kilo-code)
 
 ---
 
@@ -244,6 +252,8 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 - [Eliza (elizaOS)](https://github.com/elizaOS/eliza) — Multi-platform agent framework for creating character-driven AI agents. Handles social media interaction, complex decision-making, and autonomous behavior across platforms.
 - [Qwen-Agent (Alibaba)](https://github.com/QwenLM/Qwen-Agent) — Agent framework tightly integrated with the Qwen model family. Optimized for function calling, code execution, RAG, and tool use with Qwen models. **Note: Last release May 2025. Low activity.**
 - [AGiXT](https://github.com/Josh-XT/AGiXT) — Extensible modular AI agent automation platform. Plugin system for swapping LLMs, memory backends, and tools. Highly customizable agent workflows.
+- [browser-use](https://github.com/browser-use/browser-use) — **105K stars.** Make websites accessible for AI agents. Automate web tasks — fill forms, extract data, QA testing. #1 on Odysseys leaderboard (87.4%). MIT license.
+- [MCP Servers (Anthropic)](https://github.com/modelcontextprotocol/servers) — **88K stars.** Reference implementations for the Model Context Protocol — filesystem, Git, memory, web fetching, and more. Gives LLMs secure, controlled access to tools and data. Apache 2.0.
 
 ---
 
@@ -294,6 +304,21 @@ Free, open datasets for training, fine-tuning, and evaluating models.
 
 ---
 
+## 🧪 AI Evaluation & Observability
+
+> 📅 Last checked: July 17, 2026
+
+Free tools for testing, evaluating, and monitoring AI models and applications.
+
+- [DeepEval](https://github.com/confident-ai/deepeval) — Open-source LLM evaluation framework. 14+ metrics including hallucination, bias, toxicity, and faithfulness. Pytest integration. Apache 2.0.
+- [Ragas](https://github.com/explodinggradients/ragas) — Evaluation framework specifically for RAG pipelines. Measures faithfulness, answer relevancy, context precision. Apache 2.0.
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix) — Open-source LLM observability platform. Traces, evaluations, datasets, and prompt management. Free cloud tier. Apache 2.0.
+- [Langfuse](https://github.com/langfuse/langfuse) — Open-source LLM engineering platform. Tracing, prompt management, evaluation, and datasets. Free cloud tier. MIT.
+- [OpenLLMetry (Traceloop)](https://github.com/traceloop/openllmetry) — Open-source LLM observability. Native OpenTelemetry instrumentation for LLM apps. Connects to any OTel-compatible backend. Apache 2.0.
+- [Opik (Comet)](https://github.com/comet-ml/opik) — Open-source LLM evaluation and tracing. Compare LLM responses, debug production issues, fine-tune models. Apache 2.0.
+
+---
+
 ## ☁ Model Hosting Platforms
 
 > 📅 Last checked: July 17, 2026
@@ -326,6 +351,9 @@ Free courses, books, and tutorials for learning AI and LLMs.
 - [Prompt Engineering Guide (DAIR.AI)](https://www.promptingguide.ai/) — Comprehensive free guide on prompt engineering techniques.
 - [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks) — Free recipes and patterns for working with Claude.
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook) — Free examples and guides for the OpenAI API.
+- [Hugging Face Agents Course](https://huggingface.co/learn/agents-course) — Free course on building AI agents with tools, planning, and multi-agent systems.
+- [Anthropic Academy](https://www.anthropic.com/academy) — Free courses from Anthropic on prompt engineering, building effective agents, and Claude development.
+- [MIT 6.S191: Introduction to Deep Learning](https://introtodeeplearning.com/) — Free MIT course covering deep learning fundamentals, RNNs, transformers, generative models, and reinforcement learning.
 
 ---
 
