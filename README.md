@@ -4,11 +4,11 @@
 
 ![Last Updated](https://img.shields.io/badge/Last%20Checked-July%2017%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-32-blue?style=flat-square)
-![Tools](https://img.shields.io/badge/Tools-140-blue?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-145-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-15-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 
-> ✅ All links verified live on July 17, 2026. 240 URLs checked. All links working. 3 new models added (Inkling, GLM-5.2, LongCat-2.0). 2 new tools added (Gemini CLI, Kilo Code). 1 new API provider added (Black Forest Labs). Status notes updated across sections.
+> ✅ All links verified live on July 17, 2026. 245 URLs checked. All links working. 3 new models added (Inkling, GLM-5.2, LongCat-2.0). 7 new tools/providers added (Gemini CLI, Kilo Code, Black Forest Labs, Cerebras, BazaarLink, Kimi API, DashScope). Status notes updated across sections.
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -101,6 +101,10 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Amazon Bedrock](https://aws.amazon.com/bedrock/) — **$200 AWS credits** for new customers. Access to Llama, Mistral, Claude, Titan, and other foundation models via API.
 - [Microsoft Foundry (Azure)](https://azure.microsoft.com/en-us/products/ai-foundry/) — **$200 free trial credits** (30 days). Access GPT-4o, Llama, Mistral, Phi, and other models via Azure's unified AI platform.
 - [RunPod](https://www.runpod.io/) — Free credits for serverless GPU inference. Deploy open-weight models as serverless endpoints. Supports Llama, Qwen, DeepSeek, and more.
+- [Cerebras](https://cerebras.ai/) — Free tier with ultra-fast inference on Llama, Gemma, and Mistral models. No credit card required. **Note: Model availability fluctuates.**
+- [BazaarLink](https://bazaarlink.ai/) — Free OpenAI-compatible API with `auto:free` routing to zero-cost models. No credit card, no trial expiry. 10 RPM, 130 req/day.
+- [Kimi API (Moonshot)](https://platform.moonshot.cn/) — Free tier for new accounts with access to Kimi K2.5 (128K context). Also free via NVIDIA NIM. OpenAI-compatible.
+- [Alibaba DashScope](https://dashscope.aliyun.com/) — Free tier for Qwen models. 1M tokens/month. OpenAI-compatible API.
 
 ---
 
