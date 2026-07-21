@@ -1,5 +1,16 @@
 # Awesome Free Models [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
+
+## 🔥 AI商业方案定制服务
+
+| 服务 | 价格 | 交付时间 | 详情 |
+|------|------|----------|------|
+| 📋 商业计划书 | ¥299起 | 24h | [立即咨询](https://huntai-bp-service.surge.sh) |
+| 🎤 路演PPT | ¥199起 | 48h | [立即咨询](https://huntai-ppt-service.surge.sh) |
+| 📈 数据报告 | ¥99起 | 24h | [立即咨询](https://huntai-report-service.surge.sh) |
+
+💬 微信：算力老谭（wxid_mljzy8vl2aod22）| 📱 18601986913
+
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
 ![Last Updated](https://img.shields.io/badge/Last%20Checked-June%2028%2C%202026-brightgreen?style=for-the-badge)
