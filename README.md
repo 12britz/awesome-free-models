@@ -73,6 +73,7 @@ Providers offering free tiers to access models via API — no local hardware req
 
 - [Google AI Studio](https://aistudio.google.com/) — **Most generous free tier.** Access Gemini 2.5 Flash, Gemini 2.0 Flash, and other models. Generous rate limits for prototyping.
 - [OpenRouter](https://openrouter.ai/) — Aggregates 500+ models. Filter by "Free" to see models available at no cost. Includes experimental and subsidized open-weight models.
+- [AI Router](https://ai-router.dev/) — OpenAI-compatible multi-provider gateway. New users receive 5 USD in immediately usable credit; a further 15 USD unlocks under the [documented reward conditions](https://ai-router.dev/docs/billing-quota/rewards-and-affiliate-commissions/). Daily check-in reward is 1 USD + 2% of prior-day usage (max 10 USD). No card required for the initial allowance.
 - [AnyAPI](https://anyapi.ai/) — 400+ models with OpenAI-compatible API. Free tier: 100K tokens/day, unlimited users. Includes free and basic models. No credit card required.
 - [Groq](https://console.groq.com/) — Ultra-fast inference. Free tier includes Llama, Gemma, Mixtral, Whisper models with generous daily rate limits.
 - [Hugging Face Inference Providers](https://huggingface.co/inference-api) — Free tier for thousands of community models. Rate-limited but excellent for testing.
