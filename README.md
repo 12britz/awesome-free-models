@@ -5,7 +5,7 @@
 ![Last Updated](https://img.shields.io/badge/Last%20Checked-July%2017%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-32-blue?style=flat-square)
 ![Tools](https://img.shields.io/badge/Tools-145-blue?style=flat-square)
-![Sections](https://img.shields.io/badge/Sections-15-blue?style=flat-square)
+![Sections](https://img.shields.io/badge/Sections-18-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 
 > ✅ All links verified live on July 17, 2026. 245 URLs checked. All links working. 3 new models added (Inkling, GLM-5.2, LongCat-2.0). 7 new tools/providers added (Gemini CLI, Kilo Code, Black Forest Labs, Cerebras, BazaarLink, Kimi API, DashScope). Status notes updated across sections.
@@ -18,6 +18,7 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 
 - [🧠 Open-Weight Models](#-open-weight-models)
 - [🔌 Free API Providers](#-free-api-providers)
+- [🔀 Free API Routers](#-free-api-routers)
 - [💻 Local Inference Tools](#-local-inference-tools)
 - [💬 AI Chatbot UIs](#-ai-chatbot-uis)
 - [🤖 AI Coding Assistants](#-ai-coding-assistants)
@@ -105,6 +106,19 @@ Providers offering free tiers to access models via API — no local hardware req
 - [BazaarLink](https://bazaarlink.ai/) — Free OpenAI-compatible API with `auto:free` routing to zero-cost models. No credit card, no trial expiry. 10 RPM, 130 req/day.
 - [Kimi API (Moonshot)](https://platform.moonshot.cn/) — Free tier for new accounts with access to Kimi K2.5 (128K context). Also free via NVIDIA NIM. OpenAI-compatible.
 - [Alibaba DashScope](https://dashscope.aliyun.com/) — Free tier for Qwen models. 1M tokens/month. OpenAI-compatible API.
+
+---
+
+## 🔀 Free API Routers
+
+> 📅 Last checked: July 17, 2026
+
+Open-source tools that route requests across multiple AI providers — unified API, automatic failover, and cost optimization.
+
+- [9Router](https://9router.com/) — Open-source gateway connecting 40+ providers with RTK token compression (2-4x reduction). One API key for all services. MIT license. [GitHub](https://github.com/nicepkg/9router)
+- [OmniRoute](https://omniroute.online/) — Full-stack AI gateway with 250+ providers, 90+ free. TypeScript, runs on Web/Desktop/Android. Prompt compression, 3-level proxy for geo restrictions. [GitHub](https://github.com/omniroute/omniroute)
+- [LiteLLM](https://litellm.ai/) — Python-based proxy unifying 100+ LLMs behind a single API. Spend tracking, virtual keys, production-ready. MIT license. [GitHub](https://github.com/BerriAI/litellm)
+- [Portkey AI Gateway](https://portkey.ai/) — Production guardrails and routing for AI apps. Hybrid open-source (community) and managed (enterprise) tiers. [GitHub](https://github.com/Portkey-AI/gateway)
 
 ---
 
