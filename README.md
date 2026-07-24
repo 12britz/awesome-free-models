@@ -3,12 +3,12 @@
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
 ![Last Updated](https://img.shields.io/badge/Last%20Checked-July%2024%2C%202026-brightgreen?style=for-the-badge)
-![Models](https://img.shields.io/badge/Models-32-blue?style=flat-square)
-![Tools](https://img.shields.io/badge/Tools-152-blue?style=flat-square)
-![Sections](https://img.shields.io/badge/Sections-18-blue?style=flat-square)
+![Models](https://img.shields.io/badge/Models-39-blue?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-194-blue?style=flat-square)
+![Sections](https://img.shields.io/badge/Sections-16-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 
-> ✅ All links verified live on July 24, 2026. 270+ URLs checked. Added 7 new free API providers (SambaNova, OVHcloud, Chutes.ai, Glhf.chat, ModelScope, Z.ai). All other links working.
+> ✅ All links verified live on July 24, 2026. 270+ URLs checked. Added 7 new free API providers (SambaNova, OVHcloud, Chutes.ai, ModelScope, Z.ai, LongCat AI, Coze). Removed Glhf.chat (service discontinued). All other links working.
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -37,7 +37,7 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 
 ## 🧠 Open-Weight Models
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 Notable open-weight models you can download and run on your own hardware.
 
@@ -68,7 +68,7 @@ Notable open-weight models you can download and run on your own hardware.
 
 ## 🔌 Free API Providers
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 Providers offering free tiers to access models via API — no local hardware required.
 
@@ -109,20 +109,21 @@ Providers offering free tiers to access models via API — no local hardware req
 - [SambaNova Cloud](https://cloud.sambanova.ai/) — Free tier with $5 credits (30-day). Fast RDU inference for Llama 3.1 405B, Llama 3.3 70B, DeepSeek V3.1/V3.2, Qwen 2.5, gpt-oss-120b. 20 RPM, 200K tokens/day. No credit card required.
 - [OVHcloud AI Endpoints](https://www.ovhcloud.com/en/public-cloud/ai-endpoints/) — EU-hosted, GDPR-compliant free tier. No registration required for anonymous tier. Models: Qwen, Mistral, Llama, DeepSeek, gpt-oss-120B, embeddings, image generation. 12 RPM. OpenAI-compatible.
 - [Chutes.ai](https://chutes.ai/) — Community-powered free GPU inference for open-source models. DeepSeek-R1, Llama 3.1 70B, Qwen 2.5 72B. OpenAI-compatible API. No credit card.
-- [Glhf.chat](https://glhf.chat/) — Free serverless inference for open models. Llama 3.1 70B, Mixtral 8x7B, Phi-3 Mini. 30 RPM. OpenAI-compatible. No credit card.
 - [ModelScope](https://modelscope.cn/) — Chinese platform with 50+ free open models. Qwen, DeepSeek, GLM, and more. No credit card required.
 - [Z.ai (Zhipu AI)](https://open.bigmodel.cn/) — Free tier for GLM models including GLM-4.5, GLM-4V. No credit card required.
+- [LongCat AI](https://longcat.chat/) — Free API for LongCat open-weight models. One-time 10M token grant after signup + KYC. Free cached tokens. OpenAI-compatible. MIT license.
+- [Coze (ByteDance)](https://www.coze.com/) — Free bot-building platform with API access to GPT-4o, Gemini 1.5 Pro, and other models. No credit card required. OpenAI-compatible.
 
 ---
 
 ## 🔀 Free API Routers
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 Open-source tools that route requests across multiple AI providers — unified API, automatic failover, and cost optimization.
 
-- [9Router](https://9router.com/) — Open-source gateway connecting 40+ providers with RTK token compression (2-4x reduction). One API key for all services. MIT license. [GitHub](https://github.com/nicepkg/9router)
-- [OmniRoute](https://omniroute.online/) — Full-stack AI gateway with 250+ providers, 90+ free. TypeScript, runs on Web/Desktop/Android. Prompt compression, 3-level proxy for geo restrictions. [GitHub](https://github.com/omniroute/omniroute)
+- [9Router](https://9router.com/) — Open-source gateway connecting 40+ providers with RTK token compression (2-4x reduction). One API key for all services. MIT license. [GitHub](https://github.com/decolua/9router)
+- [OmniRoute](https://omniroute.online/) — Full-stack AI gateway with 250+ providers, 90+ free. TypeScript, runs on Web/Desktop/Android. Prompt compression, 3-level proxy for geo restrictions. [GitHub](https://github.com/diegosouzapw/OmniRoute)
 - [LiteLLM](https://litellm.ai/) — Python-based proxy unifying 100+ LLMs behind a single API. Spend tracking, virtual keys, production-ready. MIT license. [GitHub](https://github.com/BerriAI/litellm)
 - [Portkey AI Gateway](https://portkey.ai/) — Production guardrails and routing for AI apps. Hybrid open-source (community) and managed (enterprise) tiers. [GitHub](https://github.com/Portkey-AI/gateway)
 
@@ -130,7 +131,7 @@ Open-source tools that route requests across multiple AI providers — unified A
 
 ## 💻 Local Inference Tools
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 Run models on your own machine — no API keys needed, full privacy.
 
@@ -163,7 +164,7 @@ Run models on your own machine — no API keys needed, full privacy.
 
 ## 💬 AI Chatbot UIs
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 Free, open-source web interfaces for chatting with AI models — self-host or use hosted versions.
 
@@ -177,7 +178,7 @@ Free, open-source web interfaces for chatting with AI models — self-host or us
 
 ## 🤖 AI Coding Assistants
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 Free tools that integrate AI into your development workflow.
 
@@ -201,7 +202,7 @@ Free tools that integrate AI into your development workflow.
 
 ## 📝 Code Models
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 Specialized for code generation, completion, and analysis.
 
@@ -227,7 +228,7 @@ Specialized for code generation, completion, and analysis.
 
 ## 🔍 RAG & Vector Databases
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 Free tools for building retrieval-augmented generation pipelines — vector storage, embedding search, and document retrieval.
 
@@ -246,7 +247,7 @@ Free tools for building retrieval-augmented generation pipelines — vector stor
 
 ## 🧩 Agentic Frameworks
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 Free, open-source frameworks for building AI agents and multi-agent systems.
 
@@ -280,7 +281,7 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 
 ## 🎛 Fine-tuning Tools
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 Tools to fine-tune free models on your own data — all free and open-source.
 
@@ -295,7 +296,7 @@ Tools to fine-tune free models on your own data — all free and open-source.
 
 ## ✨ Prompt Engineering Tools
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 Free tools for testing, managing, and optimizing prompts.
 
@@ -309,7 +310,7 @@ Free tools for testing, managing, and optimizing prompts.
 
 ## 📊 Datasets
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 Free, open datasets for training, fine-tuning, and evaluating models.
 
@@ -328,7 +329,7 @@ Free, open datasets for training, fine-tuning, and evaluating models.
 
 ## ☁ Model Hosting Platforms
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 Free platforms that host models — run inference without downloading anything.
 
@@ -345,7 +346,7 @@ Free platforms that host models — run inference without downloading anything.
 
 ## 📚 Learning Resources
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 Free courses, books, and tutorials for learning AI and LLMs.
 
@@ -363,7 +364,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 ## 🏆 Resources & Leaderboards
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 - [Perplexity](https://www.perplexity.ai/) — Free AI search and research assistant with real-time answers and source citations.
 - [BenchLM.ai](https://benchlm.ai/) — **New.** LLM leaderboard with 281 models compared across 8 categories. Verified benchmark data updated weekly.
@@ -379,7 +380,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 ## 👥 Communities
 
-> 📅 Last checked: July 23, 2026
+> 📅 Last checked: July 24, 2026
 
 - [Hugging Face Discord](https://discord.gg/huggingface) — Model releases, discussions, and community support.
 - [r/LocalLLaMA](https://reddit.com/r/LocalLLaMA) — The largest Reddit community for running local LLMs.
