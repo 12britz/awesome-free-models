@@ -2,13 +2,13 @@
 
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
-![Last Updated](https://img.shields.io/badge/Last%20Checked-July%2023%2C%202026-brightgreen?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Checked-July%2024%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-32-blue?style=flat-square)
-![Tools](https://img.shields.io/badge/Tools-145-blue?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-152-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-18-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 
-> ✅ All links verified live on July 23, 2026. 260 URLs checked. Fixed 2 broken links (Kilo Code GitHub URL, Black Forest Labs API URL). All other links working.
+> ✅ All links verified live on July 24, 2026. 270+ URLs checked. Added 7 new free API providers (SambaNova, OVHcloud, Chutes.ai, Glhf.chat, ModelScope, Z.ai). All other links working.
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -106,6 +106,12 @@ Providers offering free tiers to access models via API — no local hardware req
 - [BazaarLink](https://bazaarlink.ai/) — Free OpenAI-compatible API with `auto:free` routing to zero-cost models. No credit card, no trial expiry. 10 RPM, 130 req/day.
 - [Kimi API (Moonshot)](https://platform.moonshot.cn/) — Free tier for new accounts with access to Kimi K2.5 (128K context). Also free via NVIDIA NIM. OpenAI-compatible.
 - [Alibaba DashScope](https://dashscope.aliyun.com/) — Free tier for Qwen models. 1M tokens/month. OpenAI-compatible API.
+- [SambaNova Cloud](https://cloud.sambanova.ai/) — Free tier with $5 credits (30-day). Fast RDU inference for Llama 3.1 405B, Llama 3.3 70B, DeepSeek V3.1/V3.2, Qwen 2.5, gpt-oss-120b. 20 RPM, 200K tokens/day. No credit card required.
+- [OVHcloud AI Endpoints](https://www.ovhcloud.com/en/public-cloud/ai-endpoints/) — EU-hosted, GDPR-compliant free tier. No registration required for anonymous tier. Models: Qwen, Mistral, Llama, DeepSeek, gpt-oss-120B, embeddings, image generation. 12 RPM. OpenAI-compatible.
+- [Chutes.ai](https://chutes.ai/) — Community-powered free GPU inference for open-source models. DeepSeek-R1, Llama 3.1 70B, Qwen 2.5 72B. OpenAI-compatible API. No credit card.
+- [Glhf.chat](https://glhf.chat/) — Free serverless inference for open models. Llama 3.1 70B, Mixtral 8x7B, Phi-3 Mini. 30 RPM. OpenAI-compatible. No credit card.
+- [ModelScope](https://modelscope.cn/) — Chinese platform with 50+ free open models. Qwen, DeepSeek, GLM, and more. No credit card required.
+- [Z.ai (Zhipu AI)](https://open.bigmodel.cn/) — Free tier for GLM models including GLM-4.5, GLM-4V. No credit card required.
 
 ---
 
