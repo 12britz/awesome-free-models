@@ -113,6 +113,7 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Z.ai (Zhipu AI)](https://open.bigmodel.cn/) — Free tier for GLM models including GLM-4.5, GLM-4V. No credit card required.
 - [LongCat AI](https://longcat.chat/) — Free API for LongCat open-weight models. One-time 10M token grant after signup + KYC. Free cached tokens. OpenAI-compatible. MIT license.
 - [Coze (ByteDance)](https://www.coze.com/) — Free bot-building platform with API access to GPT-4o, Gemini 1.5 Pro, and other models. No credit card required. OpenAI-compatible.
+- [Bride API](https://bride.gracestack.se/) — Free cognitive AI API (50 req/month, no credit card). HDC semantic similarity, anomaly detection, and emotion analysis. Rust daemon with 11,000-dim hypervectors. Interactive browser demo + CLI tool available.
 
 ---
 
