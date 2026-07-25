@@ -2,13 +2,13 @@
 
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
-![Last Updated](https://img.shields.io/badge/Last%20Checked-July%2024%2C%202026-brightgreen?style=for-the-badge)
-![Models](https://img.shields.io/badge/Models-39-blue?style=flat-square)
-![Tools](https://img.shields.io/badge/Tools-194-blue?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Checked-July%2025%2C%202026-brightgreen?style=for-the-badge)
+![Models](https://img.shields.io/badge/Models-42-blue?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-205-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-16-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 
-> ✅ All links verified live on July 24, 2026. 270+ URLs checked. Added 7 new free API providers (SambaNova, OVHcloud, Chutes.ai, ModelScope, Z.ai, LongCat AI, Coze). Removed Glhf.chat (service discontinued). All other links working.
+> ✅ All links verified live on July 25, 2026. 280+ URLs checked. Added 14 new entries: models (Kimi K3, Apertus 1.5, Hy3), API providers (Free.ai, Requesty, AINative Studio, CloudCode.ONE), coding assistants (Qwen Code, CodeWhale, SideCar), dataset (CodeAlchemy), hosting (Zylora), learning resources (LearnLLM.dev, LLM Zoomcamp, AI Engineering from Scratch). All links working.
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -51,6 +51,7 @@ Notable open-weight models you can download and run on your own hardware.
 - [MiniMax M3](https://huggingface.co/MiniMaxAI) — Frontier-tier 1M context, native multimodal + computer use. MSA architecture.
 - [Trinity (Arcee AI)](https://huggingface.co/arcee-ai) — 400B parameter enterprise model. Apache 2.0.
 - [Step 3.7 Flash (StepFun)](https://huggingface.co/stepfun-ai) — **May 2026.** Apache 2.0. Native multimodal (image+video), strong agentic performance. Efficient enough for high-end local hardware.
+- [Kimi K3 (Moonshot AI)](https://huggingface.co/moonshotai) — **Jul 2026.** 2.8T-parameter MoE (896 experts, ~50B active). World's largest open-weight model. 1M context, native vision + video. #1 Frontend Code Arena. Modified MIT license. Weights released Jul 27.
 - [Kimi K2.6 (Moonshot AI)](https://huggingface.co/moonshotai) — **Apr 2026.** 1T-parameter MoE model. Modified MIT license. Exceptional coding (SWE-Bench ~54%) and multi-agent swarm orchestration.
 - [Qwen 3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) — **Apr 2026.** MoE variant with only 3B active parameters. Extremely efficient for consumer hardware. Apache 2.0.
 - [InternLM 3 (Shanghai AI Lab)](https://huggingface.co/internlm) — **Early 2026.** Strong long-context reasoning and agentic performance. Competitive in open-weight benchmarks.
@@ -59,6 +60,8 @@ Notable open-weight models you can download and run on your own hardware.
 - [Mistral Small 3.1 (Mistral)](https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503) — **Mar 2025.** Versatile 24B multimodal model. Strong text performance with native image understanding and 128K context. Apache 2.0.
 - [Mistral Small 4 (Mistral)](https://huggingface.co/mistralai/Mistral-Small-4-119B-2603) — **Mar 2026.** Hybrid MoE (6.5B active params) unifying instruction, reasoning, and multimodal capabilities. Efficient frontier-class model. Apache 2.0.
 - [Command A+ (Cohere)](https://huggingface.co/CohereLabs/command-a-plus-05-2026-w4a4) — **May 2026.** Enterprise multimodal MoE optimized for sovereignty and multilingual RAG across 48 languages. Apache 2.0.
+- [Apertus 1.5 (ETH Zurich / EPFL)](https://huggingface.co/collections/apertus-ai) — **Jul 2026.** Fully open LLM (weights, data, training code). 8B and 70B with image understanding, thinking mode, and tool use. Apache 2.0.
+- [Hy3 (Tencent)](https://huggingface.co/tencent/Hy3) — **Jul 2026.** 295B MoE (21B active). Strong reasoning and agentic performance. Competes with models 2-5x its size. Apache 2.0.
 - [Hermes 4 (NousResearch)](https://huggingface.co/NousResearch/Hermes-4-70B) — **Feb 2026.** Self-improving agentic model with closed-loop learning. Curates own memory and builds skills from experience. Apache 2.0.
 - [Snowflake Arctic](https://huggingface.co/Snowflake/snowflake-arctic-instruct) — **Apr 2024.** Enterprise MoE model balancing high-quality performance with efficient training costs. Optimized for complex data operations. Apache 2.0.
 - [Falcon 3 (TII)](https://huggingface.co/tiiuae/Falcon3-7B-Instruct) — **Dec 2024.** Compact high-performance model with strong reasoning. Designed for efficient deployment on resource-constrained hardware. TII Falcon-LLM License 2.0.
@@ -113,6 +116,10 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Z.ai (Zhipu AI)](https://open.bigmodel.cn/) — Free tier for GLM models including GLM-4.5, GLM-4V. No credit card required.
 - [LongCat AI](https://longcat.chat/) — Free API for LongCat open-weight models. One-time 10M token grant after signup + KYC. Free cached tokens. OpenAI-compatible. MIT license.
 - [Coze (ByteDance)](https://www.coze.com/) — Free bot-building platform with API access to GPT-4o, Gemini 1.5 Pro, and other models. No credit card required. OpenAI-compatible.
+- [Free.ai](https://free.ai/developer/) — 400+ AI tools via a single OpenAI-compatible API. Free tier: 30K tokens/day, no credit card. Chat, image, video, music, voice, OCR, translation.
+- [Requesty](https://www.requesty.ai/free-models) — Free AI API with 200 requests/day. Works with Claude Code, Cline, Cursor. No credit card. OpenAI-compatible.
+- [AINative Studio](https://ainative.studio/free-llm-api) — 84+ models (Llama, DeepSeek, Mistral, Qwen). Free tier: 10M tokens/month. No credit card required. 60 RPM.
+- [CloudCode.ONE](https://cloudcode.one/) — Free tier for coding agents. Powered by GLM-4.7-Flash. OpenAI and Anthropic-compatible API. No credit card required.
 
 ---
 
@@ -197,6 +204,9 @@ Free tools that integrate AI into your development workflow.
 - [Cline](https://cline.bot/) — Popular autonomous VS Code agent. Creates/edits files, runs terminal commands, browses web. Open-source, BYOK (bring your own API key). [GitHub](https://github.com/cline/cline)
 - [OpenHands](https://www.openhands.dev/) — Autonomous AI software engineer. Navigates file systems, runs shell commands, tests code in browser. Self-hostable. [GitHub](https://github.com/All-Hands-AI/OpenHands)
 - [Goose](https://goose-docs.ai/) — Open-source CLI agent for complex software engineering tasks. Extensible plugin system. Built by Block/Square. [GitHub](https://github.com/aaif-goose/goose)
+- [Qwen Code](https://github.com/QwenLM/qwen-code) — **2025.** Open-source terminal AI coding agent with 26K+ stars. Multi-protocol (OpenAI, Anthropic, Gemini, Qwen). Auto-memory, sub-agents, agent teams, MCP. Apache 2.0.
+- [CodeWhale](https://github.com/Hmbown/CodeWhale) — **2026.** Terminal coding agent with 40K+ stars. 30+ providers, local models via Ollama/vLLM. TUI, headless mode, web UI. MIT license.
+- [SideCar](https://github.com/nedonatelli/sidecar) — **2026.** Free, self-hosted VS Code agent extension. Full agent loop, local Ollama models, inline completions, MCP. Drop-in for Copilot/Claude Code. MIT.
 
 ---
 
@@ -324,6 +334,7 @@ Free, open datasets for training, fine-tuning, and evaluating models.
 - [UltraChat (Sean C.)](https://huggingface.co/datasets/HuggingFaceH4/ultrachat_200k) — 200k multi-turn conversations synthesized by ChatGPT.
 - [No Robots (Hugging Face)](https://huggingface.co/datasets/HuggingFaceH4/no_robots) — 10k high-quality human-written instructions. Apache 2.0.
 - [MMLU / GSM8K](https://huggingface.co/datasets) — Standard benchmarks for evaluation.
+- [CodeAlchemy (IBM)](https://research.ibm.com/blog/code-alchemy-for-synthetic-code) — **Jul 2026.** ~1T tokens of synthetic code across 15 languages. Includes 1.3M code+execution-trace pairs. Permissive license.
 
 ---
 
@@ -341,6 +352,7 @@ Free platforms that host models — run inference without downloading anything.
 - [Modal](https://modal.com/) — Free monthly credits for serverless GPU compute.
 - [Replicate (Free Tier)](https://replicate.com/) — Free credits for running community models.
 - [Deepnote](https://deepnote.com/) — Free tier with GPU for data science and ML notebooks.
+- [Zylora](https://zylora.dev/) — Deploy GPU functions from any language. Free tier: $5 GPU credits/month, no credit card. T4/L4 pool, sub-300ms cold starts.
 
 ---
 
@@ -359,6 +371,9 @@ Free courses, books, and tutorials for learning AI and LLMs.
 - [Prompt Engineering Guide (DAIR.AI)](https://www.promptingguide.ai/) — Comprehensive free guide on prompt engineering techniques.
 - [Anthropic Cookbook](https://github.com/anthropics/claude-cookbooks) — Free recipes and patterns for working with Claude.
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook) — Free examples and guides for the OpenAI API.
+- [LearnLLM.dev](https://learnllm.dev/) — Free AI engineering course with 110+ lessons, runnable code, in-browser playground. Covers fundamentals to production agents.
+- [LLM Zoomcamp (DataTalksClub)](https://github.com/DataTalksClub/llm-zoomcamp) — Free 10-week course on building LLM applications with RAG, agents, vector search, and evaluation.
+- [AI Engineering from Scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — **2026.** 503 lessons across 20 phases. Build LLMs, agents, and MCP servers from scratch. MIT. 41K+ stars.
 
 ---
 
