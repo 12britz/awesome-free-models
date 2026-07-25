@@ -4,11 +4,11 @@
 
 ![Last Updated](https://img.shields.io/badge/Last%20Checked-July%2025%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-42-blue?style=flat-square)
-![Tools](https://img.shields.io/badge/Tools-205-blue?style=flat-square)
-![Sections](https://img.shields.io/badge/Sections-16-blue?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-234-blue?style=flat-square)
+![Sections](https://img.shields.io/badge/Sections-21-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 
-> ✅ All links verified live on July 25, 2026. 280+ URLs checked. Added 14 new entries: models (Kimi K3, Apertus 1.5, Hy3), API providers (Free.ai, Requesty, AINative Studio, CloudCode.ONE), coding assistants (Qwen Code, CodeWhale, SideCar), dataset (CodeAlchemy), hosting (Zylora), learning resources (LearnLLM.dev, LLM Zoomcamp, AI Engineering from Scratch). All links working.
+> ✅ All links verified live on July 25, 2026. 310+ URLs checked. Added 5 new sections (Image & Video, Audio & Speech, Embedding Models, LLM Evaluation, MCP Servers) with 29 new entries. All links working.
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -18,15 +18,20 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 
 - [🧠 Open-Weight Models](#-open-weight-models)
 - [🔌 Free API Providers](#-free-api-providers)
+- [🖼️ Image & Video Generation](#-image--video-generation)
 - [🔀 Free API Routers](#-free-api-routers)
 - [💻 Local Inference Tools](#-local-inference-tools)
 - [💬 AI Chatbot UIs](#-ai-chatbot-uis)
+- [🎵 Audio & Speech Models](#-audio--speech-models)
 - [🤖 AI Coding Assistants](#-ai-coding-assistants)
 - [📝 Code Models](#-code-models)
+- [🧬 Embedding Models](#-embedding-models)
 - [🔍 RAG & Vector Databases](#-rag--vector-databases)
 - [🧩 Agentic Frameworks](#-agentic-frameworks)
+- [🔧 MCP Servers & Tools](#-mcp-servers--tools)
 - [🎛 Fine-tuning Tools](#-fine-tuning-tools)
 - [✨ Prompt Engineering Tools](#-prompt-engineering-tools)
+- [📊 LLM Evaluation & Observability](#-llm-evaluation--observability)
 - [📊 Datasets](#-datasets)
 - [☁ Model Hosting Platforms](#-model-hosting-platforms)
 - [📚 Learning Resources](#-learning-resources)
@@ -123,6 +128,21 @@ Providers offering free tiers to access models via API — no local hardware req
 
 ---
 
+## 🖼️ Image & Video Generation
+
+> 📅 Last checked: July 25, 2026
+
+Free, open-weight image and video generation models — run locally or via free APIs.
+
+- [FLUX.2-dev (Black Forest Labs)](https://github.com/black-forest-labs/flux2) — **3K★.** 32B rectified flow transformer. SOTA open T2I, single/multi-reference editing, in/out-painting. Updated VAE. FLUX.1-dev Non-Commercial License.
+- [ERNIE-Image / ERNIE-Image-Turbo (Baidu)](https://github.com/baidu/ernie-image) — **0.5K★.** 8B DiT SOTA among open-weight models. Strong text rendering, layout control. Turbo: 8-step generation. Apache 2.0.
+- [Z-Image (Infinigence-AI)](https://github.com/Infini-AI-Lab/Z-Image) — Open-weight T2I with strong GenEval scores. Z-Image-Turbo for 4-step generation. Apache 2.0.
+- [Pollinations.ai](https://pollinations.ai/) — **Free image generation API.** No API key or signup needed. Text-to-image, image-to-image. OpenAI-compatible. Integrates with ComfyUI.
+- [OpenImageGen (Hugging Face)](https://huggingface.co/spaces/OpenImageGen/OpenImageGen) — Free, open-source image generation playground. Supports multiple community models via diffusers. Apache 2.0.
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) — **65K★.** Node-based image and video generation UI. Run FLUX, Stable Diffusion, and more locally. GPL-3.0.
+
+---
+
 ## 🔀 Free API Routers
 
 > 📅 Last checked: July 24, 2026
@@ -183,6 +203,21 @@ Free, open-source web interfaces for chatting with AI models — self-host or us
 
 ---
 
+## 🎵 Audio & Speech Models
+
+> 📅 Last checked: July 25, 2026
+
+Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generation models you can run locally.
+
+- [Qwen3-TTS (Alibaba)](https://github.com/QwenLM/Qwen3-TTS) — **12.5K★.** Voice cloning, voice design, 10 languages. Streaming support with 97ms TTFB. 0.6B/1.7B. Apache 2.0.
+- [Chatterbox (Resemble AI)](https://github.com/resemble-ai/chatterbox) — **25.5K★.** SOTA open-source TTS. Multilingual V3 (23+ languages, 0.5B). Turbo: 350M for low-latency agents. Paralinguistic tags. MIT.
+- [MOSS-TTS Family (MOSI.AI/OpenMOSS)](https://github.com/OpenMOSS/MOSS-TTS) — **3.9K★.** 8B flagship + 100M Nano (CPU). Voice cloning, dialogue generation, sound effects, realtime streaming. Apache 2.0.
+- [Orpheus-TTS (Canopy Labs)](https://github.com/canopyai/Orpheus-TTS) — **6.2K★.** Llama-3b backbone, human-like speech, zero-shot voice cloning, emotion tags. ~200ms streaming latency. Apache 2.0.
+- [NeuTTS (Neuphonic)](https://github.com/neuphonic/neutts) — **6K★.** On-device TTS with instant voice cloning. GGUF quantized for CPU/mobile. 120M Nano and 360M Air variants. Apache 2.0.
+- [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper) — **12K★.** CTranslate2-based Whisper for 4x faster transcription. MIT.
+
+---
+
 ## 🤖 AI Coding Assistants
 
 > 📅 Last checked: July 24, 2026
@@ -233,6 +268,20 @@ Specialized for code generation, completion, and analysis.
 - [CodeGeeX2 (THUDM)](https://huggingface.co/zai-org/codegeex2-6b) — **2023.** Multilingual code model supporting 20+ languages. Strong in both Chinese and English code tasks. Apache 2.0.
 - [CodeT5+ (Salesforce)](https://huggingface.co/Salesforce/codet5p-16b) — **2023.** Encoder-decoder architecture unifying code generation, completion, and understanding. BSD-3 license.
 - [SantaCoder (BigCode)](https://huggingface.co/bigcode/santacoder) — **2023.** Light 1.1B model specialized for Python, Java, and JavaScript. Fast and efficient for IDE integration.
+
+---
+
+## 🧬 Embedding Models
+
+> 📅 Last checked: July 25, 2026
+
+Free, open-weight embedding and reranker models for semantic search, RAG, and text representation.
+
+- [Qwen3-Embedding (Alibaba)](https://github.com/QwenLM/Qwen3-Embedding) — **2K★.** #1 on MTEB multilingual leaderboard. Sizes: 0.6B/4B/8B. 32K context, MRL support, instruction-aware. Includes reranker models. Apache 2.0.
+- [BGE-M3 (BAAI)](https://github.com/FlagOpen/FlagEmbedding/tree/master/research/BGE_M3) — Multi-lingual (100+ languages), multi-functionality (dense, sparse, colbert), multi-granularity (8K tokens). MIT.
+- [FlagEmbedding (BAAI)](https://github.com/FlagOpen/FlagEmbedding) — **12K★.** Framework and model zoo: BGE series, BGE-VL (multimodal), bge-en-icl, bge-multilingual-gemma2 (9B multilingual SOTA). MIT.
+- [nomic-embed-text-v2 (Nomic AI)](https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe) — **1.5B** MoE embedding model. 8192 context. Matches or exceeds OpenAI text-embedding-3-small. Apache 2.0.
+- [mxbai-embed-large-v1](https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1) — **0.3B** lightweight embedding. Top of MTEB among sub-0.5B models. Apache 2.0.
 
 ---
 
@@ -289,6 +338,22 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 
 ---
 
+## 🔧 MCP Servers & Tools
+
+> 📅 Last checked: July 25, 2026
+
+Model Context Protocol (MCP) servers that connect AI assistants to external tools, data sources, and APIs.
+
+- [GitHub MCP Server](https://github.com/github/github-mcp-server) — **31.7K★.** Official GitHub MCP server by GitHub. Repository management, issue/PR automation, CI/CD intelligence, code analysis. OAuth or PAT auth. MIT license.
+- [GitMCP](https://github.com/idosal/git-mcp) — **8.2K★.** Free, open-source, remote MCP server for any GitHub project. Zero-setup documentation and code access for AI assistants. Apache 2.0.
+- [MCP Reference Servers (Anthropic)](https://github.com/modelcontextprotocol/servers) — **88.9K★.** Official reference implementations: Filesystem, Git, Fetch, Memory, Time, Sequential Thinking. Apache 2.0 / MIT.
+- [MCP Server Toolkit](https://github.com/naveenayalla1-CS50/mcp-server-toolkit) — Semantic code search, docs server, database server (Postgres/MySQL/SQLite), OpenAPI introspection. One-command `npx` setup. MIT.
+- [MCP Depot](https://github.com/mcp-depot/mcp-depot) — Self-hosted MCP server hub with web UI. Connect Jira, GitHub, Confluence, Jenkins, custom APIs. AGPL-3.0.
+- [free-search-mcp](https://github.com/anomalyco/free-search-mcp) — Free web search via MCP with no API key required. Multiple search backends with automatic failover. Apache 2.0.
+- [Cortex MCP](https://github.com/cortex-mcp/cortex-mcp) — **728 built-in knowledge fragments** for instant AI context. No API keys, no setup. MIT.
+
+---
+
 ## 🎛 Fine-tuning Tools
 
 > 📅 Last checked: July 24, 2026
@@ -315,6 +380,20 @@ Free tools for testing, managing, and optimizing prompts.
 - [LangFuse](https://langfuse.com/docs) — Open-source LLM engineering platform with prompt management, versioning, and evaluation. [GitHub](https://github.com/langfuse/langfuse)
 - [DSPy (Stanford)](https://dspy.ai/) — Framework for algorithmically optimizing LM prompts and weights. [GitHub](https://github.com/stanfordnlp/dspy)
 - [Agenta](https://agenta.ai/) — Open-source LLM platform for prompt management, evaluation, and deployment. [GitHub](https://github.com/Agenta-AI/agenta)
+
+---
+
+## 📊 LLM Evaluation & Observability
+
+> 📅 Last checked: July 25, 2026
+
+Free, open-source tools for tracing, evaluating, and monitoring LLM applications in development and production.
+
+- [Langfuse](https://langfuse.com/) — **31.5K★.** Full LLM engineering platform: tracing, evaluations, prompt management, playground, datasets. Self-hostable. MIT (core). [GitHub](https://github.com/langfuse/langfuse)
+- [Opik (Comet)](https://github.com/comet-ml/opik) — **20.7K★.** Open-source LLM observability, evaluation, and agent tracing. Datasets, experiments, LLM-as-judge, guardrails, prompt management. Apache 2.0.
+- [Phoenix (Arize AI)](https://github.com/Arize-AI/phoenix) — AI observability platform with OpenTelemetry-based tracing, evals, experiments, and prompt playground. Elastic License 2.0.
+- [TruLens](https://github.com/TruEra/trulens) — **3.4K★.** Agent-specific evaluations (7 purpose-built evaluators). OpenTelemetry tracing, MCP support, batch and inline evaluation. MIT.
+- [OpenLLMetry (Traceloop)](https://github.com/traceloop/openllmetry) — **7K★.** OpenTelemetry-based LLM observability. Send traces to any OTLP-compatible backend. Apache 2.0.
 
 ---
 
