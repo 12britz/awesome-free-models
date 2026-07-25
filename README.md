@@ -3,12 +3,12 @@
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
 ![Last Updated](https://img.shields.io/badge/Last%20Checked-July%2025%2C%202026-brightgreen?style=for-the-badge)
-![Models](https://img.shields.io/badge/Models-42-blue?style=flat-square)
-![Tools](https://img.shields.io/badge/Tools-234-blue?style=flat-square)
+![Models](https://img.shields.io/badge/Models-48-blue?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-243-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-21-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 
-> ✅ All links verified live on July 25, 2026. 310+ URLs checked. Added 5 new sections (Image & Video, Audio & Speech, Embedding Models, LLM Evaluation, MCP Servers) with 29 new entries. All links working.
+> ✅ All links verified live on July 25, 2026. 330+ URLs checked. Updated all sections with latest entries. Added 6 open-weight models (DeepSeek V4 Pro, Mistral Large 3, Kimi K2.7 Code, Nemotron 3 Super, Phi-4 14B, Aether-7B-5Attn), 3 API providers (ZeroLimitAI, Chat Oripe, FreeTheAi), 2 coding assistants (nanobot, MiMoCode), 3 agent frameworks (Microsoft Agent Framework, GenericAgent, Omnigent). All links working.
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -47,8 +47,9 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 Notable open-weight models you can download and run on your own hardware.
 
 - [Llama 4 Scout / Maverick](https://huggingface.co/meta-llama) — Meta's latest MoE generation. Scout: 109B, 10M context. Maverick: 402B, 1M context. Native multimodal. [[License]](https://github.com/meta-llama/llama-models/blob/main/README.md#llama-models-1)
-- [DeepSeek V4](https://huggingface.co/deepseek-ai) — Latest generation with extreme cost-efficiency. MIT license.
-- [DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) — **Apr 2026.** Efficiency-focused variant of DeepSeek V4. 1M token context, optimized for fast inference. MIT license.
+- [DeepSeek V4 Pro](https://huggingface.co/deepseek-ai) — **Apr 2026.** 1.6T MoE (49B active). SWE-bench Verified 80.6% (top open-weight). 1M context. MIT license.
+- [DeepSeek V4](https://huggingface.co/deepseek-ai) — Core generation with extreme cost-efficiency. 1M context. MIT license.
+- [DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) — **Apr 2026.** Efficiency-focused variant. 284B total (13B active). 1M context. MIT license.
 - [Gemma 4 31B / 26B MoE / E4B / E2B](https://huggingface.co/google) — Fully permissive Apache 2.0. 256K context, native multimodal. New standard for open-weight.
 - [Inkling (Thinking Machines Lab)](https://huggingface.co/thinkingmachines/Inkling) — **Jul 2026.** 975B MoE (41B active). Leading US open-weight model. Native multimodal (text, image, audio). Apache 2.0. 1M context.
 - [GLM-5.2 (Zhipu AI)](https://huggingface.co/zai-org) — 744B MoE model optimized for autonomous coding and engineering tasks. 1M-token context. MIT license.
@@ -61,7 +62,12 @@ Notable open-weight models you can download and run on your own hardware.
 - [Qwen 3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) — **Apr 2026.** MoE variant with only 3B active parameters. Extremely efficient for consumer hardware. Apache 2.0.
 - [InternLM 3 (Shanghai AI Lab)](https://huggingface.co/internlm) — **Early 2026.** Strong long-context reasoning and agentic performance. Competitive in open-weight benchmarks.
 - [MiMo-V2.5-Pro (Xiaomi)](https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro) — **Apr 2026.** 1.02T-parameter MoE (42B active). Optimized for complex agentic tasks, coding, and long-context.
+- [Kimi K2.7 Code (Moonshot AI)](https://huggingface.co/moonshotai) — **Jun 2026.** 1T MoE specialized for long-running coding agents. +21.8% over K2.6 on coding benchmarks. Modified MIT.
+- [Nemotron 3 Super (NVIDIA)](https://huggingface.co/nvidia) — **May 2026.** 120B total (12B active). 1M context. Published weights, data, recipes, and eval infra. NVIDIA Open Model License.
+- [Phi-4 14B (Microsoft)](https://huggingface.co/microsoft/phi-4) — **2025.** Compact 14B dense model. Strong reasoning and code. MIT license. Excellent for on-device and small deployments.
 - [Bonsai 8B (PrismML)](https://huggingface.co/prism-ml/Bonsai-8B-gguf) — **Apr 2026.** Groundbreaking 1-bit quantized model. Extremely efficient for edge and consumer hardware (Apple Silicon).
+- [Aether-7B-5Attn (VIDRAFT)](https://huggingface.co/FINAL-Bench/Aether-7B-5Attn) — **Jul 2026.** 100% open foundation model (weights, data, code, logs). 7B MoE (~3B active) with heterogeneous attention. Apache 2.0.
+- [Mistral Large 3 (Mistral)](https://huggingface.co/mistralai) — **Jun 2026.** 675B MoE (41B active). European multilingual flagship. Frontier-class reasoning, native multimodal. Apache 2.0.
 - [Mistral Small 3.1 (Mistral)](https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503) — **Mar 2025.** Versatile 24B multimodal model. Strong text performance with native image understanding and 128K context. Apache 2.0.
 - [Mistral Small 4 (Mistral)](https://huggingface.co/mistralai/Mistral-Small-4-119B-2603) — **Mar 2026.** Hybrid MoE (6.5B active params) unifying instruction, reasoning, and multimodal capabilities. Efficient frontier-class model. Apache 2.0.
 - [Command A+ (Cohere)](https://huggingface.co/CohereLabs/command-a-plus-05-2026-w4a4) — **May 2026.** Enterprise multimodal MoE optimized for sovereignty and multilingual RAG across 48 languages. Apache 2.0.
@@ -125,6 +131,9 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Requesty](https://www.requesty.ai/free-models) — Free AI API with 200 requests/day. Works with Claude Code, Cline, Cursor. No credit card. OpenAI-compatible.
 - [AINative Studio](https://ainative.studio/free-llm-api) — 84+ models (Llama, DeepSeek, Mistral, Qwen). Free tier: 10M tokens/month. No credit card required. 60 RPM.
 - [CloudCode.ONE](https://cloudcode.one/) — Free tier for coding agents. Powered by GLM-4.7-Flash. OpenAI and Anthropic-compatible API. No credit card required.
+- [ZeroLimitAI](https://www.zerolimitai.com/developers) — Free OpenAI-compatible API with `model: "auto"` routing to the best free model. No credit card, no trial expiry. Lifetime free tier available.
+- [Chat Oripe](https://api.oriper.com/) — **2M free tokens/month.** OpenAI-compatible API with GPT-4 and Claude access. No credit card required.
+- [FreeTheAi (da-jb)](https://github.com/da-jb/free-ai) — **Open-source.** Free AI API via Discord signup. No daily cap, 30 RPM. OpenAI-compatible, image and video generation.
 
 ---
 
@@ -242,6 +251,8 @@ Free tools that integrate AI into your development workflow.
 - [Qwen Code](https://github.com/QwenLM/qwen-code) — **2025.** Open-source terminal AI coding agent with 26K+ stars. Multi-protocol (OpenAI, Anthropic, Gemini, Qwen). Auto-memory, sub-agents, agent teams, MCP. Apache 2.0.
 - [CodeWhale](https://github.com/Hmbown/CodeWhale) — **2026.** Terminal coding agent with 40K+ stars. 30+ providers, local models via Ollama/vLLM. TUI, headless mode, web UI. MIT license.
 - [SideCar](https://github.com/nedonatelli/sidecar) — **2026.** Free, self-hosted VS Code agent extension. Full agent loop, local Ollama models, inline completions, MCP. Drop-in for Copilot/Claude Code. MIT.
+- [nanobot (HKUDS)](https://github.com/HKUDS/nanobot) — **2026.** Open-source, ultra-lightweight personal AI agent with WebUI, chat channels, MCP, memory, and scheduling. 46K★. MIT.
+- [MiMoCode (Xiaomi)](https://github.com/XiaomiMiMo/MiMo-Code) — **Jun 2026.** Terminal-native coding agent with persistent memory, subagent orchestration, and goal-driven autonomous loops. 12.4K★. MIT.
 
 ---
 
@@ -335,6 +346,9 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 - [Eliza (elizaOS)](https://github.com/elizaOS/eliza) — Multi-platform agent framework for creating character-driven AI agents. Handles social media interaction, complex decision-making, and autonomous behavior across platforms.
 - [Qwen-Agent (Alibaba)](https://github.com/QwenLM/Qwen-Agent) — Agent framework tightly integrated with the Qwen model family. Optimized for function calling, code execution, RAG, and tool use with Qwen models.
 - [AGiXT](https://github.com/Josh-XT/AGiXT) — Extensible modular AI agent automation platform. Plugin system for swapping LLMs, memory backends, and tools. Highly customizable agent workflows.
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — **12.3K★.** Production-grade multi-agent framework for Python and .NET. Graph-based workflows, streaming, human-in-the-loop. MIT.
+- [GenericAgent](https://github.com/lsdefine/GenericAgent) — **13.5K★.** Minimal, self-evolving autonomous agent framework. ~3K lines core, 9 atomic tools. Self-crystallizing skill tree from every task. MIT.
+- [Omnigent](https://github.com/omnigent-ai/omnigent) — **7.6K★.** Open-source meta-harness orchestrating Claude Code, Codex, Cursor, Pi, and custom agents. Real-time collaboration from any device. Apache 2.0.
 
 ---
 
