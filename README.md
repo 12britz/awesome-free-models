@@ -2,14 +2,14 @@
 
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
-![Last Updated](https://img.shields.io/badge/Last%20Checked-July%2025%2C%202026-brightgreen?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-July%2026%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-48-blue?style=flat-square)
-![Tools](https://img.shields.io/badge/Tools-243-blue?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-246-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-21-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 [![GitGem](https://gitgem.org/api/badge/github/12britz/awesome-free-models.svg)](https://gitgem.org/github/12britz/awesome-free-models)
 
-> ✅ All links verified live on July 25, 2026. 330+ URLs checked. Updated all sections with latest entries. Added 6 open-weight models (DeepSeek V4 Pro, Mistral Large 3, Kimi K2.7 Code, Nemotron 3 Super, Phi-4 14B, Aether-7B-5Attn), 3 API providers (ZeroLimitAI, Chat Oripe, FreeTheAi), 2 coding assistants (nanobot, MiMoCode), 3 agent frameworks (Microsoft Agent Framework, GenericAgent, Omnigent). All links working.
+> ✅ All links verified live on July 26, 2026. 330+ URLs checked. Added OpenCode Zen (7 free models via curated AI gateway), oMLX (18.2K★ Apple Silicon inference server), and MTPLX (1.1K★ native MTP speculative decoding). All links working.
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -135,6 +135,7 @@ Providers offering free tiers to access models via API — no local hardware req
 - [ZeroLimitAI](https://www.zerolimitai.com/developers) — Free OpenAI-compatible API with `model: "auto"` routing to the best free model. No credit card, no trial expiry. Lifetime free tier available.
 - [Chat Oripe](https://api.oriper.com/) — **2M free tokens/month.** OpenAI-compatible API with GPT-4 and Claude access. No credit card required.
 - [FreeTheAi (da-jb)](https://github.com/da-jb/free-ai) — **Open-source.** Free AI API via Discord signup. No daily cap, 30 RPM. OpenAI-compatible, image and video generation.
+- [OpenCode Zen](https://opencode.ai/zen) — Curated AI gateway with 7 free models (DeepSeek V4 Flash Free, MiMo-V2.5 Free, Nemotron 3 Ultra Free, Big Pickle, Qwen 3.6 Plus Free, MiniMax M3 Free, North Mini Code Free). OpenAI-compatible API. No credit card required.
 
 ---
 
@@ -196,6 +197,8 @@ Run models on your own machine — no API keys needed, full privacy.
 - [AirLLM](https://github.com/lyogavin/airllm) — ⚠️ **Unmaintained since Aug 2024.** Run large models (70B+) on consumer hardware with limited memory. Loads models layer-by-layer for extreme memory efficiency.
 - [AI Toolkit for VS Code (Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-windows-ai-studio.windows-ai-studio) — VS Code extension to browse, test, fine-tune, and deploy models locally. Integrates ONNX and llama.cpp.
 - [Ollama Grid Search](https://github.com/dezoito/ollama-grid-search) — Desktop utility for systematic model evaluation. Test multiple models, prompts, and inference parameters side-by-side via a Rust/React GUI.
+- [oMLX](https://github.com/jundot/omlx) — **18.2K★.** LLM inference server for Apple Silicon with continuous batching, tiered KV caching (hot RAM + cold SSD), and macOS menu bar app. OpenAI and Anthropic compatible. Apache 2.0.
+- [MTPLX](https://github.com/youssofal/MTPLX) — **1.1K★.** Native MTP speculative decoding on Apple Silicon — ~2x faster decode with no external drafter. Mac app + CLI, OpenAI/Anthropic compatible server. Auto-tunes draft depth per machine. Apache 2.0.
 
 ---
 
