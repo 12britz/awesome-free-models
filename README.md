@@ -7,6 +7,7 @@
 ![Tools](https://img.shields.io/badge/Tools-243-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-21-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
+[![GitGem](https://gitgem.org/api/badge/github/12britz/awesome-free-models.svg)](https://gitgem.org/github/12britz/awesome-free-models)
 
 > ✅ All links verified live on July 25, 2026. 330+ URLs checked. Updated all sections with latest entries. Added 6 open-weight models (DeepSeek V4 Pro, Mistral Large 3, Kimi K2.7 Code, Nemotron 3 Super, Phi-4 14B, Aether-7B-5Attn), 3 API providers (ZeroLimitAI, Chat Oripe, FreeTheAi), 2 coding assistants (nanobot, MiMoCode), 3 agent frameworks (Microsoft Agent Framework, GenericAgent, Omnigent). All links working.
 
