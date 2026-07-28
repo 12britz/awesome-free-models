@@ -73,6 +73,7 @@ Notable open-weight models you can download and run on your own hardware.
 Providers offering free tiers to access models via API — no local hardware required.
 
 - [Google AI Studio](https://aistudio.google.com/) — **Most generous free tier.** Access Gemini 2.5 Flash, Gemini 2.0 Flash, and other models. Generous rate limits for prototyping.
+- [Gracestack Cognitive API](https://tools.gracestack.se/api-docs.html) — Free DeepSeek V4 Pro on A100 80GB GPUs (50 calls/day). Power Pack: 100 calls/day at 10 SEK. Also includes Bride Cognitive Engine — anomaly detection, hypothesis generation, memory query for AI agents. OpenAI SDK compatible. 7-day trial available. **No credit card required for free tier.**
 - [OpenRouter](https://openrouter.ai/) — Aggregates 500+ models. Filter by "Free" to see models available at no cost. Includes experimental and subsidized open-weight models.
 - [AnyAPI](https://anyapi.ai/) — 400+ models with OpenAI-compatible API. Free tier: 100K tokens/day, unlimited users. Includes free and basic models. No credit card required.
 - [Groq](https://console.groq.com/) — Ultra-fast inference. Free tier includes Llama, Gemma, Mixtral, Whisper models with generous daily rate limits.
