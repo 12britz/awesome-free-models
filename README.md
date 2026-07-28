@@ -316,6 +316,7 @@ Free tools for building retrieval-augmented generation pipelines — vector stor
 - [R2R (SciPhi)](https://github.com/SciPhi-AI/R2R) — Production-ready RAG engine with API, user management, and observability. **Note: Last release Jun 2025. Consider alternatives like Dify or LangGraph.**
 - [Docling (IBM)](https://www.docling.ai/) — Document understanding and conversion for RAG pipelines. Extracts PDFs, images, and more. [GitHub](https://github.com/docling-project/docling)
 - [Unstructured.io](https://unstructured.io/) — Preprocessing toolkit for documents (PDF, HTML, Word) for RAG pipelines. Free tier available.
+- [GraphRAG (Microsoft)](https://github.com/microsoft/graphrag) — Modular graph-based RAG pipeline. Extracts a knowledge graph from unstructured text via LLM prompting, then answers over it with community-summarization for better global/abstractive queries than vector-only RAG. MIT license. [GitHub](https://github.com/microsoft/graphrag)
 
 ---
 
