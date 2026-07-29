@@ -209,6 +209,7 @@ Run models on your own machine — no API keys needed, full privacy.
 Free, open-source web interfaces for chatting with AI models — self-host or use hosted versions.
 
 - [Open WebUI](https://openwebui.com/) — Feature-rich ChatGPT-like interface for Ollama and OpenAI-compatible backends. RAG, image generation, multi-user. [GitHub](https://github.com/open-webui/open-webui)
+- [GPTGeminiGrok.AI](https://trygrokai.asia/) — Browser workspace for GPT, Gemini, Grok, Claude, and AI image workflows. Free tier: 10 requests/day; account required.
 - [LibreChat](https://www.librechat.ai/) — Open-source ChatGPT clone supporting 40+ providers, multi-user, plugins, and RAG. **Note: Acquired by ClickHouse.** [GitHub](https://github.com/danny-avila/LibreChat)
 - [AnythingLLM](https://anythingllm.com/) — All-in-one desktop app for chatting with documents and models. Built-in RAG pipeline. [GitHub](https://github.com/Mintplex-Labs/anything-llm)
 - [Big-AGI](https://big-agi.com/) — Feature-rich AI chat with personas, multi-model support, voice, and code execution. [GitHub](https://github.com/enricoros/big-agi)
