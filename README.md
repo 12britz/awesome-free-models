@@ -4,12 +4,12 @@
 
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-July%2026%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-48-blue?style=flat-square)
-![Tools](https://img.shields.io/badge/Tools-246-blue?style=flat-square)
+![Tools](https://img.shields.io/badge/Tools-245-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-21-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 [![GitGem](https://gitgem.org/api/badge/github/12britz/awesome-free-models.svg)](https://gitgem.org/github/12britz/awesome-free-models)
 
-> ✅ All links verified live on July 26, 2026. 330+ URLs checked. Added OpenCode Zen (7 free models via curated AI gateway), oMLX (18.2K★ Apple Silicon inference server), and MTPLX (1.1K★ native MTP speculative decoding). All links working.
+> ✅ All links verified live on July 29, 2026. 330+ URLs checked. All links working.
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -145,12 +145,12 @@ Providers offering free tiers to access models via API — no local hardware req
 
 Free, open-weight image and video generation models — run locally or via free APIs.
 
-- [FLUX.2-dev (Black Forest Labs)](https://github.com/black-forest-labs/flux2) — **3K★.** 32B rectified flow transformer. SOTA open T2I, single/multi-reference editing, in/out-painting. Updated VAE. FLUX.1-dev Non-Commercial License.
+- [FLUX.2-dev (Black Forest Labs)](https://github.com/black-forest-labs/flux2) — **2.6K★.** 32B rectified flow transformer. SOTA open T2I, single/multi-reference editing, in/out-painting. Updated VAE. FLUX.1-dev Non-Commercial License.
 - [ERNIE-Image / ERNIE-Image-Turbo (Baidu)](https://github.com/baidu/ernie-image) — **0.5K★.** 8B DiT SOTA among open-weight models. Strong text rendering, layout control. Turbo: 8-step generation. Apache 2.0.
-- [Z-Image (Infinigence-AI)](https://github.com/Infini-AI-Lab/Z-Image) — Open-weight T2I with strong GenEval scores. Z-Image-Turbo for 4-step generation. Apache 2.0.
+- [Z-Image (Tongyi Lab / Alibaba)](https://github.com/Tongyi-MAI/Z-Image) — **11.8K★.** Open-weight T2I with strong GenEval scores. Z-Image-Turbo for 4-step generation. Apache 2.0.
 - [Pollinations.ai](https://pollinations.ai/) — **Free image generation API.** No API key or signup needed. Text-to-image, image-to-image. OpenAI-compatible. Integrates with ComfyUI.
 - [OpenImageGen (Hugging Face)](https://huggingface.co/spaces/OpenImageGen/OpenImageGen) — Free, open-source image generation playground. Supports multiple community models via diffusers. Apache 2.0.
-- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) — **65K★.** Node-based image and video generation UI. Run FLUX, Stable Diffusion, and more locally. GPL-3.0.
+- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) — **123K★.** Node-based image and video generation UI. Run FLUX, Stable Diffusion, and more locally. GPL-3.0.
 
 ---
 
@@ -192,7 +192,7 @@ Run models on your own machine — no API keys needed, full privacy.
 - [MLC LLM](https://github.com/mlc-ai/mlc-llm) — Universal deployment engine by UW/SJTU. Runs LLMs on any hardware — laptops, phones, browsers. OpenAI-compatible API.
 - [WebLLM](https://github.com/mlc-ai/web-llm) — In-browser LLM inference via WebGPU. Runs models directly in your browser with zero setup. No server needed.
 - [FastChat (LMSYS)](https://github.com/lm-sys/FastChat) — Open platform for training, serving, and evaluating LLMs. Provides OpenAI-compatible API and web UI for local models.
-- [Hugging Face TGI](https://github.com/huggingface/text-generation-inference) — Production-grade serving toolkit for large language models. Optimized for high throughput on local hardware. **Note: Archived Mar 2026, maintenance mode. Consider vLLM or SGLang.**
+- [Hugging Face TGI](https://github.com/huggingface/text-generation-inference) — **10.9K★.** Production-grade serving toolkit for large language models. Optimized for high throughput on local hardware. Supports Llama, Qwen, DeepSeek, and more.
 - [DeepSpeed (Microsoft)](https://github.com/microsoft/DeepSpeed) — Deep learning optimization library with inference acceleration. Enables running larger models on limited hardware through ZeRO optimization.
 - [AirLLM](https://github.com/lyogavin/airllm) — ⚠️ **Unmaintained since Aug 2024.** Run large models (70B+) on consumer hardware with limited memory. Loads models layer-by-layer for extreme memory efficiency.
 - [AI Toolkit for VS Code (Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-windows-ai-studio.windows-ai-studio) — VS Code extension to browse, test, fine-tune, and deploy models locally. Integrates ONNX and llama.cpp.
@@ -227,7 +227,7 @@ Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generati
 - [MOSS-TTS Family (MOSI.AI/OpenMOSS)](https://github.com/OpenMOSS/MOSS-TTS) — **3.9K★.** 8B flagship + 100M Nano (CPU). Voice cloning, dialogue generation, sound effects, realtime streaming. Apache 2.0.
 - [Orpheus-TTS (Canopy Labs)](https://github.com/canopyai/Orpheus-TTS) — **6.2K★.** Llama-3b backbone, human-like speech, zero-shot voice cloning, emotion tags. ~200ms streaming latency. Apache 2.0.
 - [NeuTTS (Neuphonic)](https://github.com/neuphonic/neutts) — **6K★.** On-device TTS with instant voice cloning. GGUF quantized for CPU/mobile. 120M Nano and 360M Air variants. Apache 2.0.
-- [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper) — **12K★.** CTranslate2-based Whisper for 4x faster transcription. MIT.
+- [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper) — **25K★.** CTranslate2-based Whisper for 4x faster transcription. MIT.
 
 ---
 
@@ -367,8 +367,7 @@ Model Context Protocol (MCP) servers that connect AI assistants to external tool
 - [MCP Reference Servers (Anthropic)](https://github.com/modelcontextprotocol/servers) — **88.9K★.** Official reference implementations: Filesystem, Git, Fetch, Memory, Time, Sequential Thinking. Apache 2.0 / MIT.
 - [MCP Server Toolkit](https://github.com/naveenayalla1-CS50/mcp-server-toolkit) — Semantic code search, docs server, database server (Postgres/MySQL/SQLite), OpenAPI introspection. One-command `npx` setup. MIT.
 - [MCP Depot](https://github.com/mcp-depot/mcp-depot) — Self-hosted MCP server hub with web UI. Connect Jira, GitHub, Confluence, Jenkins, custom APIs. AGPL-3.0.
-- [free-search-mcp](https://github.com/anomalyco/free-search-mcp) — Free web search via MCP with no API key required. Multiple search backends with automatic failover. Apache 2.0.
-- [Cortex MCP](https://github.com/cortex-mcp/cortex-mcp) — **728 built-in knowledge fragments** for instant AI context. No API keys, no setup. MIT.
+- [free-search-mcp](https://github.com/sweetcornna/free-search-mcp) — Free web search via MCP with no API key required. Multiple search backends with automatic failover. Apache 2.0.
 
 ---
 
