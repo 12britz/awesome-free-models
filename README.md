@@ -2,14 +2,14 @@
 
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-July%2026%2C%202026-brightgreen?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-August%201%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-48-blue?style=flat-square)
 ![Tools](https://img.shields.io/badge/Tools-245-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-21-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 [![GitGem](https://gitgem.org/api/badge/github/12britz/awesome-free-models.svg)](https://gitgem.org/github/12britz/awesome-free-models)
 
-> ✅ All links verified live on July 29, 2026. 330+ URLs checked. All links working.
+> ✅ All links verified live on August 1, 2026. 330+ URLs checked. All links working (some sites block automated checks but work in browsers).
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -43,7 +43,7 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 
 ## 🧠 Open-Weight Models
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 Notable open-weight models you can download and run on your own hardware.
 
@@ -83,7 +83,7 @@ Notable open-weight models you can download and run on your own hardware.
 
 ## 🔌 Free API Providers
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 Providers offering free tiers to access models via API — no local hardware required.
 
@@ -141,7 +141,7 @@ Providers offering free tiers to access models via API — no local hardware req
 
 ## 🖼️ Image & Video Generation
 
-> 📅 Last checked: July 25, 2026
+> 📅 Last checked: August 1, 2026
 
 Free, open-weight image and video generation models — run locally or via free APIs.
 
@@ -149,14 +149,14 @@ Free, open-weight image and video generation models — run locally or via free 
 - [ERNIE-Image / ERNIE-Image-Turbo (Baidu)](https://github.com/baidu/ernie-image) — **0.5K★.** 8B DiT SOTA among open-weight models. Strong text rendering, layout control. Turbo: 8-step generation. Apache 2.0.
 - [Z-Image (Tongyi Lab / Alibaba)](https://github.com/Tongyi-MAI/Z-Image) — **11.8K★.** Open-weight T2I with strong GenEval scores. Z-Image-Turbo for 4-step generation. Apache 2.0.
 - [Pollinations.ai](https://pollinations.ai/) — **Free image generation API.** No API key or signup needed. Text-to-image, image-to-image. OpenAI-compatible. Integrates with ComfyUI.
-- [OpenImageGen (Hugging Face)](https://huggingface.co/spaces/OpenImageGen/OpenImageGen) — Free, open-source image generation playground. Supports multiple community models via diffusers. Apache 2.0.
+- [OpenImageGen (Hugging Face)](https://huggingface.co/spaces/OpenImageGen/OpenImageGen) — Free, open-source image generation playground. Supports multiple community models via diffusers. Apache 2.0. **Note: Requires Hugging Face login.**
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI) — **123K★.** Node-based image and video generation UI. Run FLUX, Stable Diffusion, and more locally. GPL-3.0.
 
 ---
 
 ## 🔀 Free API Routers
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 Open-source tools that route requests across multiple AI providers — unified API, automatic failover, and cost optimization.
 
@@ -169,7 +169,7 @@ Open-source tools that route requests across multiple AI providers — unified A
 
 ## 💻 Local Inference Tools
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 Run models on your own machine — no API keys needed, full privacy.
 
@@ -192,9 +192,9 @@ Run models on your own machine — no API keys needed, full privacy.
 - [MLC LLM](https://github.com/mlc-ai/mlc-llm) — Universal deployment engine by UW/SJTU. Runs LLMs on any hardware — laptops, phones, browsers. OpenAI-compatible API.
 - [WebLLM](https://github.com/mlc-ai/web-llm) — In-browser LLM inference via WebGPU. Runs models directly in your browser with zero setup. No server needed.
 - [FastChat (LMSYS)](https://github.com/lm-sys/FastChat) — Open platform for training, serving, and evaluating LLMs. Provides OpenAI-compatible API and web UI for local models.
-- [Hugging Face TGI](https://github.com/huggingface/text-generation-inference) — **10.9K★.** Production-grade serving toolkit for large language models. Optimized for high throughput on local hardware. Supports Llama, Qwen, DeepSeek, and more.
+- [Hugging Face TGI](https://github.com/huggingface/text-generation-inference) — **10.9K★.** Production-grade serving toolkit for large language models. **Note: Archived by Hugging Face (Mar 2026).** Consider vLLM, SGLang, or TGI forks for active development.
 - [DeepSpeed (Microsoft)](https://github.com/microsoft/DeepSpeed) — Deep learning optimization library with inference acceleration. Enables running larger models on limited hardware through ZeRO optimization.
-- [AirLLM](https://github.com/lyogavin/airllm) — ⚠️ **Unmaintained since Aug 2024.** Run large models (70B+) on consumer hardware with limited memory. Loads models layer-by-layer for extreme memory efficiency.
+- [AirLLM](https://github.com/lyogavin/airllm) — Run large models (70B+) on consumer hardware with limited memory. Loads models layer-by-layer for extreme memory efficiency. **Actively maintained (last push Jul 2026).**
 - [AI Toolkit for VS Code (Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-windows-ai-studio.windows-ai-studio) — VS Code extension to browse, test, fine-tune, and deploy models locally. Integrates ONNX and llama.cpp.
 - [Ollama Grid Search](https://github.com/dezoito/ollama-grid-search) — Desktop utility for systematic model evaluation. Test multiple models, prompts, and inference parameters side-by-side via a Rust/React GUI.
 - [oMLX](https://github.com/jundot/omlx) — **18.2K★.** LLM inference server for Apple Silicon with continuous batching, tiered KV caching (hot RAM + cold SSD), and macOS menu bar app. OpenAI and Anthropic compatible. Apache 2.0.
@@ -204,12 +204,12 @@ Run models on your own machine — no API keys needed, full privacy.
 
 ## 💬 AI Chatbot UIs
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 Free, open-source web interfaces for chatting with AI models — self-host or use hosted versions.
 
 - [Open WebUI](https://openwebui.com/) — Feature-rich ChatGPT-like interface for Ollama and OpenAI-compatible backends. RAG, image generation, multi-user. [GitHub](https://github.com/open-webui/open-webui)
-- [LibreChat](https://www.librechat.ai/) — Open-source ChatGPT clone supporting 40+ providers, multi-user, plugins, and RAG. **Note: Acquired by ClickHouse.** [GitHub](https://github.com/danny-avila/LibreChat)
+- [LibreChat](https://www.librechat.ai/) — Open-source ChatGPT clone supporting 40+ providers, multi-user, plugins, and RAG. **Note: Company acquired by ClickHouse; repo actively maintained (last push Aug 2026).** [GitHub](https://github.com/danny-avila/LibreChat)
 - [AnythingLLM](https://anythingllm.com/) — All-in-one desktop app for chatting with documents and models. Built-in RAG pipeline. [GitHub](https://github.com/Mintplex-Labs/anything-llm)
 - [Big-AGI](https://big-agi.com/) — Feature-rich AI chat with personas, multi-model support, voice, and code execution. [GitHub](https://github.com/enricoros/big-agi)
 - [Lobe Chat](https://lobehub.com/) — Multi-agent orchestration platform with plugin system and multi-provider support. [GitHub](https://github.com/lobehub/lobehub)
@@ -218,7 +218,7 @@ Free, open-source web interfaces for chatting with AI models — self-host or us
 
 ## 🎵 Audio & Speech Models
 
-> 📅 Last checked: July 25, 2026
+> 📅 Last checked: August 1, 2026
 
 Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generation models you can run locally.
 
@@ -233,11 +233,11 @@ Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generati
 
 ## 🤖 AI Coding Assistants
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 Free tools that integrate AI into your development workflow.
 
-- [Continue.dev](https://www.continue.dev/) — **Acquired by Cursor.** Open-source AI code assistant for VS Code and JetBrains. [GitHub](https://github.com/continuedev/continue)
+- [Continue.dev](https://www.continue.dev/) — **Company acquired by Cursor; repo actively maintained (last push Aug 2026).** Open-source AI code assistant for VS Code and JetBrains. [GitHub](https://github.com/continuedev/continue)
 - [Aider](https://aider.chat/) — AI pair programming in the terminal. Edits code in your local git repo. Supports GPT, Claude, and local models. [GitHub](https://github.com/Aider-AI/aider)
 - [Gemini CLI (Google)](https://github.com/google-gemini/gemini-cli) — **Jul 2026.** Open-source terminal agent with generous free Gemini quota. Supports agentic coding workflows.
 - [Kilo Code](https://github.com/Kilo-Org/kilocode) — **2026.** VS Code/JetBrains agentic coding extension with model-agnostic support and Plan/Act oversight.
@@ -262,7 +262,7 @@ Free tools that integrate AI into your development workflow.
 
 ## 📝 Code Models
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 Specialized for code generation, completion, and analysis.
 
@@ -288,7 +288,7 @@ Specialized for code generation, completion, and analysis.
 
 ## 🧬 Embedding Models
 
-> 📅 Last checked: July 25, 2026
+> 📅 Last checked: August 1, 2026
 
 Free, open-weight embedding and reranker models for semantic search, RAG, and text representation.
 
@@ -302,7 +302,7 @@ Free, open-weight embedding and reranker models for semantic search, RAG, and te
 
 ## 🔍 RAG & Vector Databases
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 Free tools for building retrieval-augmented generation pipelines — vector storage, embedding search, and document retrieval.
 
@@ -321,29 +321,29 @@ Free tools for building retrieval-augmented generation pipelines — vector stor
 
 ## 🧩 Agentic Frameworks
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 Free, open-source frameworks for building AI agents and multi-agent systems.
 
 - [LangGraph (LangChain)](https://langchain-ai.github.io/langgraph/) — Low-level framework for building stateful, multi-agent applications. [GitHub](https://github.com/langchain-ai/langgraph)
 - [CrewAI](https://crewai.com/) — Multi-agent framework for orchestrating specialized AI agents to work together. [GitHub](https://github.com/crewAIInc/crewAI)
-- [AutoGen (Microsoft)](https://microsoft.github.io/autogen/stable/) — Extensible framework for building multi-agent conversations. **Note: In maintenance mode.** [GitHub](https://github.com/microsoft/autogen)
+- [AutoGen (Microsoft)](https://microsoft.github.io/autogen/stable/) — Extensible framework for building multi-agent conversations. **Note: In maintenance mode (last push Apr 2026).** [GitHub](https://github.com/microsoft/autogen)
 - [Agno (formerly Phidata)](https://www.agno.com/) — Full-stack AI framework for building multimodal agents with memory, knowledge, and tools. [GitHub](https://github.com/agno-agi/agno)
 - [PydanticAI](https://pydantic.dev/docs/ai/overview/) — Agent framework by Pydantic with type-safe outputs and dependency injection. [GitHub](https://github.com/pydantic/pydantic-ai)
 - [Mastra](https://mastra.ai/) — TypeScript framework for building AI applications and agent workflows. [GitHub](https://github.com/mastra-ai/mastra)
 - [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/) — Lightweight SDK for building single and multi-agent systems. [GitHub](https://github.com/openai/openai-agents-python)
 - [Semantic Kernel (Microsoft)](https://learn.microsoft.com/en-us/semantic-kernel/) — SDK for orchestrating AI agents with planners, memory, and connectors. [GitHub](https://github.com/microsoft/semantic-kernel)
 - [Dify](https://dify.ai/) — LLM app development platform with visual workflow builder and agent capabilities. [GitHub](https://github.com/langgenius/dify)
-- [Flowise](https://flowiseai.com/) — Low-code visual LLM flow builder with drag-and-drop interface. **Note: Acquired by Workday.** [GitHub](https://github.com/FlowiseAI/Flowise)
+- [Flowise](https://flowiseai.com/) — Low-code visual LLM flow builder with drag-and-drop interface. **Note: Company acquired by Workday; repo actively maintained (last push Jul 2026).** [GitHub](https://github.com/FlowiseAI/Flowise)
 - [Fazm](https://github.com/mediar-ai/fazm) — **Apr 2026.** Open-source local computer-use agent for macOS. Drives apps via accessibility APIs, model-agnostic, faster than screenshot-based agents.
 - [Smolagents (Hugging Face)](https://github.com/huggingface/smolagents) — Minimalist agent library where agents "think in code." Lightweight, zero boilerplate. Supports code agents and tool-calling agents.
-- [Swarms](https://github.com/kyegomez/swarms) — ⚠️ **Unmaintained since Dec 2024.** Enterprise-grade multi-agent orchestration framework. Scalable infrastructure for autonomous agent swarms. Highly modular.
+- [Swarms](https://github.com/kyegomez/swarms) — Enterprise-grade multi-agent orchestration framework. Scalable infrastructure for autonomous agent swarms. Highly modular. **Actively maintained (last push Aug 2026).**
 - [Letta (MemGPT)](https://github.com/letta-ai/letta) — Framework for long-term agent memory. Virtual memory management that pages data in/out of context like an OS. Persistent agents.
 - [Griptape](https://github.com/griptape-ai/griptape) — Enterprise agent framework with strictly typed Pipelines, Workflows, and Agents. Structure-first, production-ready.
 - [Atomic Agents](https://github.com/Eigenwise/atomic-agents) — Framework inspired by Atomic Design. Compose agents from small, reusable, modular components. Testable and scalable.
 - [PraisonAI](https://github.com/MervinPraison/PraisonAI) — Low-code multi-agent framework. Define agent roles, tasks, and flows via YAML configuration. Wraps underlying agent frameworks.
 - [Cognee](https://github.com/topoteretes/cognee) — GraphRAG framework for agent knowledge management. Builds interconnected knowledge graphs from unstructured data.
-- [MetaGPT](https://github.com/FoundationAgents/MetaGPT) — Multi-agent framework simulating a full software team. Assigns Agent, Product Manager, Engineer roles. Implements SOPs for end-to-end code generation. **Note: Last release Apr 2024. Effectively unmaintained.**
+- [MetaGPT](https://github.com/FoundationAgents/MetaGPT) — Multi-agent framework simulating a full software team. Assigns Agent, Product Manager, Engineer roles. Implements SOPs for end-to-end code generation. **Note: Active development (last push Jan 2026).**
 - [ChatDev (OpenBMB)](https://github.com/OpenBMB/ChatDev) — Virtual software company driven by multi-agent collaboration. Follows waterfall model through design, coding, testing, and documentation.
 - [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) — The original autonomous agent experiment. Sets its own goals, iterates on tasks, and executes without continuous human input. Web browsing and file management.
 - [Bee Agent Framework (IBM)](https://github.com/i-am-bee/beeai-framework) — Production-ready framework for building reliable AI agents in Python and TypeScript. Modular, with built-in observability and IBM research optimizations.
@@ -358,7 +358,7 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 
 ## 🔧 MCP Servers & Tools
 
-> 📅 Last checked: July 25, 2026
+> 📅 Last checked: August 1, 2026
 
 Model Context Protocol (MCP) servers that connect AI assistants to external tools, data sources, and APIs.
 
@@ -373,7 +373,7 @@ Model Context Protocol (MCP) servers that connect AI assistants to external tool
 
 ## 🎛 Fine-tuning Tools
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 Tools to fine-tune free models on your own data — all free and open-source.
 
@@ -388,11 +388,11 @@ Tools to fine-tune free models on your own data — all free and open-source.
 
 ## ✨ Prompt Engineering Tools
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 Free tools for testing, managing, and optimizing prompts.
 
-- [Promptfoo](https://www.promptfoo.dev/) — **Acquired by OpenAI.** Open-source tool for prompt testing and evaluation. Systematic A/B testing of prompts. [GitHub](https://github.com/promptfoo/promptfoo)
+- [Promptfoo](https://www.promptfoo.dev/) — **Company acquired by OpenAI; repo actively maintained (last push Aug 2026).** Open-source tool for prompt testing and evaluation. Systematic A/B testing of prompts. [GitHub](https://github.com/promptfoo/promptfoo)
 - [Fabric (Daniel Miessler)](https://github.com/danielmiessler/fabric) — Open-source framework for augmenting humans with AI. Library of curated prompts (patterns) for common tasks.
 - [LangFuse](https://langfuse.com/docs) — Open-source LLM engineering platform with prompt management, versioning, and evaluation. [GitHub](https://github.com/langfuse/langfuse)
 - [DSPy (Stanford)](https://dspy.ai/) — Framework for algorithmically optimizing LM prompts and weights. [GitHub](https://github.com/stanfordnlp/dspy)
@@ -402,7 +402,7 @@ Free tools for testing, managing, and optimizing prompts.
 
 ## 📊 LLM Evaluation & Observability
 
-> 📅 Last checked: July 25, 2026
+> 📅 Last checked: August 1, 2026
 
 Free, open-source tools for tracing, evaluating, and monitoring LLM applications in development and production.
 
@@ -416,12 +416,12 @@ Free, open-source tools for tracing, evaluating, and monitoring LLM applications
 
 ## 📊 Datasets
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 Free, open datasets for training, fine-tuning, and evaluating models.
 
 - [Hugging Face Datasets](https://huggingface.co/datasets) — The standard hub for open datasets. 150,000+ datasets across all tasks.
-- [Common Corpus](https://huggingface.co/datasets/PleIAs/Common-Corpus) — Massive open-source dataset for training large language models. (Requires HuggingFace login)
+- [Common Corpus](https://huggingface.co/datasets/PleIAs/Common-Corpus) — Massive open-source dataset for training large language models. **(Requires Hugging Face login)**
 - [The Stack v2 (BigCode)](https://huggingface.co/datasets/bigcode/the-stack-v2) — Large-scale code dataset covering 619 programming languages. Permissive license.
 - [FineWeb (Hugging Face)](https://huggingface.co/datasets/HuggingFaceFW/fineweb) — High-quality web dataset for LLM pre-training. 15T tokens.
 - [Dolly (Databricks)](https://huggingface.co/datasets/databricks/databricks-dolly-15k) — 15k instruction-response pairs for fine-tuning. CC-BY-SA.
@@ -436,7 +436,7 @@ Free, open datasets for training, fine-tuning, and evaluating models.
 
 ## ☁ Model Hosting Platforms
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 Free platforms that host models — run inference without downloading anything.
 
@@ -454,7 +454,7 @@ Free platforms that host models — run inference without downloading anything.
 
 ## 📚 Learning Resources
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 Free courses, books, and tutorials for learning AI and LLMs.
 
@@ -475,7 +475,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 ## 🏆 Resources & Leaderboards
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 - [Perplexity](https://www.perplexity.ai/) — Free AI search and research assistant with real-time answers and source citations.
 - [BenchLM.ai](https://benchlm.ai/) — **New.** LLM leaderboard with 281 models compared across 8 categories. Verified benchmark data updated weekly.
@@ -491,7 +491,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 ## 👥 Communities
 
-> 📅 Last checked: July 24, 2026
+> 📅 Last checked: August 1, 2026
 
 - [Hugging Face Discord](https://discord.gg/huggingface) — Model releases, discussions, and community support.
 - [r/LocalLLaMA](https://reddit.com/r/LocalLLaMA) — The largest Reddit community for running local LLMs.
