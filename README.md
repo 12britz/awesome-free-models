@@ -17,27 +17,27 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 
 ## Contents
 
-- [🧠 Open-Weight Models](#-open-weight-models)
-- [🔌 Free API Providers](#-free-api-providers)
-- [🖼️ Image & Video Generation](#-image--video-generation)
-- [🔀 Free API Routers](#-free-api-routers)
-- [💻 Local Inference Tools](#-local-inference-tools)
-- [💬 AI Chatbot UIs](#-ai-chatbot-uis)
-- [🎵 Audio & Speech Models](#-audio--speech-models)
-- [🤖 AI Coding Assistants](#-ai-coding-assistants)
-- [📝 Code Models](#-code-models)
-- [🧬 Embedding Models](#-embedding-models)
-- [🔍 RAG & Vector Databases](#-rag--vector-databases)
-- [🧩 Agentic Frameworks](#-agentic-frameworks)
-- [🔧 MCP Servers & Tools](#-mcp-servers--tools)
-- [🎛 Fine-tuning Tools](#-fine-tuning-tools)
-- [✨ Prompt Engineering Tools](#-prompt-engineering-tools)
-- [📊 LLM Evaluation & Observability](#-llm-evaluation--observability)
-- [📊 Datasets](#-datasets)
-- [☁ Model Hosting Platforms](#-model-hosting-platforms)
-- [📚 Learning Resources](#-learning-resources)
-- [🏆 Resources & Leaderboards](#-resources--leaderboards)
-- [👥 Communities](#-communities)
+- [🧠 Open-Weight Models](#-open-weight-models) — Downloadable model weights you can run on your own hardware
+- [🔌 Free API Providers](#-free-api-providers) — Cloud APIs with generous free tiers for model inference
+- [🖼️ Image & Video Generation](#-image--video-generation) — Open-weight and API-based visual generation models
+- [🔀 Free API Routers](#-free-api-routers) — Unified gateways routing requests across multiple providers
+- [💻 Local Inference Tools](#-local-inference-tools) — Software to run models locally with full privacy
+- [💬 AI Chatbot UIs](#-ai-chatbot-uis) — Self-hosted web interfaces for chatting with models
+- [🎵 Audio & Speech Models](#-audio--speech-models) — Open-weight TTS, STT, and voice generation models
+- [🤖 AI Coding Assistants](#-ai-coding-assistants) — IDE extensions and CLI tools for AI-assisted development
+- [📝 Code Models](#-code-models) — Models specialized for code generation and analysis
+- [🧬 Embedding Models](#-embedding-models) — Models for semantic search, RAG, and text representation
+- [🔍 RAG & Vector Databases](#-rag--vector-databases) — Vector storage and retrieval for augmented generation
+- [🧩 Agentic Frameworks](#-agentic-frameworks) — Frameworks for building autonomous AI agents and multi-agent systems
+- [🔧 MCP Servers & Tools](#-mcp-servers--tools) — Model Context Protocol servers connecting AI to external tools
+- [🎛 Fine-tuning Tools](#-fine-tuning-tools) — Tools for adapting models to your specific data
+- [✨ Prompt Engineering Tools](#-prompt-engineering-tools) — Tools for testing, managing, and optimizing prompts
+- [📊 LLM Evaluation & Observability](#-llm-evaluation--observability) — Tracing, evaluation, and monitoring for LLM apps
+- [📊 Datasets](#-datasets) — Open datasets for training, fine-tuning, and evaluation
+- [☁ Model Hosting Platforms](#-model-hosting-platforms) — Free cloud platforms for hosting and running models
+- [📚 Learning Resources](#-learning-resources) — Free courses, tutorials, and guides for AI engineering
+- [🏆 Resources & Leaderboards](#-resources--leaderboards) — Benchmarks, leaderboards, and model discovery tools
+- [👥 Communities](#-communities) — Discord servers, subreddits, and forums for discussion
 
 ---
 
