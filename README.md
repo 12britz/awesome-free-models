@@ -486,6 +486,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 - [OpenRouter Models](https://openrouter.ai/models) — Browse models available via API with pricing and free tiers.
 - [Ollama Library](https://ollama.com/library) — Browse models available for one-command local setup.
 - [cheahjs/free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources) — Community-maintained list of free LLM API resources.
+- [stillworks](https://stillworks.supercapybara.com/) — Directories list. We check. Live-probed status of free LLM API endpoints, verified by real chat completions instead of provider docs. [GitHub](https://github.com/bon5co/stillworks)
 
 ---
 
