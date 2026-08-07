@@ -2,14 +2,14 @@
 
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-August%201%2C%202026-brightgreen?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-August%207%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-48-blue?style=flat-square)
 ![Tools](https://img.shields.io/badge/Tools-245-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-21-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 [![GitGem](https://gitgem.org/api/badge/github/12britz/awesome-free-models.svg)](https://gitgem.org/github/12britz/awesome-free-models)
 
-> ✅ All links verified live on August 1, 2026. 330+ URLs checked. All links working (some sites block automated checks but work in browsers).
+> ✅ All links verified live on August 7, 2026. 325+ URLs checked. Removed broken/outdated links (cheahjs/free-llm-api-resources repo deleted, ComfyUI moved to Comfy-Org, removed 5 low-star/unmaintained entries). Some sites block automated checks but work in browsers.
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -43,7 +43,7 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 
 ## 🧠 Open-Weight Models
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Notable open-weight models you can download and run on your own hardware.
 
@@ -83,7 +83,7 @@ Notable open-weight models you can download and run on your own hardware.
 
 ## 🔌 Free API Providers
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Providers offering free tiers to access models via API — no local hardware required.
 
@@ -141,7 +141,7 @@ Providers offering free tiers to access models via API — no local hardware req
 
 ## 🖼️ Image & Video Generation
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Free, open-weight image and video generation models — run locally or via free APIs.
 
@@ -150,13 +150,13 @@ Free, open-weight image and video generation models — run locally or via free 
 - [Z-Image (Tongyi Lab / Alibaba)](https://github.com/Tongyi-MAI/Z-Image) — **11.8K★.** Open-weight T2I with strong GenEval scores. Z-Image-Turbo for 4-step generation. Apache 2.0.
 - [Pollinations.ai](https://pollinations.ai/) — **Free image generation API.** No API key or signup needed. Text-to-image, image-to-image. OpenAI-compatible. Integrates with ComfyUI.
 - [OpenImageGen (Hugging Face)](https://huggingface.co/spaces/OpenImageGen/OpenImageGen) — Free, open-source image generation playground. Supports multiple community models via diffusers. Apache 2.0. **Note: Requires Hugging Face login.**
-- [ComfyUI](https://github.com/comfyanonymous/ComfyUI) — **123K★.** Node-based image and video generation UI. Run FLUX, Stable Diffusion, and more locally. GPL-3.0.
+- [ComfyUI](https://github.com/Comfy-Org/ComfyUI) — **124K★.** Node-based image and video generation UI. Run FLUX, Stable Diffusion, and more locally. GPL-3.0.
 
 ---
 
 ## 🔀 Free API Routers
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Open-source tools that route requests across multiple AI providers — unified API, automatic failover, and cost optimization.
 
@@ -169,7 +169,7 @@ Open-source tools that route requests across multiple AI providers — unified A
 
 ## 💻 Local Inference Tools
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Run models on your own machine — no API keys needed, full privacy.
 
@@ -204,7 +204,7 @@ Run models on your own machine — no API keys needed, full privacy.
 
 ## 💬 AI Chatbot UIs
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Free, open-source web interfaces for chatting with AI models — self-host or use hosted versions.
 
@@ -218,7 +218,7 @@ Free, open-source web interfaces for chatting with AI models — self-host or us
 
 ## 🎵 Audio & Speech Models
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generation models you can run locally.
 
@@ -233,7 +233,7 @@ Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generati
 
 ## 🤖 AI Coding Assistants
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Free tools that integrate AI into your development workflow.
 
@@ -254,7 +254,6 @@ Free tools that integrate AI into your development workflow.
 - [Goose](https://goose-docs.ai/) — Open-source CLI agent for complex software engineering tasks. Extensible plugin system. Built by Block/Square. [GitHub](https://github.com/aaif-goose/goose)
 - [Qwen Code](https://github.com/QwenLM/qwen-code) — **2025.** Open-source terminal AI coding agent with 26K+ stars. Multi-protocol (OpenAI, Anthropic, Gemini, Qwen). Auto-memory, sub-agents, agent teams, MCP. Apache 2.0.
 - [CodeWhale](https://github.com/Hmbown/CodeWhale) — **2026.** Terminal coding agent with 40K+ stars. 30+ providers, local models via Ollama/vLLM. TUI, headless mode, web UI. MIT license.
-- [SideCar](https://github.com/nedonatelli/sidecar) — **2026.** Free, self-hosted VS Code agent extension. Full agent loop, local Ollama models, inline completions, MCP. Drop-in for Copilot/Claude Code. MIT.
 - [nanobot (HKUDS)](https://github.com/HKUDS/nanobot) — **2026.** Open-source, ultra-lightweight personal AI agent with WebUI, chat channels, MCP, memory, and scheduling. 46K★. MIT.
 - [MiMoCode (Xiaomi)](https://github.com/XiaomiMiMo/MiMo-Code) — **Jun 2026.** Terminal-native coding agent with persistent memory, subagent orchestration, and goal-driven autonomous loops. 12.4K★. MIT.
 
@@ -262,7 +261,7 @@ Free tools that integrate AI into your development workflow.
 
 ## 📝 Code Models
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Specialized for code generation, completion, and analysis.
 
@@ -288,7 +287,7 @@ Specialized for code generation, completion, and analysis.
 
 ## 🧬 Embedding Models
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Free, open-weight embedding and reranker models for semantic search, RAG, and text representation.
 
@@ -302,7 +301,7 @@ Free, open-weight embedding and reranker models for semantic search, RAG, and te
 
 ## 🔍 RAG & Vector Databases
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Free tools for building retrieval-augmented generation pipelines — vector storage, embedding search, and document retrieval.
 
@@ -321,7 +320,7 @@ Free tools for building retrieval-augmented generation pipelines — vector stor
 
 ## 🧩 Agentic Frameworks
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Free, open-source frameworks for building AI agents and multi-agent systems.
 
@@ -358,22 +357,19 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 
 ## 🔧 MCP Servers & Tools
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Model Context Protocol (MCP) servers that connect AI assistants to external tools, data sources, and APIs.
 
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) — **31.7K★.** Official GitHub MCP server by GitHub. Repository management, issue/PR automation, CI/CD intelligence, code analysis. OAuth or PAT auth. MIT license.
 - [GitMCP](https://github.com/idosal/git-mcp) — **8.2K★.** Free, open-source, remote MCP server for any GitHub project. Zero-setup documentation and code access for AI assistants. Apache 2.0.
 - [MCP Reference Servers (Anthropic)](https://github.com/modelcontextprotocol/servers) — **88.9K★.** Official reference implementations: Filesystem, Git, Fetch, Memory, Time, Sequential Thinking. Apache 2.0 / MIT.
-- [MCP Server Toolkit](https://github.com/naveenayalla1-CS50/mcp-server-toolkit) — Semantic code search, docs server, database server (Postgres/MySQL/SQLite), OpenAPI introspection. One-command `npx` setup. MIT.
-- [MCP Depot](https://github.com/mcp-depot/mcp-depot) — Self-hosted MCP server hub with web UI. Connect Jira, GitHub, Confluence, Jenkins, custom APIs. AGPL-3.0.
-- [free-search-mcp](https://github.com/sweetcornna/free-search-mcp) — Free web search via MCP with no API key required. Multiple search backends with automatic failover. Apache 2.0.
 
 ---
 
 ## 🎛 Fine-tuning Tools
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Tools to fine-tune free models on your own data — all free and open-source.
 
@@ -388,7 +384,7 @@ Tools to fine-tune free models on your own data — all free and open-source.
 
 ## ✨ Prompt Engineering Tools
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Free tools for testing, managing, and optimizing prompts.
 
@@ -402,7 +398,7 @@ Free tools for testing, managing, and optimizing prompts.
 
 ## 📊 LLM Evaluation & Observability
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Free, open-source tools for tracing, evaluating, and monitoring LLM applications in development and production.
 
@@ -416,7 +412,7 @@ Free, open-source tools for tracing, evaluating, and monitoring LLM applications
 
 ## 📊 Datasets
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Free, open datasets for training, fine-tuning, and evaluating models.
 
@@ -436,7 +432,7 @@ Free, open datasets for training, fine-tuning, and evaluating models.
 
 ## ☁ Model Hosting Platforms
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Free platforms that host models — run inference without downloading anything.
 
@@ -454,7 +450,7 @@ Free platforms that host models — run inference without downloading anything.
 
 ## 📚 Learning Resources
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 Free courses, books, and tutorials for learning AI and LLMs.
 
@@ -475,7 +471,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 ## 🏆 Resources & Leaderboards
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 - [Perplexity](https://www.perplexity.ai/) — Free AI search and research assistant with real-time answers and source citations.
 - [BenchLM.ai](https://benchlm.ai/) — **New.** LLM leaderboard with 281 models compared across 8 categories. Verified benchmark data updated weekly.
@@ -485,13 +481,12 @@ Free courses, books, and tutorials for learning AI and LLMs.
 - [Hugging Face Models](https://huggingface.co/models) — Search 1M+ models. Filter by license, task, framework.
 - [OpenRouter Models](https://openrouter.ai/models) — Browse models available via API with pricing and free tiers.
 - [Ollama Library](https://ollama.com/library) — Browse models available for one-command local setup.
-- [cheahjs/free-llm-api-resources](https://github.com/cheahjs/free-llm-api-resources) — Community-maintained list of free LLM API resources.
 
 ---
 
 ## 👥 Communities
 
-> 📅 Last checked: August 1, 2026
+> 📅 Last checked: August 7, 2026
 
 - [Hugging Face Discord](https://discord.gg/huggingface) — Model releases, discussions, and community support.
 - [r/LocalLLaMA](https://reddit.com/r/LocalLLaMA) — The largest Reddit community for running local LLMs.
