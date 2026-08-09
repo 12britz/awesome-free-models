@@ -87,26 +87,26 @@ Notable open-weight models you can download and run on your own hardware.
 
 Providers offering free tiers to access models via API — no local hardware required.
 
-- [Google AI Studio](https://aistudio.google.com/) — **Most generous free tier.** Access Gemini 2.5 Flash, Gemini 2.0 Flash, and other models. Generous rate limits for prototyping.
-- [OpenRouter](https://openrouter.ai/) — Aggregates 500+ models. Filter by "Free" to see models available at no cost. Includes experimental and subsidized open-weight models.
-- [AnyAPI](https://anyapi.ai/) — 400+ models with OpenAI-compatible API. Free tier: 100K tokens/day, unlimited users. Includes free and basic models. No credit card required.
-- [Groq](https://console.groq.com/) — Ultra-fast inference. Free tier includes Llama, Gemma, Mixtral, Whisper models with generous daily rate limits.
-- [Hugging Face Inference Providers](https://huggingface.co/inference-api) — Free tier for thousands of community models. Rate-limited but excellent for testing.
-- [NVIDIA NIM](https://build.nvidia.com/) — Free API access to accelerated versions of Llama, Mistral, Gemma, and more on NVIDIA infrastructure.
-- [DeepInfra](https://deepinfra.com/) — Serverless inference. Free tier with daily rate limits for popular open-source models.
-- [Together AI](https://www.together.ai/) — Free trial credits for new users. Fast inference on open-source models.
-- [Fireworks AI](https://fireworks.ai/) — Free tier for community models. Optimized for low latency.
-- [SiliconFlow](https://siliconflow.cn/) — Rising platform with free access to many open-source models.
-- [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) — Free tier for running select open-source models at the edge.
-- [Black Forest Labs](https://api.bfl.ai/) — Free Flux 2 Dev and Flux Kontext Dev image generation via API. Rate-limited, no credit card required.
+- [Google AI Studio](https://aistudio.google.com/) — **15 free models** — **Most generous free tier.** Access Gemini 2.5 Flash, Gemini 2.0 Flash, and other models. Generous rate limits for prototyping.
+- [OpenRouter](https://openrouter.ai/) — **22 free models** — Aggregates 500+ models. Filter by "Free" to see models available at no cost. Includes experimental and subsidized open-weight models.
+- [AnyAPI](https://anyapi.ai/) — **15 free models** — 400+ models with OpenAI-compatible API. Free tier: 100K tokens/day, unlimited users. Includes free and basic models. No credit card required.
+- [Groq](https://console.groq.com/) — **12 free models** — Ultra-fast inference. Free tier includes Llama, Gemma, Mixtral, Whisper models with generous daily rate limits.
+- [Hugging Face Inference Providers](https://huggingface.co/inference-api) — **5 free models** — Free tier for thousands of community models. Rate-limited but excellent for testing.
+- [NVIDIA NIM](https://build.nvidia.com/) — **123 free models** — Free API access to accelerated versions of Llama, Mistral, Gemma, and more on NVIDIA infrastructure.
+- [DeepInfra](https://deepinfra.com/) — **40 free models** — Serverless inference. Free tier with daily rate limits for popular open-source models.
+- [Together AI](https://www.together.ai/) — **71 free models** — Free trial credits for new users. Fast inference on open-source models.
+- [Fireworks AI](https://fireworks.ai/) — **15 free models** — Free tier for community models. Optimized for low latency.
+- [SiliconFlow](https://siliconflow.cn/) — **3 free models** — Rising platform with free access to many open-source models.
+- [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) — **39 free models** — Free tier for running select open-source models at the edge.
+- [Black Forest Labs](https://api.bfl.ai/) — **2 free models** — Free Flux 2 Dev and Flux Kontext Dev image generation via API. Rate-limited, no credit card required.
 - [Replicate](https://replicate.com/) — Free tier with limited credits for running open-source models.
 - [Poe (Quora)](https://poe.com/) — Free tier with daily credits for GPT-4 mini, Claude instant, and community bots.
 - [Qwen Studio (Alibaba)](https://chat.qwen.ai/) — Free access to Qwen 3.6-Plus, Qwen 3.6-Max, and other Qwen models via web chat and API. 1M token context for agentic coding.
-- [Ollama Cloud](https://ollama.com/cloud) — Free tier for running open-source models on Ollama's cloud infrastructure. Light usage with session limits (reset every 5 hours) and weekly limits. 1 concurrent model. Same `ollama run` command as local. Prompt/response data never logged or trained on.
-- [Mistral AI (La Plateforme)](https://mistral.ai/) — Free API tier with access to Mistral Large, Mistral Nemo, Codestral and more. 1 req/s, 500k tokens/min. Requires phone verification and data usage opt-in.
-- [Cohere](https://cohere.com/) — Free evaluation API key for Command R, Command R+, Embed, and Rerank models. 20 req/min, 1,000 req/month.
+- [Ollama Cloud](https://ollama.com/cloud) — **9 free models** — Free tier for running open-source models on Ollama's cloud infrastructure. Light usage with session limits (reset every 5 hours) and weekly limits. 1 concurrent model. Same `ollama run` command as local. Prompt/response data never logged or trained on.
+- [Mistral AI (La Plateforme)](https://mistral.ai/) — **12 free models** — Free API tier with access to Mistral Large, Mistral Nemo, Codestral and more. 1 req/s, 500k tokens/min. Requires phone verification and data usage opt-in.
+- [Cohere](https://cohere.com/) — **15 free models** — Free evaluation API key for Command R, Command R+, Embed, and Rerank models. 20 req/min, 1,000 req/month.
 - [DeepSeek Platform](https://deepseek.com/) — Free API credits for new users (5M tokens). Access to DeepSeek V4, DeepSeek-R1, and other models. Generous free allocation.
-- [GitHub Models](https://github.com/marketplace?type=models) — Free tier for GitHub users. Access GPT-4o, Llama 3.3, Mistral, and more with rate-limited playground and API.
+- [GitHub Models](https://github.com/marketplace?type=models) — **16 free models** — Free tier for GitHub users. Access GPT-4o, Llama 3.3, Mistral, and more with rate-limited playground and API.
 - [Hyperbolic](https://www.hyperbolic.ai/) — Open-access AI cloud with affordable inference. Free compute credits via referral program. Supports Llama, Qwen, DeepSeek, and other open models.
 - [Novita AI](https://novita.ai/) — Free credits for testing 100+ models including Llama, Qwen, DeepSeek, and Mistral. OpenAI-compatible API with competitive pricing beyond the free tier.
 - [Anakin.ai](https://anakin.ai/) — **30 daily free credits** for accessing multiple AI models. Web chat interface and API access. Supports GPT-4, Claude, and open-weight models.
@@ -117,15 +117,15 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Amazon Bedrock](https://aws.amazon.com/bedrock/) — **$200 AWS credits** for new customers. Access to Llama, Mistral, Claude, Titan, and other foundation models via API.
 - [Microsoft Foundry (Azure)](https://azure.microsoft.com/en-us/products/ai-foundry/) — **$200 free trial credits** (30 days). Access GPT-4o, Llama, Mistral, Phi, and other models via Azure's unified AI platform.
 - [RunPod](https://www.runpod.io/) — Free credits for serverless GPU inference. Deploy open-weight models as serverless endpoints. Supports Llama, Qwen, DeepSeek, and more.
-- [Cerebras](https://cerebras.ai/) — Free tier with ultra-fast inference on Llama, Gemma, and Mistral models. No credit card required. **Note: Model availability fluctuates.**
+- [Cerebras](https://cerebras.ai/) — **8 free models** — Free tier with ultra-fast inference on Llama, Gemma, and Mistral models. No credit card required. **Note: Model availability fluctuates.**
 - [BazaarLink](https://bazaarlink.ai/) — Free OpenAI-compatible API with `auto:free` routing to zero-cost models. No credit card, no trial expiry. 10 RPM, 130 req/day.
 - [Kimi API (Moonshot)](https://platform.moonshot.cn/) — Free tier for new accounts with access to Kimi K2.5 (128K context). Also free via NVIDIA NIM. OpenAI-compatible.
-- [Alibaba DashScope](https://dashscope.aliyun.com/) — Free tier for Qwen models. 1M tokens/month. OpenAI-compatible API.
-- [SambaNova Cloud](https://cloud.sambanova.ai/) — Free tier with $5 credits (30-day). Fast RDU inference for Llama 3.1 405B, Llama 3.3 70B, DeepSeek V3.1/V3.2, Qwen 2.5, gpt-oss-120b. 20 RPM, 200K tokens/day. No credit card required.
-- [OVHcloud AI Endpoints](https://www.ovhcloud.com/en/public-cloud/ai-endpoints/) — EU-hosted, GDPR-compliant free tier. No registration required for anonymous tier. Models: Qwen, Mistral, Llama, DeepSeek, gpt-oss-120B, embeddings, image generation. 12 RPM. OpenAI-compatible.
-- [Chutes.ai](https://chutes.ai/) — Community-powered free GPU inference for open-source models. DeepSeek-R1, Llama 3.1 70B, Qwen 2.5 72B. OpenAI-compatible API. No credit card.
-- [ModelScope](https://modelscope.cn/) — Chinese platform with 50+ free open models. Qwen, DeepSeek, GLM, and more. No credit card required.
-- [Z.ai (Zhipu AI)](https://open.bigmodel.cn/) — Free tier for GLM models including GLM-4.5, GLM-4V. No credit card required.
+- [Alibaba DashScope](https://dashscope.aliyun.com/) — **5 free models** — Free tier for Qwen models. 1M tokens/month. OpenAI-compatible API.
+- [SambaNova Cloud](https://cloud.sambanova.ai/) — **4 free models** — Free tier with $5 credits (30-day). Fast RDU inference for Llama 3.1 405B, Llama 3.3 70B, DeepSeek V3.1/V3.2, Qwen 2.5, gpt-oss-120b. 20 RPM, 200K tokens/day. No credit card required.
+- [OVHcloud AI Endpoints](https://www.ovhcloud.com/en/public-cloud/ai-endpoints/) — **14 free models** — EU-hosted, GDPR-compliant free tier. No registration required for anonymous tier. Models: Qwen, Mistral, Llama, DeepSeek, gpt-oss-120B, embeddings, image generation. 12 RPM. OpenAI-compatible.
+- [Chutes.ai](https://chutes.ai/) — **2 free models** — Community-powered free GPU inference for open-source models. DeepSeek-R1, Llama 3.1 70B, Qwen 2.5 72B. OpenAI-compatible API. No credit card.
+- [ModelScope](https://modelscope.cn/) — **55 free models** — Chinese platform with 50+ free open models. Qwen, DeepSeek, GLM, and more. No credit card required.
+- [Z.ai (Zhipu AI)](https://open.bigmodel.cn/) — **4 free models** — Free tier for GLM models including GLM-4.5, GLM-4V. No credit card required.
 - [LongCat AI](https://longcat.chat/) — Free API for LongCat open-weight models. One-time 10M token grant after signup + KYC. Free cached tokens. OpenAI-compatible. MIT license.
 - [Coze (ByteDance)](https://www.coze.com/) — Free bot-building platform with API access to GPT-4o, Gemini 1.5 Pro, and other models. No credit card required. OpenAI-compatible.
 - [Free.ai](https://free.ai/developer/) — 400+ AI tools via a single OpenAI-compatible API. Free tier: 30K tokens/day, no credit card. Chat, image, video, music, voice, OCR, translation.
@@ -135,14 +135,13 @@ Providers offering free tiers to access models via API — no local hardware req
 - [ZeroLimitAI](https://www.zerolimitai.com/developers) — Free OpenAI-compatible API with `model: "auto"` routing to the best free model. No credit card, no trial expiry. Lifetime free tier available.
 - [Chat Oripe](https://api.oriper.com/) — **2M free tokens/month.** OpenAI-compatible API with GPT-4 and Claude access. No credit card required.
 - [FreeTheAi (da-jb)](https://github.com/da-jb/free-ai) — **Open-source.** Free AI API via Discord signup. No daily cap, 30 RPM. OpenAI-compatible, image and video generation.
-- [OpenCode Zen](https://opencode.ai/zen) — Curated AI gateway with 7 free models (DeepSeek V4 Flash Free, MiMo-V2.5 Free, Nemotron 3 Ultra Free, Big Pickle, Qwen 3.6 Plus Free, MiniMax M3 Free, North Mini Code Free). OpenAI-compatible API. No credit card required.
+- [OpenCode Zen](https://opencode.ai/zen) — **9 free models** — Curated AI gateway with free general and coding models (DeepSeek V4 Flash Free, MiMo-V2.5 Free, Nemotron 3 Ultra Free, Big Pickle, Qwen 3.6 Plus Free, MiniMax M3 Free, North Mini Code Free, and more). OpenAI-compatible API. No credit card required.
 - [LLM7.io](https://llm7.io/) — **15 free models**, no credit card required. DeepSeek R1/V3, GPT-4o mini and more. 1M context, multimodal. 30 RPM free (120 RPM with optional token).
 - [Kilo Code](https://kilo.ai/) — **12 free models**, no credit card. Nemotron 3 Ultra, Step 3.7 Flash, and more. 1M context, ~200 req/hr. Free tier for coding agents.
-- [xAI](https://x.ai/) — Free credit-based tier with access to Grok 4.3, Grok 4.1 Fast, and other models via `api.x.ai`. 2M context. OpenAI-compatible.
-- [Aion Labs](https://www.aionlabs.ai) — Free tier (registration only) with 7 models including Aion 2.5. 128K context, 15 RPM. No credit card required.
-- [Agnes AI](https://platform.agnes-ai.com/) — Free tier with Agnes 1.5/2.0 Flash and image models. 256K context, 30 RPM. Registration only, no credit card.
-- [Glhf.chat](https://glhf.chat/) — Free OpenAI-compatible API. Meta Llama 3.1 70B, Mixtral 8x7B and more. Unlimited usage on free models. Registration only.
-- [Nscale](https://console.nscale.com/) — Free tier (registration only) with Llama 3.3 70B and DeepSeek-R1-Distill-70B. 128K context. OpenAI-compatible.
+- [Aion Labs](https://www.aionlabs.ai) — **7 free models**, registration only. Includes Aion 2.5. 128K context, 15 RPM. No credit card required.
+- [Agnes AI](https://platform.agnes-ai.com/) — **5 free models** — Free tier with Agnes 1.5/2.0 Flash and image models. 256K context, 30 RPM. Registration only, no credit card.
+- [Glhf.chat](https://glhf.chat/) — **2 free models** — Free OpenAI-compatible API. Meta Llama 3.1 70B, Mixtral 8x7B and more. Unlimited usage on free models. Registration only.
+- [Nscale](https://console.nscale.com/) — **2 free models** — Free tier (registration only) with Llama 3.3 70B and DeepSeek-R1-Distill-70B. 128K context. OpenAI-compatible.
 
 ---
 
