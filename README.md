@@ -136,6 +136,13 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Chat Oripe](https://api.oriper.com/) — **2M free tokens/month.** OpenAI-compatible API with GPT-4 and Claude access. No credit card required.
 - [FreeTheAi (da-jb)](https://github.com/da-jb/free-ai) — **Open-source.** Free AI API via Discord signup. No daily cap, 30 RPM. OpenAI-compatible, image and video generation.
 - [OpenCode Zen](https://opencode.ai/zen) — Curated AI gateway with 7 free models (DeepSeek V4 Flash Free, MiMo-V2.5 Free, Nemotron 3 Ultra Free, Big Pickle, Qwen 3.6 Plus Free, MiniMax M3 Free, North Mini Code Free). OpenAI-compatible API. No credit card required.
+- [LLM7.io](https://llm7.io/) — **15 free models**, no credit card required. DeepSeek R1/V3, GPT-4o mini and more. 1M context, multimodal. 30 RPM free (120 RPM with optional token).
+- [Kilo Code](https://kilo.ai/) — **12 free models**, no credit card. Nemotron 3 Ultra, Step 3.7 Flash, and more. 1M context, ~200 req/hr. Free tier for coding agents.
+- [xAI](https://x.ai/) — Free credit-based tier with access to Grok 4.3, Grok 4.1 Fast, and other models via `api.x.ai`. 2M context. OpenAI-compatible.
+- [Aion Labs](https://www.aionlabs.ai) — Free tier (registration only) with 7 models including Aion 2.5. 128K context, 15 RPM. No credit card required.
+- [Agnes AI](https://platform.agnes-ai.com/) — Free tier with Agnes 1.5/2.0 Flash and image models. 256K context, 30 RPM. Registration only, no credit card.
+- [Glhf.chat](https://glhf.chat/) — Free OpenAI-compatible API. Meta Llama 3.1 70B, Mixtral 8x7B and more. Unlimited usage on free models. Registration only.
+- [Nscale](https://console.nscale.com/) — Free tier (registration only) with Llama 3.3 70B and DeepSeek-R1-Distill-70B. 128K context. OpenAI-compatible.
 
 ---
 
