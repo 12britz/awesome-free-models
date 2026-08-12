@@ -2,8 +2,8 @@
 
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-August%207%2C%202026-brightgreen?style=for-the-badge)
-![Models](https://img.shields.io/badge/Models-48-blue?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-August%2012%2C%202026-brightgreen?style=for-the-badge)
+![Models](https://img.shields.io/badge/Models-49-blue?style=flat-square)
 ![Tools](https://img.shields.io/badge/Tools-245-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-21-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
@@ -43,10 +43,11 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 
 ## 🧠 Open-Weight Models
 
-> 📅 Last checked: August 7, 2026
+> 📅 Last checked: August 12, 2026
 
 Notable open-weight models you can download and run on your own hardware.
 
+- [Muse Glimmer (Meta Superintelligence Lab)](https://huggingface.co/meta-models/Muse-Glimmer-30B) — **Aug 2026.** 30B dense multimodal model distilled from Muse Spark for local agentic workflows. Multi-step reasoning, tool use, vision, and failure recovery on consumer hardware (4-bit quant fits 24GB VRAM). 131K context. Apache 2.0.
 - [Llama 4 Scout / Maverick](https://huggingface.co/meta-llama) — Meta's latest MoE generation. Scout: 109B, 10M context. Maverick: 402B, 1M context. Native multimodal. [[License]](https://github.com/meta-llama/llama-models/blob/main/README.md#llama-models-1)
 - [DeepSeek V4 Pro](https://huggingface.co/deepseek-ai) — **Apr 2026.** 1.6T MoE (49B active). SWE-bench Verified 80.6% (top open-weight). 1M context. MIT license.
 - [DeepSeek V4](https://huggingface.co/deepseek-ai) — Core generation with extreme cost-efficiency. 1M context. MIT license.
