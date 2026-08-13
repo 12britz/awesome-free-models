@@ -263,6 +263,7 @@ Free tools that integrate AI into your development workflow.
 - [CodeWhale](https://github.com/Hmbown/CodeWhale) — **2026.** Terminal coding agent with 40K+ stars. 30+ providers, local models via Ollama/vLLM. TUI, headless mode, web UI. MIT license.
 - [nanobot (HKUDS)](https://github.com/HKUDS/nanobot) — **2026.** Open-source, ultra-lightweight personal AI agent with WebUI, chat channels, MCP, memory, and scheduling. 46K★. MIT.
 - [MiMoCode (Xiaomi)](https://github.com/XiaomiMiMo/MiMo-Code) — **Jun 2026.** Terminal-native coding agent with persistent memory, subagent orchestration, and goal-driven autonomous loops. 12.4K★. MIT.
+- [Atomic Agent](https://atomicagent.io/) — **2026.** Local-first CLI and TUI coding agent that runs open-weight models entirely on your machine via a llama.cpp fork. No account or API key required. 56 built-in tools (browser, filesystem, git, memory, vision), MCP support, five-layer local memory. macOS, Linux, Windows. 2K★. MIT. [GitHub](https://github.com/AtomicBot-ai/atomic-agent)
 
 ---
 
