@@ -200,7 +200,7 @@ Run models on your own machine — no API keys needed, full privacy.
 - [WebLLM](https://github.com/mlc-ai/web-llm) — In-browser LLM inference via WebGPU. Runs models directly in your browser with zero setup. No server needed.
 - [FastChat (LMSYS)](https://github.com/lm-sys/FastChat) — Open platform for training, serving, and evaluating LLMs. Provides OpenAI-compatible API and web UI for local models.
 - [Hugging Face TGI](https://github.com/huggingface/text-generation-inference) — **10.9K★.** Production-grade serving toolkit for large language models. **Note: Archived by Hugging Face (Mar 2026).** Consider vLLM, SGLang, or TGI forks for active development.
-- [DeepSpeed (Microsoft)](https://github.com/microsoft/DeepSpeed) — Deep learning optimization library with inference acceleration. Enables running larger models on limited hardware through ZeRO optimization.
+- [DeepSpeed (Microsoft)](https://github.com/deepspeedai/DeepSpeed) — Deep learning optimization library with inference acceleration. Enables running larger models on limited hardware through ZeRO optimization.
 - [AirLLM](https://github.com/lyogavin/airllm) — Run large models (70B+) on consumer hardware with limited memory. Loads models layer-by-layer for extreme memory efficiency. **Actively maintained (last push Jul 2026).**
 - [AI Toolkit for VS Code (Microsoft)](https://marketplace.visualstudio.com/items?itemName=ms-windows-ai-studio.windows-ai-studio) — VS Code extension to browse, test, fine-tune, and deploy models locally. Integrates ONNX and llama.cpp.
 - [Ollama Grid Search](https://github.com/dezoito/ollama-grid-search) — Desktop utility for systematic model evaluation. Test multiple models, prompts, and inference parameters side-by-side via a Rust/React GUI.
@@ -372,6 +372,7 @@ Model Context Protocol (MCP) servers that connect AI assistants to external tool
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) — **31.7K★.** Official GitHub MCP server by GitHub. Repository management, issue/PR automation, CI/CD intelligence, code analysis. OAuth or PAT auth. MIT license.
 - [GitMCP](https://github.com/idosal/git-mcp) — **8.2K★.** Free, open-source, remote MCP server for any GitHub project. Zero-setup documentation and code access for AI assistants. Apache 2.0.
 - [MCP Reference Servers (Anthropic)](https://github.com/modelcontextprotocol/servers) — **88.9K★.** Official reference implementations: Filesystem, Git, Fetch, Memory, Time, Sequential Thinking. Apache 2.0 / MIT.
+- [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) — Independent X (Twitter) data API for search, follower export, monitors, and MCP.
 
 ---
 
