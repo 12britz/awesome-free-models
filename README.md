@@ -263,6 +263,7 @@ Free tools that integrate AI into your development workflow.
 - [CodeWhale](https://github.com/Hmbown/CodeWhale) — **2026.** Terminal coding agent with 40K+ stars. 30+ providers, local models via Ollama/vLLM. TUI, headless mode, web UI. MIT license.
 - [nanobot (HKUDS)](https://github.com/HKUDS/nanobot) — **2026.** Open-source, ultra-lightweight personal AI agent with WebUI, chat channels, MCP, memory, and scheduling. 46K★. MIT.
 - [MiMoCode (Xiaomi)](https://github.com/XiaomiMiMo/MiMo-Code) — **Jun 2026.** Terminal-native coding agent with persistent memory, subagent orchestration, and goal-driven autonomous loops. 12.4K★. MIT.
+- [DSH Studio](https://github.com/Moresyl/dsh-studio) — Free, MIT-licensed desktop app for installing, configuring, and managing DeepSeek Harness across macOS, Windows, and Linux. [GitHub](https://github.com/Moresyl/dsh-studio)
 
 ---
 
