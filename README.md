@@ -489,6 +489,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 - [Hugging Face Models](https://huggingface.co/models) — Search 1M+ models. Filter by license, task, framework.
 - [OpenRouter Models](https://openrouter.ai/models) — Browse models available via API with pricing and free tiers.
 - [Ollama Library](https://ollama.com/library) — Browse models available for one-command local setup.
+- [China AI Arbitrage](https://www.china-ai-arbitrage.xyz/) — Tracker for free AI token offers and cheap third-party API relays with real quota benchmarks. Side-by-side pricing comparison across 20+ AI APIs, plus in-depth analysis blogs on DeepSeek, Kimi, and GLM.
 
 ---
 
