@@ -2,14 +2,14 @@
 
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-August%2019%2C%202026-brightgreen?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-August%2022%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-49-blue?style=flat-square)
 ![Tools](https://img.shields.io/badge/Tools-245-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-21-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 [![GitGem](https://gitgem.org/api/badge/github/12britz/awesome-free-models.svg)](https://gitgem.org/github/12britz/awesome-free-models)
 
-> ✅ All links re-verified on August 19, 2026 (329 URLs). Fixed the FreeTheAi repo link (da-jb/free-ai → Free-The-Ai/free-ai); flagged Poe's free-tier reduction (~3,000 → 300 compute points/day, Mar 2026); updated OpenRouter (16 free) and NVIDIA NIM (100+) model counts; noted DeepInfra's return of recurring monthly free credits (advertised ~$10/mo). Still flagged: retired GitHub Models, free-tier/price changes (Nebius, Cerebras, Together, Fireworks, Chutes.ai, AINative, CloudCode.ONE), archived repos (Flowise, text-generation-inference), unreachable services (glhf.chat, Chat Oripe/api.oriper.com), and rebrands (AI Toolkit → Microsoft Foundry Toolkit, HF NLP Course → LLM Course, Kimi → platform.kimi.com). Some sites block automated checks but work in browsers.
+> ✅ All links re-verified on August 22, 2026 (328 URLs). This run also detected a number of unreachable/blocked endpoints (e.g., Poe/Perplexity may return HTTP 403; some Hugging Face pages return HTTP 401).
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
