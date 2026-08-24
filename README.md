@@ -142,7 +142,7 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Agnes AI](https://platform.agnes-ai.com/) — **5 free models** — Free tier with Agnes 1.5/2.0 Flash and image models. 256K context, 30 RPM. Registration only, no credit card.
 - [Glhf.chat](https://glhf.chat/) — **⚠️ Currently unreachable (HTTP 522) at check time.** Previously offered a free OpenAI-compatible API; verify availability before relying on it.
 - [Nscale](https://console.nscale.com/) — **2 free models** — Free tier (registration only) with Llama 3.3 70B and DeepSeek-R1-Distill-70B. 128K context. OpenAI-compatible.
-- [OrcaRouter](https://www.orcarouter.ai/offers) — **4 free models** — DeepSeek V4 Pro, DeepSeek V4 Flash, Qwen3.8 27B, and Tencent Hy3 at $0 per token, plus an `orcarouter/free` alias that auto-routes across the free lineup. OpenAI-, Anthropic-, and Gemini-compatible endpoints. No credit card and no trial expiry; rotating voucher, student, and hackathon credit offers are listed on the same page.
+- [OrcaRouter](https://www.orcarouter.ai/offers) — **4 free models** — DeepSeek V4 Pro, DeepSeek V4 Flash, Qwen3.8 27B, and Tencent Hy3 at $0 per token, plus an `orcarouter/free` alias that auto-routes across the free lineup. OpenAI-, Anthropic-, and Gemini-compatible endpoints. No credit card and no trial expiry. The same page also gives away free vouchers for frontier models — e.g. $10 (~5M tokens) on Grok 4.5 — plus student programs and partner-hackathon credit, browsable without an account; each card shows its own terms and flags any card requirement.
 
 ---
 
