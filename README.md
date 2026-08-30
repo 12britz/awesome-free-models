@@ -503,6 +503,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 - [Hugging Face Forums](https://discuss.huggingface.co/) — Discussions on models, datasets, and Spaces.
 - [r/MachineLearning](https://reddit.com/r/MachineLearning) — General ML/AI research and news.
 - [Discord: AI Agents](https://discord.gg/ai-agents) — Community for AI agent development and agentic frameworks.
+- [Free AI API (Telegram)](https://t.me/free_ai_api_ru) — Daily posts on free tiers that need no card: limits, rate limits, and whether the endpoint is OpenAI-compatible. Each offer is checked against the provider's own page before posting.
 
 ---
 
