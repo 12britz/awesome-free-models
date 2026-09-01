@@ -488,6 +488,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 - [Artificial Analysis](https://artificialanalysis.ai/) — Independent benchmarks for speed, pricing, and quality across providers.
 - [Hugging Face Models](https://huggingface.co/models) — Search 1M+ models. Filter by license, task, framework.
 - [OpenRouter Models](https://openrouter.ai/models) — Browse models available via API with pricing and free tiers.
+- [Free LLM API Deals](https://github.com/RomeroYang/free-llm-api-deals) — Machine-readable dataset of free tiers, trial credits, and price cuts across LLM API providers. Every entry carries a source URL and a verified date; refreshed daily.
 - [Ollama Library](https://ollama.com/library) — Browse models available for one-command local setup.
 
 ---
