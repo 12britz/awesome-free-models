@@ -30,7 +30,7 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 - [🔍 RAG & Vector Databases](#-rag--vector-databases) — Vector storage and retrieval for augmented generation
 - [🧩 Agentic Frameworks](#-agentic-frameworks) — Frameworks for building autonomous AI agents and multi-agent systems
 - [🔧 MCP Servers & Tools](#-mcp-servers--tools) — Model Context Protocol servers connecting AI to external tools
-- [🎛 Fine-tuning Tools](#-fine-tuning-tools) — Tools for adapting models to your specific data
+- [🎛️ Fine-tuning Tools](#-fine-tuning-tools) — Tools for adapting models to your specific data
 - [✨ Prompt Engineering Tools](#-prompt-engineering-tools) — Tools for testing, managing, and optimizing prompts
 - [📊 LLM Evaluation & Observability](#-llm-evaluation--observability) — Tracing, evaluation, and monitoring for LLM apps
 - [📊 Datasets](#-datasets) — Open datasets for training, fine-tuning, and evaluation
