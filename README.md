@@ -2,14 +2,14 @@
 
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-August%2031%2C%202026-brightgreen?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-September%202%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-49-blue?style=flat-square)
 ![Tools](https://img.shields.io/badge/Tools-245-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-21-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 [![GitGem](https://gitgem.org/api/badge/github/12britz/awesome-free-models.svg)](https://gitgem.org/github/12britz/awesome-free-models)
 
-> ✅ All links re-verified on August 31, 2026 (329 URLs). This run also detected a number of unreachable/blocked endpoints (e.g., Poe/Reddit/Perplexity may return HTTP 403; some Hugging Face pages return HTTP 401; api.oriper.com and glhf.chat remain unreachable).
+> ✅ All links re-verified on September 2, 2026 (329 URLs). This run also detected a number of unreachable/blocked endpoints (e.g., Poe/Reddit/Perplexity may return HTTP 403; some Hugging Face pages return HTTP 401; api.oriper.com and glhf.chat remain unreachable).
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -43,7 +43,7 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 
 ## 🧠 Open-Weight Models
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Notable open-weight models you can download and run on your own hardware.
 
@@ -84,7 +84,7 @@ Notable open-weight models you can download and run on your own hardware.
 
 ## 🔌 Free API Providers
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Providers offering free tiers to access models via API — no local hardware required.
 
@@ -148,7 +148,7 @@ Providers offering free tiers to access models via API — no local hardware req
 
 ## 🖼️ Image & Video Generation
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Free, open-weight image and video generation models — run locally or via free APIs.
 
@@ -163,7 +163,7 @@ Free, open-weight image and video generation models — run locally or via free 
 
 ## 🔀 Free API Routers
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Open-source tools that route requests across multiple AI providers — unified API, automatic failover, and cost optimization.
 
@@ -176,7 +176,7 @@ Open-source tools that route requests across multiple AI providers — unified A
 
 ## 💻 Local Inference Tools
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Run models on your own machine — no API keys needed, full privacy.
 
@@ -211,7 +211,7 @@ Run models on your own machine — no API keys needed, full privacy.
 
 ## 💬 AI Chatbot UIs
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Free, open-source web interfaces for chatting with AI models — self-host or use hosted versions.
 
@@ -225,7 +225,7 @@ Free, open-source web interfaces for chatting with AI models — self-host or us
 
 ## 🎵 Audio & Speech Models
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generation models you can run locally.
 
@@ -240,7 +240,7 @@ Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generati
 
 ## 🤖 AI Coding Assistants
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Free tools that integrate AI into your development workflow.
 
@@ -268,7 +268,7 @@ Free tools that integrate AI into your development workflow.
 
 ## 📝 Code Models
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Specialized for code generation, completion, and analysis.
 
@@ -294,7 +294,7 @@ Specialized for code generation, completion, and analysis.
 
 ## 🧬 Embedding Models
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Free, open-weight embedding and reranker models for semantic search, RAG, and text representation.
 
@@ -308,7 +308,7 @@ Free, open-weight embedding and reranker models for semantic search, RAG, and te
 
 ## 🔍 RAG & Vector Databases
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Free tools for building retrieval-augmented generation pipelines — vector storage, embedding search, and document retrieval.
 
@@ -328,7 +328,7 @@ Free tools for building retrieval-augmented generation pipelines — vector stor
 
 ## 🧩 Agentic Frameworks
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Free, open-source frameworks for building AI agents and multi-agent systems.
 
@@ -365,7 +365,7 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 
 ## 🔧 MCP Servers & Tools
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Model Context Protocol (MCP) servers that connect AI assistants to external tools, data sources, and APIs.
 
@@ -377,7 +377,7 @@ Model Context Protocol (MCP) servers that connect AI assistants to external tool
 
 ## 🎛 Fine-tuning Tools
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Tools to fine-tune free models on your own data — all free and open-source.
 
@@ -392,7 +392,7 @@ Tools to fine-tune free models on your own data — all free and open-source.
 
 ## ✨ Prompt Engineering Tools
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Free tools for testing, managing, and optimizing prompts.
 
@@ -406,7 +406,7 @@ Free tools for testing, managing, and optimizing prompts.
 
 ## 📊 LLM Evaluation & Observability
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Free, open-source tools for tracing, evaluating, and monitoring LLM applications in development and production.
 
@@ -420,7 +420,7 @@ Free, open-source tools for tracing, evaluating, and monitoring LLM applications
 
 ## 📊 Datasets
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Free, open datasets for training, fine-tuning, and evaluating models.
 
@@ -440,7 +440,7 @@ Free, open datasets for training, fine-tuning, and evaluating models.
 
 ## ☁ Model Hosting Platforms
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Free platforms that host models — run inference without downloading anything.
 
@@ -458,7 +458,7 @@ Free platforms that host models — run inference without downloading anything.
 
 ## 📚 Learning Resources
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 Free courses, books, and tutorials for learning AI and LLMs.
 
@@ -479,7 +479,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 ## 🏆 Resources & Leaderboards
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 - [Perplexity](https://www.perplexity.ai/) — Free AI search and research assistant with real-time answers and source citations. **(HTTP 403 at check time; may block automation).**
 - [BenchLM.ai](https://benchlm.ai/) — **New.** LLM leaderboard with 281 models compared across 8 categories. Verified benchmark data updated weekly.
@@ -494,7 +494,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 ## 👥 Communities
 
-> 📅 Last checked: August 19, 2026
+> 📅 Last checked: September 2, 2026
 
 - [Hugging Face Discord](https://discord.gg/huggingface) — Model releases, discussions, and community support.
 - [r/LocalLLaMA](https://reddit.com/r/LocalLLaMA) — The largest Reddit community for running local LLMs. **(HTTP 403 at check time; may block automation).**
