@@ -79,6 +79,10 @@ Notable open-weight models you can download and run on your own hardware.
 - [Snowflake Arctic](https://huggingface.co/Snowflake/snowflake-arctic-instruct) — **Apr 2024.** Enterprise MoE model balancing high-quality performance with efficient training costs. Optimized for complex data operations. Apache 2.0.
 - [Falcon 3 (TII)](https://huggingface.co/tiiuae/Falcon3-7B-Instruct) — **Dec 2024.** Compact high-performance model with strong reasoning. Designed for efficient deployment on resource-constrained hardware. TII Falcon-LLM License 2.0.
 - [Apple OpenELM](https://huggingface.co/Apple/OpenELM-3B) — **Apr 2024.** Family of efficient on-device SLMs using layer-wise attention scaling. Runs locally on Apple Silicon with full privacy. Apple Sample Code License.
+- [DeepSeek V4 Flash 0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) — **Jul 2026.** 304B efficiency-focused variant. 1M context. MIT license. Fully self-hostable with GGUF support.
+- [Gemma 4 (12B)](https://huggingface.co/google/gemma-4-12B-it) — **May 2026.** Apache 2.0. Google's first laptop-class multimodal open-weight model. 256K context, native text/image/audio/video understanding.
+- [Llama 4 Scout](https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct) — **May 2026.** 109B MoE, 10M context. Native multimodal. Apache 2.0.
+- [Kimi K3](https://huggingface.co/moonshotai/Kimi-K3) — **Jul 2026.** 2.8T-parameter MoE (896 experts, ~50B active). World's largest open-weight model. 1M context, native vision + video. Modified MIT. Weights released Jul 27.
 
 ---
 
@@ -220,6 +224,9 @@ Free, open-source web interfaces for chatting with AI models — self-host or us
 - [AnythingLLM](https://anythingllm.com/) — All-in-one desktop app for chatting with documents and models. Built-in RAG pipeline. [GitHub](https://github.com/Mintplex-Labs/anything-llm)
 - [Big-AGI](https://big-agi.com/) — Feature-rich AI chat with personas, multi-model support, voice, and code execution. [GitHub](https://github.com/enricoros/big-agi)
 - [Lobe Chat](https://lobehub.com/) — Multi-agent orchestration platform with plugin system and multi-provider support. [GitHub](https://github.com/lobehub/lobehub)
+- [Mistral Le Chat](https://chat.mistral.ai/) — Web UI for Mistral Large 3, Medium 3.5, and Codestral; multimodal input (images, code). Free tier with rate‑limited calls (≈2 RPM, 500 K tokens / month). No credit‑card required.
+- [Google AI Studio Chat](https://aistudio.google.com/) — Direct chat interface for Gemini 3.5 Flash & Gemini 2.5 Pro; multimodal (image + text) and code‑execution blocks. Same free limits as AI Studio API (15 RPM, 1 500 tokens / day).
+- [OpenCode (GitHub‑hosted)](https://github.com/opencode-ai/opencode) — IDE‑style coding assistant that can be pointed at any free API (Groq, Google AI Studio, OpenRouter). Free backend integration; supports file editing, terminal commands, multi‑turn conversations.
 
 ---
 
@@ -303,6 +310,8 @@ Free, open-weight embedding and reranker models for semantic search, RAG, and te
 - [FlagEmbedding (BAAI)](https://github.com/FlagOpen/FlagEmbedding) — **12K★.** Framework and model zoo: BGE series, BGE-VL (multimodal), bge-en-icl, bge-multilingual-gemma2 (9B multilingual SOTA). MIT.
 - [nomic-embed-text-v2 (Nomic AI)](https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe) — **1.5B** MoE embedding model. 8192 context. Matches or exceeds OpenAI text-embedding-3-small. Apache 2.0.
 - [mxbai-embed-large-v1](https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1) — **0.3B** lightweight embedding. Top of MTEB among sub-0.5B models. Apache 2.0.
+- [Google text-embedding-004](https://aistudio.google.com/) — **1,500 req/day** via AI Studio. 512-dim & 768-dim variants. Free, no credit card required. Best for RAG and semantic search.
+- [Cohere Embed 4](https://cohere.com/embedding) — **1M free tokens/month** (≈200K embeddings/day). 1024-dim multilingual (100+ languages). Apache 2.0.
 
 ---
 
