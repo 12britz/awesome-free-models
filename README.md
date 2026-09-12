@@ -2,14 +2,14 @@
 
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-September%203%2C%202026-brightgreen?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-September%2012%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-49-blue?style=flat-square)
 ![Tools](https://img.shields.io/badge/Tools-245-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-21-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 [![GitGem](https://gitgem.org/api/badge/github/12britz/awesome-free-models.svg)](https://gitgem.org/github/12britz/awesome-free-models)
 
-> ✅ All links re-verified on September 3, 2026 (329 URLs). This run also detected a number of unreachable/blocked endpoints (e.g., Poe/Reddit/Perplexity may return HTTP 403; some Hugging Face pages return HTTP 401; api.oriper.com and glhf.chat remain unreachable).
+> ✅ All links re-verified on September 12, 2026 (327 unique links). This run confirmed previous findings (Poe/Reddit/Perplexity/chat.mistral.ai may return HTTP 403; api.oriper.com and glhf.chat remain unreachable; some Hugging Face pages return HTTP 401) and caught new issues: cohere.com/embedding now 404s (fixed to /embed), opencode-ai/opencode repo is archived, discord.gg/huggingface and discord.gg/ai-agents invites are dead, several free-tier claims changed (SambaNova, ZeroLimitAI, Kimi, Hyperbolic, fal.ai, Ollama Cloud), and DashScope rebranded to Alibaba Cloud Model Studio (Bailian).
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -43,7 +43,7 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 
 ## 🧠 Open-Weight Models
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Notable open-weight models you can download and run on your own hardware.
 
@@ -88,12 +88,12 @@ Notable open-weight models you can download and run on your own hardware.
 
 ## 🔌 Free API Providers
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Providers offering free tiers to access models via API — no local hardware required.
 
 - [Google AI Studio](https://aistudio.google.com/) — **~15 free models** — **Most generous free tier.** Rate-limited free access to Gemini 3.x Flash / Flash-Lite models (Gemini 2.0 Flash was shut down Jun 1, 2026). Generous limits for prototyping, no credit card required.
-- [OpenRouter](https://openrouter.ai/) — **16 free models** — Aggregates 400+ models. Filter by "Free" to see models available at no cost. **Note: free models now require a positive credit balance (balance may be $0).** Includes experimental and subsidized open-weight models.
+- [OpenRouter](https://openrouter.ai/) — **~22 free models** — Aggregates 400+ models. Filter by "Free" to see models available at no cost. **Note: free models now require a positive credit balance (balance may be $0).** Includes experimental and subsidized open-weight models. **Note: free model count churns frequently; treat as a snapshot.**
 - [AnyAPI](https://anyapi.ai/) — **15 free models** — 400+ models with OpenAI-compatible API. Free tier: 100K tokens/day, unlimited users. Includes free and basic models. No credit card required.
 - [Groq](https://console.groq.com/) — **12 free models** — Ultra-fast LPU inference. Free tier includes Llama 3.x/4, Qwen, GPT-OSS, and Whisper models with generous daily rate limits (no credit card).
 - [Hugging Face Inference Providers](https://huggingface.co/inference-api) — **5 free models** — Free tier for thousands of community models. Rate-limited but excellent for testing.
@@ -107,15 +107,15 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Replicate](https://replicate.com/) — Limited free runs on select "Try for Free" models, no credit card required; then prepaid pay-as-you-go.
 - [Poe (Quora)](https://poe.com/) — **⚠️ Free tier changed over time; link check returned HTTP 403 (may block automation).** Previously reported reduction (~300 compute points/day); verify in your browser before relying on exact numbers.
 - [Qwen Studio (Alibaba)](https://chat.qwen.ai/) — Free access to Qwen 3.6-Plus, Qwen 3.6-Max, and other Qwen models via web chat and API. 1M token context for agentic coding.
-- [Ollama Cloud](https://ollama.com/cloud) — **(keyword-detected best-effort; exact limits require manual confirmation).** Free tier for running open-source models on Ollama's cloud infrastructure with session/weekly limits and 1 concurrent model. Same `ollama run` command as local.
+- [Ollama Cloud](https://ollama.com/pricing) — **URL /cloud now redirects to /pricing (Sep 2026).** Free cloud plan with starter models, starter usage credits, and 1 concurrent model; limits reset periodically. Exact limits require manual confirmation. Same `ollama run` command as local.
 - [Mistral AI (La Plateforme)](https://mistral.ai/) — **12 free models** — Free API tier with access to Mistral Large, Mistral Nemo, Codestral and more. 1 req/s, 500k tokens/min. Requires phone verification and data usage opt-in.
 - [Cohere](https://cohere.com/) — **15 free models** — Free evaluation API key for Command R, Command R+, Embed, and Rerank models. 20 req/min, 1,000 req/month.
 - [DeepSeek Platform](https://deepseek.com/) — Free API credits for new users (5M tokens). Access to DeepSeek V4, DeepSeek-R1, and other models. Generous free allocation.
-- [Hyperbolic](https://www.hyperbolic.ai/) — Open-access AI cloud with affordable inference. Free trial credits for new accounts. Supports Llama, Qwen, DeepSeek, and other open models.
+- [Hyperbolic](https://www.hyperbolic.ai/) — Open-access AI cloud with affordable inference. Pay-as-you-go GPU compute (payment method required). **Note: free trial credits for new accounts are no longer advertised (Sep 2026); verify in-account before relying on a free tier.** Supports Llama, Qwen, DeepSeek, and other open models.
 - [Novita AI](https://novita.ai/) — Free credits for testing 100+ models including Llama, Qwen, DeepSeek, and Mistral. OpenAI-compatible API with competitive pricing beyond the free tier.
 - [Anakin.ai](https://anakin.ai/) — **30 daily free credits** for accessing multiple AI models. Web chat interface and API access. Supports GPT-4, Claude, and open-weight models.
 - [Nebius AI](https://nebius.com/) — **Note: Free trial suspended July 13, 2026.** Now steers new users to a ~$1 trial credit via Nebius Token Factory (formerly AI Studio), with a $25 minimum deposit for paid usage. Fast inference on NVIDIA H100 infrastructure.
-- [Fal.ai](https://fal.ai/) — Free starter credits for AI inference. Fast, serverless platform supporting Llama, Flux, and Stable Diffusion models. Pay-as-you-go beyond free tier.
+- [Fal.ai](https://fal.ai/) — Fast, serverless platform supporting Llama, Flux, and Stable Diffusion models. **Note: free starter credits are no longer advertised on the site (Sep 2026); verify whether new accounts still receive credits.** Pay-as-you-go beyond any free tier.
 - [Vercel AI Gateway](https://vercel.com/ai) — **$5/month free credits** for the AI Gateway. Proxy and cache requests across multiple LLM providers. SDK is open-source and free.
 - [AI21 Labs](https://www.ai21.com/) — **$10 trial credits** for accessing Jamba 1.5, Jamba 1.6, and other AI21 models. Valid for 3 months. Requires account sign-up.
 - [Amazon Bedrock](https://aws.amazon.com/bedrock/) — **$200 AWS credits** for new customers. Access to Llama, Mistral, Claude, Titan, and other foundation models via API.
@@ -123,25 +123,25 @@ Providers offering free tiers to access models via API — no local hardware req
 - [RunPod](https://www.runpod.io/) — Free credits for serverless GPU inference. Deploy open-weight models as serverless endpoints. Supports Llama, Qwen, DeepSeek, and more.
 - [Cerebras](https://cerebras.ai/) — **⚠️ Old "free tier" replaced (Jul 2026).** Now **$5 free trial credits** that expire in 30 days after adding a verified payment method; **no longer a permanent free tier**. Ultra-fast inference on Llama, Gemma, and gpt-oss models. **Note: Model availability fluctuates.**
 - [BazaarLink](https://bazaarlink.ai/) — Free OpenAI-compatible API with `auto:free` routing to zero-cost models. No credit card, no trial expiry. 10 RPM, 130 req/day.
-- [Kimi API (Moonshot)](https://platform.kimi.com/) — Free tier for new accounts with access to Kimi K2.5 (128K context). Also free via NVIDIA NIM. OpenAI-compatible. **Note: rebranded from platform.moonshot.cn.**
-- [Alibaba DashScope](https://dashscope.aliyun.com/) — **5 free models** — Free tier for Qwen models. 1M tokens/month. OpenAI-compatible API.
-- [SambaNova Cloud](https://cloud.sambanova.ai/) — **4 free models** — Free tier with $5 credits (30-day). Fast RDU inference for Llama 3.1 405B, Llama 3.3 70B, DeepSeek V3.1/V3.2, Qwen 2.5, gpt-oss-120b. 20 RPM, 200K tokens/day. No credit card required.
+- [Kimi API (Moonshot)](https://platform.kimi.com/) — **⚠️ Free tier no longer shown on the platform (Sep 2026).** New-account free tier and Kimi K2.5 (128K) are gone from the site; catalog is now K3 / K2.7 Code / K2.6 with per-token pricing. Verify in your browser before relying on free access. OpenAI-compatible. **Note: rebranded from platform.moonshot.cn.**
+- [Alibaba DashScope](https://cn.aliyun.com/product/bailian) — **Rebranded: DashScope → Alibaba Cloud Model Studio (Bailian).** Free tier for new users (100M+ free tokens) on Qwen models via OpenAI-compatible API. (dashscope.aliyun.com now redirects to Bailian.)
+- [SambaNova Cloud](https://cloud.sambanova.ai/) — **⚠️ Free plan tightened (Sep 2026).** Still "no credit card required to start," but the free plan now says you must add a payment method and purchase credits to run your first requests; no automatic $5/30-day credits anymore. Fast RDU inference for Llama 3.1 405B, Llama 3.3 70B, DeepSeek V3.1/V3.2, Qwen 2.5, gpt-oss-120b.
 - [OVHcloud AI Endpoints](https://www.ovhcloud.com/en/public-cloud/ai-endpoints/) — **14 free models** — EU-hosted, GDPR-compliant free tier. No registration required for anonymous tier. Models: Qwen, Mistral, Llama, DeepSeek, gpt-oss-120B, embeddings, image generation. 12 RPM. OpenAI-compatible.
 - [Chutes.ai](https://chutes.ai/) — **⚠️ Free tier ended — now paid only.** Was 2 free models for community-powered GPU inference. No longer free.
 - [ModelScope](https://modelscope.cn/) — **55 free models** — Chinese platform with 50+ free open models. Qwen, DeepSeek, GLM, and more. No credit card required.
 - [Z.ai (Zhipu AI)](https://open.bigmodel.cn/) — **4 free models** — Free tier for GLM models including GLM-4.5, GLM-4V. No credit card required.
 - [LongCat AI](https://longcat.chat/) — Free API for LongCat open-weight models. One-time 10M token grant after signup + KYC. Free cached tokens. OpenAI-compatible. MIT license.
-- [Coze (ByteDance)](https://www.coze.com/) — Free bot-building platform with API access to GPT-4o, Gemini 1.5 Pro, and other models. No credit card required. OpenAI-compatible.
-- [Free.ai](https://free.ai/developer/) — 400+ AI tools via a single OpenAI-compatible API. Free tier: (keyword-detected best-effort; exact quota requires manual confirmation). Chat, image, video, music, voice, OCR, translation.
+- [Coze (ByteDance)](https://www.coze.com/) — **⚠️ Rebranded (Sep 2026).** Now positioned as an "AI Agent Intelligent Office Platform" (writing, PPT, web dev, design). The old "free bot-building platform with API access to GPT-4o/Gemini 1.5 Pro" pitch no longer matches the site; verify whether the bot-builder API free tier still exists.
+- [Free.ai](https://free.ai/developer/) — 400+ AI tools via a single OpenAI-compatible API. Free tier: 30,000 free tokens/day on self-hosted models plus 1,000 requests/month (60 RPM), no credit card required. Chat, image, video, music, voice, OCR, translation.
 - [Requesty](https://www.requesty.ai/free-models) — Free AI API with 200 requests/day. Works with Claude Code, Cline, Cursor. No credit card. OpenAI-compatible.
 - [AINative Studio](https://ainative.studio/free-llm-api) — **⚠️ Free tier ended (was 10M tokens/month).** Now a $5/mo Hobbyist plan with a 3-day trial only. 84+ models (Llama, DeepSeek, Mistral, Qwen).
 - [CloudCode.ONE](https://cloudcode.one/) — **⚠️ No free tier — credit-based ($2 to start).** OpenAI and Anthropic-compatible API for coding agents. Powered by GLM-4.7-Flash.
-- [ZeroLimitAI](https://www.zerolimitai.com/developers) — Free OpenAI-compatible API with `model: "auto"` routing to the best free model. No credit card, no trial expiry. Lifetime free tier available.
+- [ZeroLimitAI](https://www.zerolimitai.com/developers) — **⚠️ "Lifetime free tier" no longer accurate (Sep 2026).** Free API is now a 7-day trial (100 calls/day, key expires after 7 days); "Lifetime" plans are one-time paid ($49 Core / $99 Pro). OpenAI-compatible API with `model: "auto"` routing.
 - [Chat Oripe](https://api.oriper.com/) — **⚠️ Currently unreachable (HTTP 530) at check time.** Previously offered free tokens via OpenAI-compatible API; verify availability before relying on it.
-- [FreeTheAi](https://github.com/Free-The-Ai/free-ai) — Open-source Discord signup/free OpenAI-compatible API with 50+ models. No credit card. **Small/community-run project (~4★); active as of Aug 2026 but treat as best-effort.**
-- [OpenCode Zen](https://opencode.ai/zen) — **9 free models** — Curated AI gateway with free general and coding models (DeepSeek V4 Flash Free, MiMo-V2.5 Free, Nemotron 3 Ultra Free, Big Pickle, Qwen 3.6 Plus Free, MiniMax M3 Free, North Mini Code Free, and more). OpenAI-compatible API. No credit card required.
+- [FreeTheAi](https://github.com/Free-The-Ai/free-ai) — Open-source Discord signup/free OpenAI-compatible API with 50+ models. No credit card. **Small/community-run project (~6★); active as of Aug 2026 but treat as best-effort.**
+- [OpenCode Zen](https://opencode.ai/zen) — **9 free models** — Curated AI gateway with free general and coding models (DeepSeek V4 Flash Free, MiMo-V2.5 Free, Nemotron 3 Ultra Free, Big Pickle, Qwen 3.6 Plus Free, MiniMax M3 Free, North Mini Code Free, and more). OpenAI-compatible API. No credit card required. **Note: docs mark the free models as limited-time; Zen also offers a $20 prepaid balance option.**
 - [LLM7.io](https://llm7.io/) — **15 free models**, no credit card required. DeepSeek R1/V3, GPT-4o mini and more. 1M context, multimodal. 30 RPM free (120 RPM with optional token).
-- [Kilo Code](https://kilo.ai/) — **12 free models**, no credit card. Nemotron 3 Ultra, Step 3.7 Flash, and more. 1M context, ~200 req/hr. Free tier for coding agents.
+- [Kilo Code](https://kilo.ai/) — **12 free models**, no credit card. Nemotron 3 Ultra, Step 3.7 Flash, and more. 1M context, ~200 req/hr. Free tier for coding agents. **Note: acquired by Anaconda (banner on site); free "Auto Free" tier still advertised.**
 - [Aion Labs](https://www.aionlabs.ai) — **7 free models**, registration only. Includes Aion 2.5. 128K context, 15 RPM. No credit card required.
 - [Agnes AI](https://platform.agnes-ai.com/) — **5 free models** — Free tier with Agnes 1.5/2.0 Flash and image models. 256K context, 30 RPM. Registration only, no credit card.
 - [Glhf.chat](https://glhf.chat/) — **⚠️ Currently unreachable (HTTP 522) at check time.** Previously offered a free OpenAI-compatible API; verify availability before relying on it.
@@ -152,7 +152,7 @@ Providers offering free tiers to access models via API — no local hardware req
 
 ## 🖼️ Image & Video Generation
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Free, open-weight image and video generation models — run locally or via free APIs.
 
@@ -167,7 +167,7 @@ Free, open-weight image and video generation models — run locally or via free 
 
 ## 🔀 Free API Routers
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Open-source tools that route requests across multiple AI providers — unified API, automatic failover, and cost optimization.
 
@@ -180,7 +180,7 @@ Open-source tools that route requests across multiple AI providers — unified A
 
 ## 💻 Local Inference Tools
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Run models on your own machine — no API keys needed, full privacy.
 
@@ -215,7 +215,7 @@ Run models on your own machine — no API keys needed, full privacy.
 
 ## 💬 AI Chatbot UIs
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Free, open-source web interfaces for chatting with AI models — self-host or use hosted versions.
 
@@ -224,15 +224,15 @@ Free, open-source web interfaces for chatting with AI models — self-host or us
 - [AnythingLLM](https://anythingllm.com/) — All-in-one desktop app for chatting with documents and models. Built-in RAG pipeline. [GitHub](https://github.com/Mintplex-Labs/anything-llm)
 - [Big-AGI](https://big-agi.com/) — Feature-rich AI chat with personas, multi-model support, voice, and code execution. [GitHub](https://github.com/enricoros/big-agi)
 - [Lobe Chat](https://lobehub.com/) — Multi-agent orchestration platform with plugin system and multi-provider support. [GitHub](https://github.com/lobehub/lobehub)
-- [Mistral Le Chat](https://chat.mistral.ai/) — Web UI for Mistral Large 3, Medium 3.5, and Codestral; multimodal input (images, code). Free tier with rate‑limited calls (≈2 RPM, 500 K tokens / month). No credit‑card required.
+- [Mistral Le Chat](https://chat.mistral.ai/) — Web UI for Mistral Large 3, Medium 3.5, and Codestral; multimodal input (images, code). Free tier with rate‑limited calls (≈2 RPM, 500 K tokens / month). No credit‑card required. **(HTTP 403 at check time; may block automation).**
 - [Google AI Studio Chat](https://aistudio.google.com/) — Direct chat interface for Gemini 3.5 Flash & Gemini 2.5 Pro; multimodal (image + text) and code‑execution blocks. Same free limits as AI Studio API (15 RPM, 1 500 tokens / day).
-- [OpenCode (GitHub‑hosted)](https://github.com/opencode-ai/opencode) — IDE‑style coding assistant that can be pointed at any free API (Groq, Google AI Studio, OpenRouter). Free backend integration; supports file editing, terminal commands, multi‑turn conversations.
+- [OpenCode (GitHub‑hosted)](https://github.com/opencode-ai/opencode) — IDE‑style coding assistant that can be pointed at any free API (Groq, Google AI Studio, OpenRouter). Free backend integration; supports file editing, terminal commands, multi‑turn conversations. **⚠️ Repo archived (read-only, last push Sep 2025); the project now lives at opencode.ai.**
 
 ---
 
 ## 🎵 Audio & Speech Models
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generation models you can run locally.
 
@@ -247,16 +247,16 @@ Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generati
 
 ## 🤖 AI Coding Assistants
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Free tools that integrate AI into your development workflow.
 
 - [Continue.dev](https://www.continue.dev/) — **⚠️ Acquired by Cursor (Jun 2026); standalone product & cloud were shut down (data deleted Jul 15, 2026). OSS repo handed to the community under Apache 2.0 (last push Aug 2026).** Open-source AI code assistant for VS Code and JetBrains. [GitHub](https://github.com/continuedev/continue)
 - [Aider](https://aider.chat/) — AI pair programming in the terminal. Edits code in your local git repo. Supports GPT, Claude, and local models. [GitHub](https://github.com/Aider-AI/aider)
 - [Gemini CLI (Google)](https://github.com/google-gemini/gemini-cli) — **Jul 2026.** Open-source terminal agent with generous free Gemini quota. Supports agentic coding workflows.
-- [Kilo Code](https://github.com/Kilo-Org/kilocode) — **2026.** VS Code/JetBrains agentic coding extension with model-agnostic support and Plan/Act oversight.
+- [Kilo Code](https://github.com/Kilo-Org/kilocode) — **2026.** VS Code/JetBrains agentic coding extension with model-agnostic support and Plan/Act oversight. **Note: acquired by Anaconda (2026); repo remains active.**
 - [Tabby](https://www.tabbyml.com/) — Self-hosted AI coding assistant with no dependency on external services. [GitHub](https://github.com/TabbyML/tabby)
-- [Cody (Sourcegraph)](https://sourcegraph.com/cody) — Free tier for individuals. Chat, autocomplete, and commands with codebase context.
+- [Cody (Sourcegraph)](https://sourcegraph.com/cody) — **⚠️ Standalone Cody free tier discontinued (Jul 2025); sourcegraph.com/cody now redirects to docs and Sourcegraph is enterprise-only.** No longer a free tier for individuals.
 - [Llama Coder (Nutlope)](https://llamacoder.together.ai/) — Free AI code generation tool. Generate entire apps from prompts.
 - [Bolt.new (StackBlitz)](https://bolt.new/) — Free tier for AI-powered full-stack web app development in browser.
 - [Claude Code (Anthropic)](https://code.claude.com/docs) — Terminal-based AI coding assistant. Most features require a Claude subscription or API credits. Limited free usage via terminal CLI.
@@ -275,7 +275,7 @@ Free tools that integrate AI into your development workflow.
 
 ## 📝 Code Models
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Specialized for code generation, completion, and analysis.
 
@@ -301,7 +301,7 @@ Specialized for code generation, completion, and analysis.
 
 ## 🧬 Embedding Models
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Free, open-weight embedding and reranker models for semantic search, RAG, and text representation.
 
@@ -311,13 +311,13 @@ Free, open-weight embedding and reranker models for semantic search, RAG, and te
 - [nomic-embed-text-v2 (Nomic AI)](https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe) — **1.5B** MoE embedding model. 8192 context. Matches or exceeds OpenAI text-embedding-3-small. Apache 2.0.
 - [mxbai-embed-large-v1](https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1) — **0.3B** lightweight embedding. Top of MTEB among sub-0.5B models. Apache 2.0.
 - [Google text-embedding-004](https://aistudio.google.com/) — **1,500 req/day** via AI Studio. 512-dim & 768-dim variants. Free, no credit card required. Best for RAG and semantic search.
-- [Cohere Embed 4](https://cohere.com/embedding) — **1M free tokens/month** (≈200K embeddings/day). 1024-dim multilingual (100+ languages). Apache 2.0.
+- [Cohere Embed 4](https://cohere.com/embed) — **1M free tokens/month** (≈200K embeddings/day). 1024-dim multilingual (100+ languages). Apache 2.0. *(Link fixed from cohere.com/embedding, which now returns 404.)*
 
 ---
 
 ## 🔍 RAG & Vector Databases
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Free tools for building retrieval-augmented generation pipelines — vector storage, embedding search, and document retrieval.
 
@@ -337,7 +337,7 @@ Free tools for building retrieval-augmented generation pipelines — vector stor
 
 ## 🧩 Agentic Frameworks
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Free, open-source frameworks for building AI agents and multi-agent systems.
 
@@ -374,7 +374,7 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 
 ## 🔧 MCP Servers & Tools
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Model Context Protocol (MCP) servers that connect AI assistants to external tools, data sources, and APIs.
 
@@ -386,7 +386,7 @@ Model Context Protocol (MCP) servers that connect AI assistants to external tool
 
 ## 🎛 Fine-tuning Tools
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Tools to fine-tune free models on your own data — all free and open-source.
 
@@ -401,7 +401,7 @@ Tools to fine-tune free models on your own data — all free and open-source.
 
 ## ✨ Prompt Engineering Tools
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Free tools for testing, managing, and optimizing prompts.
 
@@ -415,7 +415,7 @@ Free tools for testing, managing, and optimizing prompts.
 
 ## 📊 LLM Evaluation & Observability
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Free, open-source tools for tracing, evaluating, and monitoring LLM applications in development and production.
 
@@ -429,7 +429,7 @@ Free, open-source tools for tracing, evaluating, and monitoring LLM applications
 
 ## 📊 Datasets
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Free, open datasets for training, fine-tuning, and evaluating models.
 
@@ -449,7 +449,7 @@ Free, open datasets for training, fine-tuning, and evaluating models.
 
 ## ☁ Model Hosting Platforms
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Free platforms that host models — run inference without downloading anything.
 
@@ -460,14 +460,14 @@ Free platforms that host models — run inference without downloading anything.
 - [Lightning AI Studio](https://lightning.ai/) — Free tier with GPU access for development and prototyping.
 - [Modal](https://modal.com/) — Free monthly credits for serverless GPU compute.
 - [Replicate (Free Tier)](https://replicate.com/) — Free credits for running community models.
-- [Deepnote](https://deepnote.com/) — Free tier with GPU for data science and ML notebooks.
-- [Zylora](https://zylora.dev/) — Deploy GPU functions from any language. Free tier: $5 GPU credits/month, no credit card. T4/L4 pool, sub-300ms cold starts.
+- [Deepnote](https://deepnote.com/) — **Free tier is CPU-only** (Basic machines, 5 GB RAM / 2 vCPU); GPUs require a paid Team plan.
+- [Zylora](https://zylora.dev/) — Deploy GPU functions from any language. Free tier available; free GPU credits are by application only (startups/research/OSS, ~$500 grant per site). Paid plans from $19/month. Sub-300ms cold starts on a shared GPU pool.
 
 ---
 
 ## 📚 Learning Resources
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 Free courses, books, and tutorials for learning AI and LLMs.
 
@@ -488,7 +488,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 ## 🏆 Resources & Leaderboards
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
 - [Perplexity](https://www.perplexity.ai/) — Free AI search and research assistant with real-time answers and source citations. **(HTTP 403 at check time; may block automation).**
 - [BenchLM.ai](https://benchlm.ai/) — **New.** LLM leaderboard with 281 models compared across 8 categories. Verified benchmark data updated weekly.
@@ -503,15 +503,14 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 ## 👥 Communities
 
-> 📅 Last checked: September 3, 2026
+> 📅 Last checked: September 12, 2026
 
-- [Hugging Face Discord](https://discord.gg/huggingface) — Model releases, discussions, and community support.
+- [Hugging Face Discord](https://hf.co/join/discord) — Model releases, discussions, and community support. *(Link fixed: discord.gg/huggingface invite is no longer valid.)*
 - [r/LocalLLaMA](https://reddit.com/r/LocalLLaMA) — The largest Reddit community for running local LLMs. **(HTTP 403 at check time; may block automation).**
 - [Ollama Discord](https://discord.gg/ollama) — Ollama community for local model enthusiasts.
 - [LM Studio Discord](https://discord.gg/lmstudio) — LM Studio community.
 - [Hugging Face Forums](https://discuss.huggingface.co/) — Discussions on models, datasets, and Spaces.
 - [r/MachineLearning](https://reddit.com/r/MachineLearning) — General ML/AI research and news. **(HTTP 403 at check time; may block automation).**
-- [Discord: AI Agents](https://discord.gg/ai-agents) — Community for AI agent development and agentic frameworks.
 
 ---
 
