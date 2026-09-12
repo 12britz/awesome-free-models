@@ -9,7 +9,7 @@
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 [![GitGem](https://gitgem.org/api/badge/github/12britz/awesome-free-models.svg)](https://gitgem.org/github/12britz/awesome-free-models)
 
-> ✅ All links re-verified on September 12, 2026 (327 unique links). This run confirmed previous findings (Poe/Reddit/Perplexity/chat.mistral.ai may return HTTP 403; api.oriper.com and glhf.chat remain unreachable; some Hugging Face pages return HTTP 401) and caught new issues: cohere.com/embedding now 404s (fixed to /embed), opencode-ai/opencode repo is archived, discord.gg/huggingface and discord.gg/ai-agents invites are dead, several free-tier claims changed (SambaNova, ZeroLimitAI, Kimi, Hyperbolic, fal.ai, Ollama Cloud), and DashScope rebranded to Alibaba Cloud Model Studio (Bailian).
+> ✅ All links re-verified on September 12, 2026 (327 unique links). This run confirmed previous findings (Poe/Reddit/Perplexity/chat.mistral.ai may return HTTP 403; api.oriper.com and glhf.chat remain unreachable; some Hugging Face pages return HTTP 401) and caught new issues: cohere.com/embedding now 404s (fixed to /embed), opencode-ai/opencode repo is archived, discord.gg/huggingface and discord.gg/ai-agents invites are dead, several free-tier claims changed (SambaNova, ZeroLimitAI, Kimi, Hyperbolic, fal.ai, Ollama Cloud), and DashScope rebranded to Alibaba Cloud Model Studio (Bailian). FreeLLM.net (a free-LLM-API directory) was reviewed and added to Resources & Leaderboards; note GitHub Models (which it lists) was retired Jul 30, 2026 and is NOT a free API.
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -497,6 +497,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 - [Artificial Analysis](https://artificialanalysis.ai/) — Independent benchmarks for speed, pricing, and quality across providers.
 - [Hugging Face Models](https://huggingface.co/models) — Search 1M+ models. Filter by license, task, framework.
 - [OpenRouter Models](https://openrouter.ai/models) — Browse models available via API with pricing and free tiers.
+- [FreeLLM.net](https://freellm.net/) — **New.** Directory of 476+ free AI models from 31+ providers (Google, Groq, NVIDIA NIM, OpenRouter, and more) with live daily verification. One-click config for Claude Code, Cursor, Codex, and any OpenAI-compatible tool. Free encrypted key vault; filters for no-credit-card and no-phone-verification providers. Companion list: [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) (2.9K★). **Note: still lists some retired providers (e.g., GitHub Models was retired Jul 30, 2026) — cross-check before relying.**
 - [Ollama Library](https://ollama.com/library) — Browse models available for one-command local setup.
 
 ---
