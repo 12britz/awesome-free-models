@@ -512,6 +512,8 @@ Free courses, books, and tutorials for learning AI and LLMs.
 - [LM Studio Discord](https://discord.gg/lmstudio) — LM Studio community.
 - [Hugging Face Forums](https://discuss.huggingface.co/) — Discussions on models, datasets, and Spaces.
 - [r/MachineLearning](https://reddit.com/r/MachineLearning) — General ML/AI research and news. **(HTTP 403 at check time; may block automation).**
+- [HostDeFi](https://hostdefi.com) - Free token-safety REST API — keyless, 100 checks/day per IP; A+–F grades for tokens on Solana and 8 EVM chains. [OpenAPI](https://hostdefi.com/openapi.json)
+
 
 ---
 
