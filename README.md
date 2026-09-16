@@ -175,6 +175,7 @@ Open-source tools that route requests across multiple AI providers — unified A
 - [OmniRoute](https://omniroute.online/) — Full-stack AI gateway with 250+ providers, 90+ free. TypeScript, runs on Web/Desktop/Android. Prompt compression, 3-level proxy for geo restrictions. [GitHub](https://github.com/diegosouzapw/OmniRoute)
 - [LiteLLM](https://litellm.ai/) — Python-based proxy unifying 100+ LLMs behind a single API. Spend tracking, virtual keys, production-ready. MIT license. [GitHub](https://github.com/BerriAI/litellm)
 - [Portkey AI Gateway](https://portkey.ai/) — Production guardrails and routing for AI apps. Hybrid open-source (community) and managed (enterprise) tiers. [GitHub](https://github.com/Portkey-AI/gateway)
+- [Bifrost](https://github.com/maximhq/bifrost) — Open-source, self-hosted Go gateway for multi-provider routing, failover, caching, governance, and observability. Apache-2.0.
 
 ---
 
