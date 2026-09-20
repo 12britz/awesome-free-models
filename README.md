@@ -277,6 +277,7 @@ Free tools that integrate AI into your development workflow.
 - [CodeWhale](https://github.com/Hmbown/CodeWhale) — **2026.** Terminal coding agent with 40K+ stars. 30+ providers, local models via Ollama/vLLM. TUI, headless mode, web UI. MIT license.
 - [nanobot (HKUDS)](https://github.com/HKUDS/nanobot) — **2026.** Open-source, ultra-lightweight personal AI agent with WebUI, chat channels, MCP, memory, and scheduling. 47K★. MIT.
 - [MiMoCode (Xiaomi)](https://github.com/XiaomiMiMo/MiMo-Code) — **Jun 2026.** Terminal-native coding agent with persistent memory, subagent orchestration, and goal-driven autonomous loops. 12.8K★. MIT.
+- [YYLO](https://www.yylo.dev/) — Open-source command-line orchestrator for AI coding agents. Runs Pi, Codex, and other agents as typed task workflows with validation, merge, and release-readiness boundaries, dedicated worktree branches, and a risk-based merge queue. Free and self-hosted (MIT); BYOK — you supply the model keys. [GitHub](https://github.com/yylo-dev/yylo)
 
 ---
 
