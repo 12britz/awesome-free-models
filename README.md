@@ -3,13 +3,13 @@
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-September%2020%2C%202026-brightgreen?style=for-the-badge)
-![Models](https://img.shields.io/badge/Models-49-blue?style=flat-square)
+![Models](https://img.shields.io/badge/Models-53-blue?style=flat-square)
 ![Tools](https://img.shields.io/badge/Tools-245-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-21-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 [![GitGem](https://gitgem.org/api/badge/github/12britz/awesome-free-models.svg)](https://gitgem.org/github/12britz/awesome-free-models)
 
-> ✅ All links re-verified on September 20, 2026 (327 unique links). Same status as Sep 12 for nearly everything (Poe/Reddit/Perplexity/chat.mistral.ai return HTTP 403; api.oriper.com HTTP 530 and glhf.chat HTTP 522 remain unreachable; Common-Corpus and OpenImageGen on Hugging Face return HTTP 401). **New this run: ZeroLimitAI now returns HTTP 402 "Payment Required" — its free tier appears shut down.** OpenRouter free-model count drifted to ~23.
+> ✅ All links re-verified on September 20, 2026 (327 unique links). Same status as Sep 12 for nearly everything (Poe/Reddit/Perplexity/chat.mistral.ai return HTTP 403; api.oriper.com HTTP 530 and glhf.chat HTTP 522 remain unreachable; Common-Corpus and OpenImageGen on Hugging Face return HTTP 401). **New this run: ZeroLimitAI now returns HTTP 402 "Payment Required" — its free tier appears shut down.** OpenRouter free-model count drifted to ~23. **Added this run: Ternary Bonsai 2 27B, DeepSeek V4.1 Flash, GLM-5.3-FlashX, Ling 3.0 Flash VL (+ free OpenRouter variant), FLUX Video Edit, Meta Muse Voice Transcribe 1.0, TypeSafe (Jev); FreeLLM.net now tracks 503+ models; 9Router free-tier routing documented.**
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -83,6 +83,10 @@ Notable open-weight models you can download and run on your own hardware.
 - [Gemma 4 (12B)](https://huggingface.co/google/gemma-4-12B-it) — **May 2026.** Apache 2.0. Google's first laptop-class multimodal open-weight model. 256K context, native text/image/audio/video understanding.
 - [Llama 4 Scout](https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct) — **May 2026.** 109B MoE, 10M context. Native multimodal. Apache 2.0.
 - [Kimi K3](https://huggingface.co/moonshotai/Kimi-K3) — **Jul 2026.** 2.8T-parameter MoE (896 experts, ~50B active). World's largest open-weight model. 1M context, native vision + video. Modified MIT. Weights released Jul 27.
+- [Ternary Bonsai 2 27B (PrismML)](https://huggingface.co/prism-ml) — **Sep 2026.** 27B reasoning model derived from Qwen3.8-27B. Ternary compression shrinks weights to ~8.5 GB while retaining ~98% of the base model's benchmark scores. Coding, math, tool calling, image understanding. 262K context. Runs on consumer hardware.
+- [DeepSeek V4.1 Flash](https://huggingface.co/deepseek-ai) — **Sep 2026.** First model on DeepSeek's Causal Encoder-Decoder (CED) architecture. 552B MoE (8B active on input / 16B on output). Native image understanding, compressed KV cache (~1/4 of prior Flash) for agentic workloads. 1M context.
+- [GLM-5.3-FlashX (Z.ai)](https://huggingface.co/zai-org) — **Sep 2026.** High-speed variant of GLM-5.3-Flash (320B total / 18B active, hybrid sparse + linear attention). Native multimodal, up to 200 tokens/s. Suited for coding, visual understanding, and long-horizon agent tasks. 1M context.
+- [Ling 3.0 Flash VL (inclusionAI)](https://huggingface.co/inclusionAI) — **Sep 2026.** 124B MoE (5.5B active). Builds on Ling 3.0 Flash with native visual perception and visual-agent capabilities. Hybrid instant/reasoning model with tool calling. 262K context. **A free variant is available on OpenRouter.**
 
 ---
 
@@ -147,6 +151,7 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Glhf.chat](https://glhf.chat/) — **⚠️ Currently unreachable (HTTP 522) at check time.** Previously offered a free OpenAI-compatible API; verify availability before relying on it.
 - [Nscale](https://console.nscale.com/) — **2 free models** — Free tier (registration only) with Llama 3.3 70B and DeepSeek-R1-Distill-70B. 128K context. OpenAI-compatible.
 - [OrcaRouter](https://www.orcarouter.ai/offers) — **4 free models** — DeepSeek V4 Pro, DeepSeek V4 Flash, Qwen3.8 27B, and Tencent Hy3 at $0 per token, plus an `orcarouter/free` alias that auto-routes across the free lineup. OpenAI-, Anthropic-, and Gemini-compatible endpoints. No credit card and no trial expiry. The same page also gives away free vouchers for frontier models — e.g. $10 (~5M tokens) on Grok 4.5 — plus student programs and partner-hackathon credit, browsable without an account; each card shows its own terms and flags any card requirement.
+- [TypeSafe (Jev)](https://typesafe.ai/) — Structured decision models (System One family) that return a typed choice instead of free-form text, for routing and classification inside applications. **Free output tokens** on OpenRouter (`typesafe/jev-latest`); 32K context.
 
 ---
 
@@ -161,6 +166,7 @@ Free, open-weight image and video generation models — run locally or via free 
 - [Z-Image (Tongyi Lab / Alibaba)](https://github.com/Tongyi-MAI/Z-Image) — **11.8K★.** Open-weight T2I with strong GenEval scores. Z-Image-Turbo for 4-step generation. Apache 2.0.
 - [Pollinations.ai](https://pollinations.ai/) — **Free image generation API.** No API key or signup needed. Text-to-image, image-to-image. OpenAI-compatible. Integrates with ComfyUI.
 - [OpenImageGen (Hugging Face)](https://huggingface.co/spaces/OpenImageGen/OpenImageGen) — Free, open-source image generation playground. Supports multiple community models via diffusers. Apache 2.0. **Note: login/auth may be required (HTTP 401 at check time).**
+- [FLUX Video Edit (Black Forest Labs)](https://bfl.ai/) — **Sep 2026.** Prompt-based video editing: add, remove, or replace objects/characters, rebuild the setting, edit on-screen text, change colors/materials, translate dialogue with lip sync. Preserves source duration, aspect ratio, and audio. Source clips up to 15s / 50 MiB. Available via OpenRouter (paid per second).
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) — **130K★.** Node-based image and video generation UI. Run FLUX, Stable Diffusion, and more locally. GPL-3.0.
 
 ---
@@ -171,7 +177,7 @@ Free, open-weight image and video generation models — run locally or via free 
 
 Open-source tools that route requests across multiple AI providers — unified API, automatic failover, and cost optimization.
 
-- [9Router](https://9router.com/) — Open-source gateway connecting 40+ providers with RTK token compression (2-4x reduction). One API key for all services. MIT license. [GitHub](https://github.com/decolua/9router)
+- [9Router](https://9router.com/) — Open-source gateway connecting 40+ providers with RTK token compression (2-4x reduction). One API key for all services. **Free-tier routing to Kiro AI (~50 credits/mo: Claude 4.5 + GLM-5 + MiniMax), OpenCode Free (no auth), and Vertex AI ($300 credits).** Smart 3-tier fallback (Subscription → Cheap → Free). MIT license. [GitHub](https://github.com/decolua/9router)
 - [OmniRoute](https://omniroute.online/) — Full-stack AI gateway with 250+ providers, 90+ free. TypeScript, runs on Web/Desktop/Android. Prompt compression, 3-level proxy for geo restrictions. [GitHub](https://github.com/diegosouzapw/OmniRoute)
 - [LiteLLM](https://litellm.ai/) — Python-based proxy unifying 100+ LLMs behind a single API. Spend tracking, virtual keys, production-ready. MIT license. [GitHub](https://github.com/BerriAI/litellm)
 - [Portkey AI Gateway](https://portkey.ai/) — Production guardrails and routing for AI apps. Hybrid open-source (community) and managed (enterprise) tiers. [GitHub](https://github.com/Portkey-AI/gateway)
@@ -242,6 +248,7 @@ Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generati
 - [Orpheus-TTS (Canopy Labs)](https://github.com/canopyai/Orpheus-TTS) — **6.3K★.** Llama-3b backbone, human-like speech, zero-shot voice cloning, emotion tags. ~200ms streaming latency. Apache 2.0.
 - [NeuTTS (Neuphonic)](https://github.com/neuphonic/neutts) — **6.2K★.** On-device TTS with instant voice cloning. GGUF quantized for CPU/mobile. 120M Nano and 360M Air variants. Apache 2.0.
 - [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper) — **25K★.** CTranslate2-based Whisper for 4x faster transcription. MIT.
+- [Muse Voice Transcribe 1.0 (Meta)](https://openrouter.ai/meta/muse-voice-transcribe-1.0) — **Sep 2026.** Synchronous speech-to-text for push-to-talk, endpointing, and speaker-aware transcription. Keyword biasing for domain terms and language-name hints. Accepts mono 16-bit PCM WAV (16/24 kHz, up to 10 min). Available via OpenRouter.
 
 ---
 
@@ -497,7 +504,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 - [Artificial Analysis](https://artificialanalysis.ai/) — Independent benchmarks for speed, pricing, and quality across providers.
 - [Hugging Face Models](https://huggingface.co/models) — Search 1M+ models. Filter by license, task, framework.
 - [OpenRouter Models](https://openrouter.ai/models) — Browse models available via API with pricing and free tiers.
-- [FreeLLM.net](https://freellm.net/) — **New.** Directory of 476+ free AI models from 31+ providers (Google, Groq, NVIDIA NIM, OpenRouter, and more) with live daily verification. One-click config for Claude Code, Cursor, Codex, and any OpenAI-compatible tool. Free encrypted key vault; filters for no-credit-card and no-phone-verification providers. Companion list: [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) (3K★). **Note: still lists some retired providers (e.g., GitHub Models was retired Jul 30, 2026) — cross-check before relying.**
+- [FreeLLM.net](https://freellm.net/) — **New.** Directory of 503+ free AI models from 31+ providers (Google, Groq, NVIDIA NIM, OpenRouter, and more) with live daily verification. One-click config for Claude Code, Cursor, Codex, and any OpenAI-compatible tool. Free encrypted key vault; filters for no-credit-card and no-phone-verification providers. Companion list: [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) (3.1K★). **Note: still lists some retired providers (e.g., GitHub Models was retired Jul 30, 2026) — cross-check before relying.**
 - [Ollama Library](https://ollama.com/library) — Browse models available for one-command local setup.
 
 ---
