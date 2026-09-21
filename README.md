@@ -388,6 +388,7 @@ Model Context Protocol (MCP) servers that connect AI assistants to external tool
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) — **32.4K★.** Official GitHub MCP server by GitHub. Repository management, issue/PR automation, CI/CD intelligence, code analysis. OAuth or PAT auth. MIT license.
 - [GitMCP](https://github.com/idosal/git-mcp) — **8.3K★.** Free, open-source, remote MCP server for any GitHub project. Zero-setup documentation and code access for AI assistants. Apache 2.0.
 - [MCP Reference Servers (Anthropic)](https://github.com/modelcontextprotocol/servers) — **89.7K★.** Official reference implementations: Filesystem, Git, Fetch, Memory, Time, Sequential Thinking. Apache 2.0 / MIT.
+- [Mnemoverse MCP Memory Server](https://github.com/mnemoverse/mcp-memory-server) - Persistent memory for AI agents over MCP, one key across Claude Code, Cursor, VS Code and ChatGPT. Recall re-ranks from feedback on whether a memory helped. Hosted remote endpoint with OAuth, or local `npx -y @mnemoverse/mcp-memory-server@latest` with a free API key, no credit card. MIT server, hosted engine with a free tier.
 
 ---
 
