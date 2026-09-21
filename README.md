@@ -10,6 +10,7 @@
 [![GitGem](https://gitgem.org/api/badge/github/12britz/awesome-free-models.svg)](https://gitgem.org/github/12britz/awesome-free-models)
 
 > ✅ All links re-verified on September 20, 2026 (327 unique links). Same status as Sep 12 for nearly everything (Poe/Reddit/Perplexity/chat.mistral.ai return HTTP 403; api.oriper.com HTTP 530 and glhf.chat HTTP 522 remain unreachable; Common-Corpus and OpenImageGen on Hugging Face return HTTP 401). **New this run: ZeroLimitAI now returns HTTP 402 "Payment Required" — its free tier appears shut down.** OpenRouter free-model count drifted to ~23. **Added this run: Ternary Bonsai 2 27B, DeepSeek V4.1 Flash, GLM-5.3-FlashX, Ling 3.0 Flash VL (+ free OpenRouter variant), FLUX Video Edit, Meta Muse Voice Transcribe 1.0, TypeSafe (Jev); FreeLLM.net now tracks 503+ models; 9Router free-tier routing documented.**
+- [MagicKit](https://magickit.47.80.8.174.nip.io) — **Free AI toolbox** for image generation (FLUX), text and video. No sign-up, no API key. MIT licensed. [Source](https://github.com/kaketiti/magickit)
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
