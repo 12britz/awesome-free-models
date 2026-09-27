@@ -103,7 +103,7 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Hugging Face Inference Providers](https://huggingface.co/inference-api) — **5 free models** — Free tier for thousands of community models. Rate-limited but excellent for testing.
 - [NVIDIA NIM](https://build.nvidia.com/) — **100+ free models** — Free, rate-limited API access to accelerated versions of Llama, Mistral, Gemma, and more on NVIDIA infrastructure.
 - [DeepInfra](https://deepinfra.com/) — **⚠️ No permanent free-model tier; free tier is now a recurring monthly credit (site advertises ~$10/month; reports cite ~$5 signup + $5/mo recurring).** Serverless inference for popular open-source models.
-- [Together AI](https://www.together.ai/) — **⚠️ No permanent free tier; requires ~$5 minimum credit purchase.** Fast inference on many open-source models.
+- [Together AI](https://www.together.ai/) — **⚠️ Mostly paid, but at least one model is genuinely $0: Ternary Bonsai 27B is listed at $0.00 input / $0.00 output.** Everything else is per-token, and a minimum credit purchase is typically required. Fast inference on many open-source models.
 - [Fireworks AI](https://fireworks.ai/) — **⚠️ No free models; ~$1 signup credit only.** Optimized for low latency on open-source models.
 - [SiliconFlow](https://siliconflow.cn/) — **3 free models** — Rising platform with free access to many open-source models.
 - [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) — **50+ free models** — Free tier for running select open-source models at the edge.
