@@ -2,14 +2,14 @@
 
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-September%2020%2C%202026-brightgreen?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-September%2027%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-53-blue?style=flat-square)
 ![Tools](https://img.shields.io/badge/Tools-245-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-21-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 [![GitGem](https://gitgem.org/api/badge/github/12britz/awesome-free-models.svg)](https://gitgem.org/github/12britz/awesome-free-models)
 
-> ✅ All links re-verified on September 20, 2026 (327 unique links). Same status as Sep 12 for nearly everything (Poe/Reddit/Perplexity/chat.mistral.ai return HTTP 403; api.oriper.com HTTP 530 and glhf.chat HTTP 522 remain unreachable; Common-Corpus and OpenImageGen on Hugging Face return HTTP 401). **New this run: ZeroLimitAI now returns HTTP 402 "Payment Required" — its free tier appears shut down.** OpenRouter free-model count drifted to ~23. **Added this run: Ternary Bonsai 2 27B, DeepSeek V4.1 Flash, GLM-5.3-FlashX, Ling 3.0 Flash VL (+ free OpenRouter variant), FLUX Video Edit, Meta Muse Voice Transcribe 1.0, TypeSafe (Jev); FreeLLM.net now tracks 503+ models; 9Router free-tier routing documented.**
+> ✅ All links re-verified on September 27, 2026 (343 unique links). (Poe/Reddit/Perplexity/chat.mistral.ai return HTTP 403 — they block automated checks, not real users; api.oriper.com HTTP 530 and glhf.chat HTTP 522 remain unreachable; Common-Corpus and OpenImageGen on Hugging Face return HTTP 401 and may require authentication). **Corrections this run: ZeroLimitAI is back up (HTTP 200) but its "free tier" is only a 3-day trial — permanent use is a $99 one-time purchase; AI21's trial is $10 for 7 days, not 3 months; BenchLM now tracks 508 models, not 281; FreeLLM.net tracks 505+.** OpenRouter's free lineup is ~20 models right now.
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -43,7 +43,7 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 
 ## 🧠 Open-Weight Models
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Notable open-weight models you can download and run on your own hardware.
 
@@ -92,36 +92,36 @@ Notable open-weight models you can download and run on your own hardware.
 
 ## 🔌 Free API Providers
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Providers offering free tiers to access models via API — no local hardware required.
 
 - [Google AI Studio](https://aistudio.google.com/) — **~15 free models** — **Most generous free tier.** Rate-limited free access to Gemini 3.x Flash / Flash-Lite models (Gemini 2.0 Flash was shut down Jun 1, 2026). Generous limits for prototyping, no credit card required.
-- [OpenRouter](https://openrouter.ai/) — **~23 free models** — Aggregates 400+ models. Filter by "Free" to see models available at no cost. **Note: free models now require a positive credit balance (balance may be $0).** Includes experimental and subsidized open-weight models. **Note: free model count churns frequently; treat as a snapshot.**
+- [OpenRouter](https://openrouter.ai/) — **~21 free models** — Aggregates 450+ models. Filter by "Free" to see models available at no cost. **Note: free models require a positive credit balance (balance may be $0).** Includes experimental and subsidized open-weight models. **Note: the free lineup churns constantly — treat this as a snapshot.**
 - [AnyAPI](https://anyapi.ai/) — **15 free models** — 400+ models with OpenAI-compatible API. Free tier: 100K tokens/day, unlimited users. Includes free and basic models. No credit card required.
 - [Groq](https://console.groq.com/) — **12 free models** — Ultra-fast LPU inference. Free tier includes Llama 3.x/4, Qwen, GPT-OSS, and Whisper models with generous daily rate limits (no credit card).
-- [Hugging Face Inference Providers](https://huggingface.co/inference-api) — **5 free models** — Free tier for thousands of community models. Rate-limited but excellent for testing.
+- [Hugging Face Inference Providers](https://huggingface.co/inference-api) — **Free tier is only $0.10/month** for free accounts ($2.00/month for PRO/Team) — Free access to thousands of community models. Effectively unusable at that allowance; pay-as-you-go for anything real.
 - [NVIDIA NIM](https://build.nvidia.com/) — **100+ free models** — Free, rate-limited API access to accelerated versions of Llama, Mistral, Gemma, and more on NVIDIA infrastructure.
-- [DeepInfra](https://deepinfra.com/) — **⚠️ No permanent free-model tier; free tier is now a recurring monthly credit (site advertises ~$10/month; reports cite ~$5 signup + $5/mo recurring).** Serverless inference for popular open-source models.
-- [Together AI](https://www.together.ai/) — **⚠️ No permanent free tier; requires ~$5 minimum credit purchase.** Fast inference on many open-source models.
+- [DeepInfra](https://deepinfra.com/) — **⚠️ No free tier.** Their pricing page states you must add a card or pre-pay before you can use the service. Serverless inference for popular open-source models.
+- [Together AI](https://www.together.ai/) — **⚠️ Mostly paid, but at least one model is genuinely $0: Ternary Bonsai 27B is listed at $0.00 input / $0.00 output.** Everything else is per-token, and a minimum credit purchase is typically required. Fast inference on many open-source models.
 - [Fireworks AI](https://fireworks.ai/) — **⚠️ No free models; ~$1 signup credit only.** Optimized for low latency on open-source models.
-- [SiliconFlow](https://siliconflow.cn/) — **3 free models** — Rising platform with free access to many open-source models.
+- [SiliconFlow](https://siliconflow.cn/) — **15+ free models** — Chinese platform with a large free tier: Qwen-Image, Hunyuan-MT-7B, BGE-M3, bge-reranker-v2-m3, and others listed at ¥0. No credit card required.
 - [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) — **50+ free models** — Free tier for running select open-source models at the edge.
 - [Black Forest Labs](https://api.bfl.ai/) — **2 free models** — Free Flux 2 Dev and Flux Kontext Dev image generation via API. Rate-limited, no credit card required.
 - [Replicate](https://replicate.com/) — Limited free runs on select "Try for Free" models, no credit card required; then prepaid pay-as-you-go.
 - [Poe (Quora)](https://poe.com/) — **⚠️ Free tier changed over time; link check returned HTTP 403 (may block automation).** Previously reported reduction (~300 compute points/day); verify in your browser before relying on exact numbers.
 - [Qwen Studio (Alibaba)](https://chat.qwen.ai/) — Free access to Qwen 3.6-Plus, Qwen 3.6-Max, and other Qwen models via web chat and API. 1M token context for agentic coding.
-- [Ollama Cloud](https://ollama.com/pricing) — **URL /cloud now redirects to /pricing (Sep 2026).** Free cloud plan with starter models, starter usage credits, and 1 concurrent model; limits reset periodically. Exact limits require manual confirmation. Same `ollama run` command as local.
+- [Ollama Cloud](https://ollama.com/pricing) — Free cloud plan with starter models, starter usage credits, and 1 concurrent model; limits reset periodically. Exact limits require manual confirmation. Same `ollama run` command as local.
 - [Mistral AI (La Plateforme)](https://mistral.ai/) — **12 free models** — Free API tier with access to Mistral Large, Mistral Nemo, Codestral and more. 1 req/s, 500k tokens/min. Requires phone verification and data usage opt-in.
 - [Cohere](https://cohere.com/) — **15 free models** — Free evaluation API key for Command R, Command R+, Embed, and Rerank models. 20 req/min, 1,000 req/month.
 - [DeepSeek Platform](https://deepseek.com/) — Free API credits for new users (5M tokens). Access to DeepSeek V4, DeepSeek-R1, and other models. Generous free allocation.
-- [Hyperbolic](https://www.hyperbolic.ai/) — Open-access AI cloud with affordable inference. Pay-as-you-go GPU compute (payment method required). **Note: free trial credits for new accounts are no longer advertised (Sep 2026); verify in-account before relying on a free tier.** Supports Llama, Qwen, DeepSeek, and other open models.
+- [Hyperbolic](https://www.hyperbolic.ai/) — Open-access AI cloud with affordable inference. Pay-as-you-go GPU compute (payment method required). **Note: free trial credits for new accounts are no longer prominently advertised (Sep 2026); verify in-account before relying on a free tier.** Supports Llama, Qwen, DeepSeek, and other open models.
 - [Novita AI](https://novita.ai/) — Free credits for testing 100+ models including Llama, Qwen, DeepSeek, and Mistral. OpenAI-compatible API with competitive pricing beyond the free tier.
 - [Anakin.ai](https://anakin.ai/) — **30 daily free credits** for accessing multiple AI models. Web chat interface and API access. Supports GPT-4, Claude, and open-weight models.
 - [Nebius AI](https://nebius.com/) — **Note: Free trial suspended July 13, 2026.** Now steers new users to a ~$1 trial credit via Nebius Token Factory (formerly AI Studio), with a $25 minimum deposit for paid usage. Fast inference on NVIDIA H100 infrastructure.
-- [Fal.ai](https://fal.ai/) — Fast, serverless platform supporting Llama, Flux, and Stable Diffusion models. **Note: free starter credits are no longer advertised on the site (Sep 2026); verify whether new accounts still receive credits.** Pay-as-you-go beyond any free tier.
+- [Fal.ai](https://fal.ai/) — Fast, serverless platform supporting Llama, Flux, and Stable Diffusion models. **Note: free starter credits are not prominently advertised (Sep 2026); verify whether new accounts still receive credits.** Pay-as-you-go beyond any free tier.
 - [Vercel AI Gateway](https://vercel.com/ai) — **$5/month free credits** for the AI Gateway. Proxy and cache requests across multiple LLM providers. SDK is open-source and free.
-- [AI21 Labs](https://www.ai21.com/) — **$10 trial credits** for accessing Jamba 1.5, Jamba 1.6, and other AI21 models. Valid for 3 months. Requires account sign-up.
+- [AI21 Labs](https://www.ai21.com/) — **⚠️ $10 trial credits, valid for 7 days (not 3 months).** Access to Jamba 1.5, Jamba 1.6, and other AI21 models. No credit card required to start.
 - [Amazon Bedrock](https://aws.amazon.com/bedrock/) — **$200 AWS credits** for new customers. Access to Llama, Mistral, Claude, Titan, and other foundation models via API.
 - [Microsoft Foundry (Azure)](https://azure.microsoft.com/en-us/products/ai-foundry/) — **$200 free trial credits** (30 days). Access GPT-4o, Llama, Mistral, Phi, and other models via Azure's unified AI platform.
 - [RunPod](https://www.runpod.io/) — Free credits for serverless GPU inference. Deploy open-weight models as serverless endpoints. Supports Llama, Qwen, DeepSeek, and more.
@@ -140,15 +140,15 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Requesty](https://www.requesty.ai/free-models) — Free AI API with 200 requests/day. Works with Claude Code, Cline, Cursor. No credit card. OpenAI-compatible.
 - [AINative Studio](https://ainative.studio/free-llm-api) — **⚠️ Free tier ended (was 10M tokens/month).** Now a $5/mo Hobbyist plan with a 3-day trial only. 84+ models (Llama, DeepSeek, Mistral, Qwen).
 - [CloudCode.ONE](https://cloudcode.one/) — **⚠️ No free tier — credit-based ($2 to start).** OpenAI and Anthropic-compatible API for coding agents. Powered by GLM-4.7-Flash.
-- [ZeroLimitAI](https://www.zerolimitai.com/developers) — **⚠️ Site now returns HTTP 402 "Payment Required" (checked Sep 15, 2026) — free tier appears shut down.** Previously free with `model: "auto"` routing, then a 7-day trial (Sep 12), and "Lifetime" one-time paid plans ($49 Core / $99 Pro). Verify in your browser before relying on it.
-- [Chat Oripe](https://api.oriper.com/) — **⚠️ Currently unreachable (HTTP 530) at check time.** Previously offered free tokens via OpenAI-compatible API; verify availability before relying on it.
-- [FreeTheAi](https://github.com/Free-The-Ai/free-ai) — Open-source Discord signup/free OpenAI-compatible API with 50+ models. No credit card. **Small/community-run project (~6★); active as of Aug 2026 but treat as best-effort.**
+- [ZeroLimitAI](https://www.zerolimitai.com/developers) — **⚠️ Free tier is only a 3-day trial; permanent access is a one-time $99 "Lifetime" purchase.** OpenAI-compatible (`model: "auto"` auto-routes to the best free model). No subscriptions. 30-day money-back guarantee. Site intermittently returns HTTP 402 — retry if you hit it.
+- [Chat Oripe](https://api.oriper.com/) — **⚠️ Currently unreachable (HTTP 530).** Previously offered free tokens via OpenAI-compatible API; service appears unavailable.
+- [FreeTheAi](https://github.com/Free-The-Ai/free-ai) — Open-source Discord signup/free OpenAI-compatible API with 50+ models. No credit card. **Small/community-run project (~20★, 1 fork); last commit Aug 2026 — treat as best-effort.**
 - [OpenCode Zen](https://opencode.ai/zen) — **9 free models** — Curated AI gateway with free general and coding models (DeepSeek V4 Flash Free, MiMo-V2.5 Free, Nemotron 3 Ultra Free, Big Pickle, Qwen 3.6 Plus Free, MiniMax M3 Free, North Mini Code Free, and more). OpenAI-compatible API. No credit card required. **Note: docs mark the free models as limited-time; Zen also offers a $20 prepaid balance option.**
 - [LLM7.io](https://llm7.io/) — **15 free models**, no credit card required. DeepSeek R1/V3, GPT-4o mini and more. 1M context, multimodal. 30 RPM free (120 RPM with optional token).
 - [Kilo Code](https://kilo.ai/) — **12 free models**, no credit card. Nemotron 3 Ultra, Step 3.7 Flash, and more. 1M context, ~200 req/hr. Free tier for coding agents. **Note: acquired by Anaconda (banner on site); free "Auto Free" tier still advertised.**
 - [Aion Labs](https://www.aionlabs.ai) — **7 free models**, registration only. Includes Aion 2.5. 128K context, 15 RPM. No credit card required.
 - [Agnes AI](https://platform.agnes-ai.com/) — **5 free models** — Free tier with Agnes 1.5/2.0 Flash and image models. 256K context, 30 RPM. Registration only, no credit card.
-- [Glhf.chat](https://glhf.chat/) — **⚠️ Currently unreachable (HTTP 522) at check time.** Previously offered a free OpenAI-compatible API; verify availability before relying on it.
+- [Glhf.chat](https://glhf.chat/) — **⚠️ Currently unreachable (HTTP 522).** Previously offered a free OpenAI-compatible API; service appears unavailable.
 - [Nscale](https://console.nscale.com/) — **2 free models** — Free tier (registration only) with Llama 3.3 70B and DeepSeek-R1-Distill-70B. 128K context. OpenAI-compatible.
 - [OrcaRouter](https://www.orcarouter.ai/offers) — **4 free models** — DeepSeek V4 Pro, DeepSeek V4 Flash, Qwen3.8 27B, and Tencent Hy3 at $0 per token, plus an `orcarouter/free` alias that auto-routes across the free lineup. OpenAI-, Anthropic-, and Gemini-compatible endpoints. No credit card and no trial expiry. The same page also gives away free vouchers for frontier models — e.g. $10 (~5M tokens) on Grok 4.5 — plus student programs and partner-hackathon credit, browsable without an account; each card shows its own terms and flags any card requirement.
 - [TypeSafe (Jev)](https://typesafe.ai/) — Structured decision models (System One family) that return a typed choice instead of free-form text, for routing and classification inside applications. **Free output tokens** on OpenRouter (`typesafe/jev-latest`); 32K context.
@@ -157,23 +157,23 @@ Providers offering free tiers to access models via API — no local hardware req
 
 ## 🖼️ Image & Video Generation
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Free, open-weight image and video generation models — run locally or via free APIs.
 
 - [FLUX.2-dev (Black Forest Labs)](https://github.com/black-forest-labs/flux2) — **2.6K★.** 32B rectified flow transformer. SOTA open T2I, single/multi-reference editing, in/out-painting. Updated VAE. FLUX.1-dev Non-Commercial License.
 - [ERNIE-Image / ERNIE-Image-Turbo (Baidu)](https://github.com/baidu/ernie-image) — **0.5K★.** 8B DiT SOTA among open-weight models. Strong text rendering, layout control. Turbo: 8-step generation. Apache 2.0.
-- [Z-Image (Tongyi Lab / Alibaba)](https://github.com/Tongyi-MAI/Z-Image) — **11.8K★.** Open-weight T2I with strong GenEval scores. Z-Image-Turbo for 4-step generation. Apache 2.0.
+- [Z-Image (Tongyi Lab / Alibaba)](https://github.com/Tongyi-MAI/Z-Image) — **12.1K★.** Open-weight T2I with strong GenEval scores. Z-Image-Turbo for 4-step generation. Apache 2.0.
 - [Pollinations.ai](https://pollinations.ai/) — **Free image generation API.** No API key or signup needed. Text-to-image, image-to-image. OpenAI-compatible. Integrates with ComfyUI.
 - [OpenImageGen (Hugging Face)](https://huggingface.co/spaces/OpenImageGen/OpenImageGen) — Free, open-source image generation playground. Supports multiple community models via diffusers. Apache 2.0. **Note: login/auth may be required (HTTP 401 at check time).**
 - [FLUX Video Edit (Black Forest Labs)](https://bfl.ai/) — **Sep 2026.** Prompt-based video editing: add, remove, or replace objects/characters, rebuild the setting, edit on-screen text, change colors/materials, translate dialogue with lip sync. Preserves source duration, aspect ratio, and audio. Source clips up to 15s / 50 MiB. Available via OpenRouter (paid per second).
-- [ComfyUI](https://github.com/Comfy-Org/ComfyUI) — **130K★.** Node-based image and video generation UI. Run FLUX, Stable Diffusion, and more locally. GPL-3.0.
+- [ComfyUI](https://github.com/Comfy-Org/ComfyUI) — **135K★.** Node-based image and video generation UI. Run FLUX, Stable Diffusion, and more locally. GPL-3.0.
 
 ---
 
 ## 🔀 Free API Routers
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Open-source tools that route requests across multiple AI providers — unified API, automatic failover, and cost optimization.
 
@@ -186,7 +186,7 @@ Open-source tools that route requests across multiple AI providers — unified A
 
 ## 💻 Local Inference Tools
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Run models on your own machine — no API keys needed, full privacy.
 
@@ -194,7 +194,7 @@ Run models on your own machine — no API keys needed, full privacy.
 - [LM Studio](https://lmstudio.ai/) — Polished desktop GUI. Browse, download, and chat with models. Built-in model browser and local API server.
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) — High-performance C++ inference engine. Runs on CPU and GPU. Supports GGUF quantization. Powers most other local tools.
 - [Jan](https://www.jan.ai/) — Open-source ChatGPT alternative for desktop. Built-in model downloader, local API server. [GitHub](https://github.com/janhq/jan)
-- [GPT4All](https://www.nomic.ai/gpt4all) — ⚠️ **Unmaintained — last release Feb 2025 (last commit May 2025).** Privacy-focused local chatbot. Runs on consumer hardware. Built-in model browser. [GitHub](https://github.com/nomic-ai/gpt4all)
+- [GPT4All](https://www.nomic.ai/gpt4all) — ⚠️ **Unmaintained — last commit May 2025 (last release Feb 2025).** Privacy-focused local chatbot. Runs on consumer hardware. Built-in model browser. [GitHub](https://github.com/nomic-ai/gpt4all)
 - [text-generation-webui (Oobabooga)](https://github.com/oobabooga/textgen) — Feature-rich web UI. Supports multiple backends (Transformers, llama.cpp, ExLlama, AutoGPTQ).
 - [LocalAI](https://localai.io/) — Drop-in OpenAI API replacement. Run models locally with an OpenAI-compatible API. [GitHub](https://github.com/mudler/LocalAI)
 - [KoboldCPP](https://github.com/LostRuins/koboldcpp) — Single-file executable for running GGUF models. Focused on story generation but general-purpose.
@@ -204,7 +204,7 @@ Run models on your own machine — no API keys needed, full privacy.
 - [TensorRT-LLM (NVIDIA)](https://github.com/NVIDIA/TensorRT-LLM) — NVIDIA's optimized inference engine. Best performance on NVIDIA GPUs.
 - [ExLlamaV3](https://github.com/turboderp-org/exllamav3) — Optimized inference for Llama-family models. Successor to ExLlamaV2. Fastest option for single-GPU inference.
 - [Aphrodite Engine](https://github.com/dphnAI/sonar) — High-performance LLM serving engine with advanced quantization support.
-- [TabbyAPI](https://github.com/theroyallab/tabbyAPI) — Lightweight, fast OpenAI-compatible API server for ExLlamaV2.
+- [TabbyAPI](https://github.com/theroyallab/tabbyAPI) — Lightweight, fast OpenAI-compatible API server for ExLlama. (Originally ExLlamaV2; now targets ExLlama/ExLlamaV3.)
 - [LlamaEdge](https://llamaedge.com/) — Lightweight inference framework for edge devices. OpenAI-compatible API for open-source models. Runs on WasmEdge for portability. [GitHub](https://github.com/LlamaEdge/LlamaEdge)
 - [MLC LLM](https://github.com/mlc-ai/mlc-llm) — Universal deployment engine by UW/SJTU. Runs LLMs on any hardware — laptops, phones, browsers. OpenAI-compatible API.
 - [WebLLM](https://github.com/mlc-ai/web-llm) — In-browser LLM inference via WebGPU. Runs models directly in your browser with zero setup. No server needed.
@@ -214,51 +214,51 @@ Run models on your own machine — no API keys needed, full privacy.
 - [AirLLM](https://github.com/lyogavin/airllm) — Run large models (70B+) on consumer hardware with limited memory. Loads models layer-by-layer for extreme memory efficiency. **Actively maintained (last push Aug 2026).**
 - [Microsoft Foundry Toolkit for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-windows-ai-studio.windows-ai-studio) — VS Code extension to browse, test, fine-tune, and deploy models locally. Integrates ONNX and llama.cpp.
 - [Ollama Grid Search](https://github.com/dezoito/ollama-grid-search) — Desktop utility for systematic model evaluation. Test multiple models, prompts, and inference parameters side-by-side via a Rust/React GUI.
-- [oMLX](https://github.com/jundot/omlx) — **21K★.** LLM inference server for Apple Silicon with continuous batching, tiered KV caching (hot RAM + cold SSD), and macOS menu bar app. OpenAI and Anthropic compatible. Apache 2.0.
-- [MTPLX](https://github.com/youssofal/MTPLX) — **1.8K★.** Native MTP speculative decoding on Apple Silicon — ~2x faster decode with no external drafter. Mac app + CLI, OpenAI/Anthropic compatible server. Auto-tunes draft depth per machine. Apache 2.0.
+- [oMLX](https://github.com/jundot/omlx) — **22.3K★.** LLM inference server for Apple Silicon with continuous batching, tiered KV caching (hot RAM + cold SSD), and macOS menu bar app. OpenAI and Anthropic compatible. Apache 2.0.
+- [MTPLX](https://github.com/youssofal/MTPLX) — **2.5K★.** Native MTP speculative decoding on Apple Silicon — ~2x faster decode with no external drafter. Mac app + CLI, OpenAI/Anthropic compatible server. Auto-tunes draft depth per machine. Apache 2.0.
 
 ---
 
 ## 💬 AI Chatbot UIs
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Free, open-source web interfaces for chatting with AI models — self-host or use hosted versions.
 
 - [Open WebUI](https://openwebui.com/) — Feature-rich ChatGPT-like interface for Ollama and OpenAI-compatible backends. RAG, image generation, multi-user. [GitHub](https://github.com/open-webui/open-webui)
-- [LibreChat](https://www.librechat.ai/) — Open-source ChatGPT clone supporting 40+ providers, multi-user, plugins, and RAG. **Note: Company acquired by ClickHouse; repo actively maintained (last push Aug 2026).** [GitHub](https://github.com/danny-avila/LibreChat)
+- [LibreChat](https://www.librechat.ai/) — Open-source ChatGPT clone supporting 40+ providers, multi-user, plugins, and RAG. **Note: company acquired by ClickHouse; repo actively maintained (last commit Sep 2026). Repo has moved to the `LibreChat-AI` org — the old `danny-avila` link redirects.** [GitHub](https://github.com/LibreChat-AI/LibreChat)
 - [AnythingLLM](https://anythingllm.com/) — All-in-one desktop app for chatting with documents and models. Built-in RAG pipeline. [GitHub](https://github.com/Mintplex-Labs/anything-llm)
 - [Big-AGI](https://big-agi.com/) — Feature-rich AI chat with personas, multi-model support, voice, and code execution. [GitHub](https://github.com/enricoros/big-agi)
 - [Lobe Chat](https://lobehub.com/) — Multi-agent orchestration platform with plugin system and multi-provider support. [GitHub](https://github.com/lobehub/lobehub)
 - [Mistral Le Chat](https://chat.mistral.ai/) — Web UI for Mistral Large 3, Medium 3.5, and Codestral; multimodal input (images, code). Free tier with rate‑limited calls (≈2 RPM, 500 K tokens / month). No credit‑card required. **(HTTP 403 at check time; may block automation).**
 - [Google AI Studio Chat](https://aistudio.google.com/) — Direct chat interface for Gemini 3.5 Flash & Gemini 2.5 Pro; multimodal (image + text) and code‑execution blocks. Same free limits as AI Studio API (15 RPM, 1 500 tokens / day).
-- [OpenCode (GitHub‑hosted)](https://github.com/opencode-ai/opencode) — IDE‑style coding assistant that can be pointed at any free API (Groq, Google AI Studio, OpenRouter). Free backend integration; supports file editing, terminal commands, multi‑turn conversations. **⚠️ Repo archived (read-only, last push Sep 2025); the project now lives at opencode.ai.**
+- [OpenCode (GitHub‑hosted)](https://github.com/opencode-ai/opencode) — IDE‑style coding assistant that can be pointed at any free API (Groq, Google AI Studio, OpenRouter). Free backend integration; supports file editing, terminal commands, multi‑turn conversations. **⚠️ Repo archived (read-only, last commit Sep 18, 2025); the active project now lives at opencode.ai.**
 
 ---
 
 ## 🎵 Audio & Speech Models
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generation models you can run locally.
 
-- [Qwen3-TTS (Alibaba)](https://github.com/QwenLM/Qwen3-TTS) — **13K★.** Voice cloning, voice design, 10 languages. Streaming support with 97ms TTFB. 0.6B/1.7B. Apache 2.0.
-- [Chatterbox (Resemble AI)](https://github.com/resemble-ai/chatterbox) — **26.1K★.** SOTA open-source TTS. Multilingual V3 (23+ languages, 0.5B). Turbo: 350M for low-latency agents. Paralinguistic tags. MIT.
-- [MOSS-TTS Family (MOSI.AI/OpenMOSS)](https://github.com/OpenMOSS/MOSS-TTS) — **4K★.** 8B flagship + 100M Nano (CPU). Voice cloning, dialogue generation, sound effects, realtime streaming. Apache 2.0.
+- [Qwen3-TTS (Alibaba)](https://github.com/QwenLM/Qwen3-TTS) — **13.6K★.** Voice cloning, voice design, 10 languages. Streaming support with 97ms TTFB. 0.6B/1.7B. Apache 2.0.
+- [Chatterbox (Resemble AI)](https://github.com/resemble-ai/chatterbox) — **26.6K★.** SOTA open-source TTS. Multilingual V3 (23+ languages, 0.5B). Turbo: 350M for low-latency agents. Paralinguistic tags. MIT.
+- [MOSS-TTS Family (MOSI.AI/OpenMOSS)](https://github.com/OpenMOSS/MOSS-TTS) — **4.1K★.** 8B flagship + 100M Nano (CPU). Voice cloning, dialogue generation, sound effects, realtime streaming. Apache 2.0.
 - [Orpheus-TTS (Canopy Labs)](https://github.com/canopyai/Orpheus-TTS) — **6.3K★.** Llama-3b backbone, human-like speech, zero-shot voice cloning, emotion tags. ~200ms streaming latency. Apache 2.0.
-- [NeuTTS (Neuphonic)](https://github.com/neuphonic/neutts) — **6.2K★.** On-device TTS with instant voice cloning. GGUF quantized for CPU/mobile. 120M Nano and 360M Air variants. Apache 2.0.
-- [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper) — **25K★.** CTranslate2-based Whisper for 4x faster transcription. MIT.
+- [NeuTTS (Neuphonic)](https://github.com/neuphonic/neutts) — **6.3K★.** On-device TTS with instant voice cloning. GGUF quantized for CPU/mobile. 120M Nano and 360M Air variants. Apache 2.0.
+- [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper) — **25.6K★.** CTranslate2-based Whisper for 4x faster transcription. MIT.
 - [Muse Voice Transcribe 1.0 (Meta)](https://openrouter.ai/meta/muse-voice-transcribe-1.0) — **Sep 2026.** Synchronous speech-to-text for push-to-talk, endpointing, and speaker-aware transcription. Keyword biasing for domain terms and language-name hints. Accepts mono 16-bit PCM WAV (16/24 kHz, up to 10 min). Available via OpenRouter.
 
 ---
 
 ## 🤖 AI Coding Assistants
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Free tools that integrate AI into your development workflow.
 
-- [Continue.dev](https://www.continue.dev/) — **⚠️ Acquired by Cursor (Jun 2026); standalone product & cloud were shut down (data deleted Jul 15, 2026). OSS repo handed to the community under Apache 2.0 (last push Aug 2026).** Open-source AI code assistant for VS Code and JetBrains. [GitHub](https://github.com/continuedev/continue)
+- [Continue.dev](https://www.continue.dev/) — **⚠️ Acquired by Cursor (Jun 2026); standalone product & cloud were shut down (data deleted Jul 15, 2026). OSS repo handed to the community under Apache 2.0 (last commit Jul 21, 2026).** Open-source AI code assistant for VS Code and JetBrains. [GitHub](https://github.com/continuedev/continue)
 - [Aider](https://aider.chat/) — AI pair programming in the terminal. Edits code in your local git repo. Supports GPT, Claude, and local models. [GitHub](https://github.com/Aider-AI/aider)
 - [Gemini CLI (Google)](https://github.com/google-gemini/gemini-cli) — **Jul 2026.** Open-source terminal agent with generous free Gemini quota. Supports agentic coding workflows.
 - [Kilo Code](https://github.com/Kilo-Org/kilocode) — **2026.** VS Code/JetBrains agentic coding extension with model-agnostic support and Plan/Act oversight. **Note: acquired by Anaconda (2026); repo remains active.**
@@ -273,16 +273,16 @@ Free tools that integrate AI into your development workflow.
 - [Cline](https://cline.bot/) — Popular autonomous VS Code agent. Creates/edits files, runs terminal commands, browses web. Open-source, BYOK (bring your own API key). [GitHub](https://github.com/cline/cline)
 - [OpenHands](https://www.openhands.dev/) — Autonomous AI software engineer. Navigates file systems, runs shell commands, tests code in browser. Self-hostable. [GitHub](https://github.com/OpenHands/OpenHands)
 - [Goose](https://goose-docs.ai/) — Open-source CLI agent for complex software engineering tasks. Extensible plugin system. Built by Block/Square. [GitHub](https://github.com/aaif-goose/goose)
-- [Qwen Code](https://github.com/QwenLM/qwen-code) — **2025.** Open-source terminal AI coding agent with 27K+ stars. Multi-protocol (OpenAI, Anthropic, Gemini, Qwen). Auto-memory, sub-agents, agent teams, MCP. Apache 2.0.
-- [CodeWhale](https://github.com/Hmbown/CodeWhale) — **2026.** Terminal coding agent with 40K+ stars. 30+ providers, local models via Ollama/vLLM. TUI, headless mode, web UI. MIT license.
-- [nanobot (HKUDS)](https://github.com/HKUDS/nanobot) — **2026.** Open-source, ultra-lightweight personal AI agent with WebUI, chat channels, MCP, memory, and scheduling. 47K★. MIT.
-- [MiMoCode (Xiaomi)](https://github.com/XiaomiMiMo/MiMo-Code) — **Jun 2026.** Terminal-native coding agent with persistent memory, subagent orchestration, and goal-driven autonomous loops. 12.8K★. MIT.
+- [Qwen Code](https://github.com/QwenLM/qwen-code) — **2025.** Open-source terminal AI coding agent with 28.2K stars. Multi-protocol (OpenAI, Anthropic, Gemini, Qwen). Auto-memory, sub-agents, agent teams, MCP. Apache 2.0.
+- [CodeWhale](https://github.com/Hmbown/CodeWhale) — **2026.** Terminal coding agent with 41K+ stars. 30+ providers, local models via Ollama/vLLM. TUI, headless mode, web UI. MIT license.
+- [nanobot (HKUDS)](https://github.com/HKUDS/nanobot) — **2026.** Open-source, ultra-lightweight personal AI agent with WebUI, chat channels, MCP, memory, and scheduling. 48.6K★. MIT.
+- [MiMoCode (Xiaomi)](https://github.com/XiaomiMiMo/MiMo-Code) — **Jun 2026.** Terminal-native coding agent with persistent memory, subagent orchestration, and goal-driven autonomous loops. 13.5K★. MIT.
 
 ---
 
 ## 📝 Code Models
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Specialized for code generation, completion, and analysis.
 
@@ -308,13 +308,13 @@ Specialized for code generation, completion, and analysis.
 
 ## 🧬 Embedding Models
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Free, open-weight embedding and reranker models for semantic search, RAG, and text representation.
 
 - [Qwen3-Embedding (Alibaba)](https://github.com/QwenLM/Qwen3-Embedding) — **2K★.** #1 on MTEB multilingual leaderboard. Sizes: 0.6B/4B/8B. 32K context, MRL support, instruction-aware. Includes reranker models. Apache 2.0.
 - [BGE-M3 (BAAI)](https://github.com/FlagOpen/FlagEmbedding/tree/master/research/BGE_M3) — Multi-lingual (100+ languages), multi-functionality (dense, sparse, colbert), multi-granularity (8K tokens). MIT.
-- [FlagEmbedding (BAAI)](https://github.com/FlagOpen/FlagEmbedding) — **12K★.** Framework and model zoo: BGE series, BGE-VL (multimodal), bge-en-icl, bge-multilingual-gemma2 (9B multilingual SOTA). MIT.
+- [FlagEmbedding (BAAI)](https://github.com/FlagOpen/FlagEmbedding) — **12.2K★.** Framework and model zoo: BGE series, BGE-VL (multimodal), bge-en-icl, bge-multilingual-gemma2 (9B multilingual SOTA). MIT.
 - [nomic-embed-text-v2 (Nomic AI)](https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe) — **1.5B** MoE embedding model. 8192 context. Matches or exceeds OpenAI text-embedding-3-small. Apache 2.0.
 - [mxbai-embed-large-v1](https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1) — **0.3B** lightweight embedding. Top of MTEB among sub-0.5B models. Apache 2.0.
 - [Google text-embedding-004](https://aistudio.google.com/) — **1,500 req/day** via AI Studio. 512-dim & 768-dim variants. Free, no credit card required. Best for RAG and semantic search.
@@ -324,7 +324,7 @@ Free, open-weight embedding and reranker models for semantic search, RAG, and te
 
 ## 🔍 RAG & Vector Databases
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Free tools for building retrieval-augmented generation pipelines — vector storage, embedding search, and document retrieval.
 
@@ -335,7 +335,7 @@ Free tools for building retrieval-augmented generation pipelines — vector stor
 - [Weaviate](https://weaviate.io/) — Open-source vector database. Free sandbox tier on Weaviate Cloud. [GitHub](https://github.com/weaviate/weaviate)
 - [Milvus (Zilliz)](https://zilliz.com/) — Cloud-native vector database. Free tier on Zilliz Cloud or self-host. [GitHub](https://github.com/milvus-io/milvus)
 - [txtai](https://neuml.github.io/txtai/) — AI-powered semantic search and RAG in a single Python package. [GitHub](https://github.com/neuml/txtai)
-- [R2R (SciPhi)](https://github.com/SciPhi-AI/R2R) — Production-ready RAG engine with API, user management, and observability. **Note: Last release Jun 2025. Consider alternatives like Dify or LangGraph.**
+- [R2R (SciPhi)](https://github.com/SciPhi-AI/R2R) — Production-ready RAG engine with API, user management, and observability. **Note: Largely dormant — last release Jun 2025, last commit Nov 2025. Consider Dify or LangGraph instead.**
 - [Docling (IBM)](https://www.docling.ai/) — Document understanding and conversion for RAG pipelines. Extracts PDFs, images, and more. [GitHub](https://github.com/docling-project/docling)
 - [Unstructured.io](https://unstructured.io/) — Preprocessing toolkit for documents (PDF, HTML, Word) for RAG pipelines. Free tier available.
 - [GraphRAG (Microsoft)](https://github.com/microsoft/graphrag) — Modular graph-based RAG pipeline. Extracts a knowledge graph from unstructured text via LLM prompting, then answers over it with community-summarization for better global/abstractive queries than vector-only RAG. MIT license. [GitHub](https://github.com/microsoft/graphrag)
@@ -344,13 +344,13 @@ Free tools for building retrieval-augmented generation pipelines — vector stor
 
 ## 🧩 Agentic Frameworks
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Free, open-source frameworks for building AI agents and multi-agent systems.
 
 - [LangGraph (LangChain)](https://langchain-ai.github.io/langgraph/) — Low-level framework for building stateful, multi-agent applications. [GitHub](https://github.com/langchain-ai/langgraph)
 - [CrewAI](https://crewai.com/) — Multi-agent framework for orchestrating specialized AI agents to work together. [GitHub](https://github.com/crewAIInc/crewAI)
-- [AutoGen (Microsoft)](https://microsoft.github.io/autogen/stable/) — Extensible framework for building multi-agent conversations. **Note: In maintenance mode (last push Apr 2026).** [GitHub](https://github.com/microsoft/autogen)
+- [AutoGen (Microsoft)](https://microsoft.github.io/autogen/stable/) — Extensible framework for building multi-agent conversations. **Note: In maintenance mode — last commit Apr 6, 2026, last release Mar 2026. Microsoft steers new users to Microsoft Agent Framework.** [GitHub](https://github.com/microsoft/autogen)
 - [Agno (formerly Phidata)](https://www.agno.com/) — Full-stack AI framework for building multimodal agents with memory, knowledge, and tools. [GitHub](https://github.com/agno-agi/agno)
 - [PydanticAI](https://pydantic.dev/docs/ai/overview/) — Agent framework by Pydantic with type-safe outputs and dependency injection. [GitHub](https://github.com/pydantic/pydantic-ai)
 - [Mastra](https://mastra.ai/) — TypeScript framework for building AI applications and agent workflows. [GitHub](https://github.com/mastra-ai/mastra)
@@ -358,42 +358,42 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 - [Semantic Kernel (Microsoft)](https://learn.microsoft.com/en-us/semantic-kernel/) — SDK for orchestrating AI agents with planners, memory, and connectors. [GitHub](https://github.com/microsoft/semantic-kernel)
 - [Dify](https://dify.ai/) — LLM app development platform with visual workflow builder and agent capabilities. [GitHub](https://github.com/langgenius/dify)
 - [Flowise](https://flowiseai.com/) — Low-code visual LLM flow builder with drag-and-drop interface. **Note: Acquired by Workday; repo archived (read-only) Aug 13, 2026.** [GitHub](https://github.com/FlowiseAI/Flowise)
-- [Fazm](https://github.com/mediar-ai/fazm) — **Apr 2026.** Open-source local computer-use agent for macOS. Drives apps via accessibility APIs, model-agnostic, faster than screenshot-based agents.
+- [Fazm](https://github.com/mediar-ai/fazm) — **Apr 2026.** Open-source local computer-use agent for macOS. Drives apps via accessibility APIs, model-agnostic, faster than screenshot-based agents. Small project (~339★, last commit Sep 2026).
 - [Smolagents (Hugging Face)](https://github.com/huggingface/smolagents) — Minimalist agent library where agents "think in code." Lightweight, zero boilerplate. Supports code agents and tool-calling agents.
-- [Swarms](https://github.com/kyegomez/swarms) — Enterprise-grade multi-agent orchestration framework. Scalable infrastructure for autonomous agent swarms. Highly modular. **Actively maintained (last push Aug 2026).**
+- [Swarms](https://github.com/kyegomez/swarms) — Enterprise-grade multi-agent orchestration framework. Scalable infrastructure for autonomous agent swarms. Highly modular. **Actively maintained (last commit Sep 2026).**
 - [Letta (MemGPT)](https://github.com/letta-ai/letta) — Framework for long-term agent memory. Virtual memory management that pages data in/out of context like an OS. Persistent agents.
 - [Griptape](https://github.com/griptape-ai/griptape) — Enterprise agent framework with strictly typed Pipelines, Workflows, and Agents. Structure-first, production-ready.
 - [Atomic Agents](https://github.com/Eigenwise/atomic-agents) — Framework inspired by Atomic Design. Compose agents from small, reusable, modular components. Testable and scalable.
 - [PraisonAI](https://github.com/MervinPraison/PraisonAI) — Low-code multi-agent framework. Define agent roles, tasks, and flows via YAML configuration. Wraps underlying agent frameworks.
 - [Cognee](https://github.com/topoteretes/cognee) — GraphRAG framework for agent knowledge management. Builds interconnected knowledge graphs from unstructured data.
-- [MetaGPT](https://github.com/FoundationAgents/MetaGPT) — Multi-agent framework simulating a full software team. Assigns Agent, Product Manager, Engineer roles. Implements SOPs for end-to-end code generation. **Note: Active development (last push Jan 2026).**
+- [MetaGPT](https://github.com/FoundationAgents/MetaGPT) — Multi-agent framework simulating a full software team. Assigns Agent, Product Manager, Engineer roles. Implements SOPs for end-to-end code generation. **Note: Slowed development — last commit Jan 21, 2026, last release Apr 2024.**
 - [ChatDev (OpenBMB)](https://github.com/OpenBMB/ChatDev) — Virtual software company driven by multi-agent collaboration. Follows waterfall model through design, coding, testing, and documentation.
 - [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) — The original autonomous agent experiment. Sets its own goals, iterates on tasks, and executes without continuous human input. Web browsing and file management.
 - [Bee Agent Framework (IBM)](https://github.com/i-am-bee/beeai-framework) — Production-ready framework for building reliable AI agents in Python and TypeScript. Modular, with built-in observability and IBM research optimizations.
 - [Eliza (elizaOS)](https://github.com/elizaOS/eliza) — Multi-platform agent framework for creating character-driven AI agents. Handles social media interaction, complex decision-making, and autonomous behavior across platforms.
 - [Qwen-Agent (Alibaba)](https://github.com/QwenLM/Qwen-Agent) — Agent framework tightly integrated with the Qwen model family. Optimized for function calling, code execution, RAG, and tool use with Qwen models.
 - [AGiXT](https://github.com/Josh-XT/AGiXT) — Extensible modular AI agent automation platform. Plugin system for swapping LLMs, memory backends, and tools. Highly customizable agent workflows.
-- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — **12.9K★.** Production-grade multi-agent framework for Python and .NET. Graph-based workflows, streaming, human-in-the-loop. MIT.
-- [GenericAgent](https://github.com/lsdefine/GenericAgent) — **13.8K★.** Minimal, self-evolving autonomous agent framework. ~3K lines core, 9 atomic tools. Self-crystallizing skill tree from every task. MIT.
-- [Omnigent](https://github.com/omnigent-ai/omnigent) — **9K★.** Open-source meta-harness orchestrating Claude Code, Codex, Cursor, Pi, and custom agents. Real-time collaboration from any device. Apache 2.0.
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) — **13.8K★.** Production-grade multi-agent framework for Python and .NET. Graph-based workflows, streaming, human-in-the-loop. MIT.
+- [GenericAgent](https://github.com/lsdefine/GenericAgent) — **14.3K★.** Minimal, self-evolving autonomous agent framework. ~3K lines core, 9 atomic tools. Self-crystallizing skill tree from every task. MIT.
+- [Omnigent](https://github.com/omnigent-ai/omnigent) — **10.3K★.** Open-source meta-harness orchestrating Claude Code, Codex, Cursor, Pi, and custom agents. Real-time collaboration from any device. Apache 2.0.
 
 ---
 
 ## 🔧 MCP Servers & Tools
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Model Context Protocol (MCP) servers that connect AI assistants to external tools, data sources, and APIs.
 
-- [GitHub MCP Server](https://github.com/github/github-mcp-server) — **32.4K★.** Official GitHub MCP server by GitHub. Repository management, issue/PR automation, CI/CD intelligence, code analysis. OAuth or PAT auth. MIT license.
-- [GitMCP](https://github.com/idosal/git-mcp) — **8.3K★.** Free, open-source, remote MCP server for any GitHub project. Zero-setup documentation and code access for AI assistants. Apache 2.0.
-- [MCP Reference Servers (Anthropic)](https://github.com/modelcontextprotocol/servers) — **89.7K★.** Official reference implementations: Filesystem, Git, Fetch, Memory, Time, Sequential Thinking. Apache 2.0 / MIT.
+- [GitHub MCP Server](https://github.com/github/github-mcp-server) — **33.2K★.** Official GitHub MCP server by GitHub. Repository management, issue/PR automation, CI/CD intelligence, code analysis. OAuth or PAT auth. MIT license.
+- [GitMCP](https://github.com/idosal/git-mcp) — **8.4K★.** Free, open-source, remote MCP server for any GitHub project. Zero-setup documentation and code access for AI assistants. Apache 2.0. **Note: quiet since May 2026.**
+- [MCP Reference Servers (Anthropic)](https://github.com/modelcontextprotocol/servers) — **90.6K★.** Official reference implementations: Filesystem, Git, Fetch, Memory, Time, Sequential Thinking. Apache 2.0 / MIT.
 
 ---
 
 ## 🎛 Fine-tuning Tools
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Tools to fine-tune free models on your own data — all free and open-source.
 
@@ -408,7 +408,7 @@ Tools to fine-tune free models on your own data — all free and open-source.
 
 ## ✨ Prompt Engineering Tools
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Free tools for testing, managing, and optimizing prompts.
 
@@ -422,21 +422,21 @@ Free tools for testing, managing, and optimizing prompts.
 
 ## 📊 LLM Evaluation & Observability
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Free, open-source tools for tracing, evaluating, and monitoring LLM applications in development and production.
 
-- [Langfuse](https://langfuse.com/) — **33.4K★.** Full LLM engineering platform: tracing, evaluations, prompt management, playground, datasets. Self-hostable. MIT (core). [GitHub](https://github.com/langfuse/langfuse)
-- [Opik (Comet)](https://github.com/comet-ml/opik) — **21.5K★.** Open-source LLM observability, evaluation, and agent tracing. Datasets, experiments, LLM-as-judge, guardrails, prompt management. Apache 2.0.
-- [Phoenix (Arize AI)](https://github.com/Arize-AI/phoenix) — AI observability platform with OpenTelemetry-based tracing, evals, experiments, and prompt playground. Elastic License 2.0.
-- [TruLens](https://github.com/TruEra/trulens) — **3.5K★.** Agent-specific evaluations (7 purpose-built evaluators). OpenTelemetry tracing, MCP support, batch and inline evaluation. MIT.
-- [OpenLLMetry (Traceloop)](https://github.com/traceloop/openllmetry) — **7.4K★.** OpenTelemetry-based LLM observability. Send traces to any OTLP-compatible backend. Apache 2.0.
+- [Langfuse](https://langfuse.com/) — **35.1K★.** Full LLM engineering platform: tracing, evaluations, prompt management, playground, datasets. Self-hostable. MIT (core). [GitHub](https://github.com/langfuse/langfuse)
+- [Opik (Comet)](https://github.com/comet-ml/opik) — **22.3K★.** Open-source LLM observability, evaluation, and agent tracing. Datasets, experiments, LLM-as-judge, guardrails, prompt management. Apache 2.0.
+- [Phoenix (Arize AI)](https://github.com/Arize-AI/phoenix) — **11.6K★.** AI observability platform with OpenTelemetry-based tracing, evals, experiments, and prompt playground. Elastic License 2.0.
+- [TruLens](https://github.com/truera/trulens) — **3.6K★.** Agent-specific evaluations (7 purpose-built evaluators). OpenTelemetry tracing, MCP support, batch and inline evaluation. MIT. **Note: org renamed `TruEra` → `truera`; old URLs still redirect.**
+- [OpenLLMetry (Traceloop)](https://github.com/traceloop/openllmetry) — **7.5K★.** OpenTelemetry-based LLM observability. Send traces to any OTLP-compatible backend. Apache 2.0.
 
 ---
 
 ## 📊 Datasets
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Free, open datasets for training, fine-tuning, and evaluating models.
 
@@ -456,7 +456,7 @@ Free, open datasets for training, fine-tuning, and evaluating models.
 
 ## ☁ Model Hosting Platforms
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Free platforms that host models — run inference without downloading anything.
 
@@ -474,7 +474,7 @@ Free platforms that host models — run inference without downloading anything.
 
 ## 📚 Learning Resources
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 Free courses, books, and tutorials for learning AI and LLMs.
 
@@ -495,24 +495,24 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 ## 🏆 Resources & Leaderboards
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 - [Perplexity](https://www.perplexity.ai/) — Free AI search and research assistant with real-time answers and source citations. **(HTTP 403 at check time; may block automation).**
-- [BenchLM.ai](https://benchlm.ai/) — **New.** LLM leaderboard with 281 models compared across 8 categories. Verified benchmark data updated weekly.
+- [BenchLM.ai](https://benchlm.ai/) — LLM leaderboard with 508 models across agentic coding, reasoning, knowledge, math, multimodal, instruction following, multilingual, and voice categories. Ranking methodology BenchAlign v5.7; data refreshed daily.
 - [Hugging Face Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) — The primary benchmark for open-weight models. Updated regularly.
 - [LMSYS Chatbot Arena](https://arena.ai/) — Human preference rankings of models. Best source for real-world quality comparisons.
 - [StudyArena](https://studyarena.com) - Free blind comparisons of three AI answers to a study question, with voting followed by model reveal.
 - [Artificial Analysis](https://artificialanalysis.ai/) — Independent benchmarks for speed, pricing, and quality across providers.
 - [Hugging Face Models](https://huggingface.co/models) — Search 1M+ models. Filter by license, task, framework.
 - [OpenRouter Models](https://openrouter.ai/models) — Browse models available via API with pricing and free tiers.
-- [FreeLLM.net](https://freellm.net/) — **New.** Directory of 503+ free AI models from 31+ providers (Google, Groq, NVIDIA NIM, OpenRouter, and more) with live daily verification. One-click config for Claude Code, Cursor, Codex, and any OpenAI-compatible tool. Free encrypted key vault; filters for no-credit-card and no-phone-verification providers. Companion list: [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) (3.1K★). **Note: still lists some retired providers (e.g., GitHub Models was retired Jul 30, 2026) — cross-check before relying.**
+- [FreeLLM.net](https://freellm.net/) — Directory of 505+ free AI models from 30+ providers (Google, Groq, NVIDIA, OpenRouter, and more) with live daily verification. One-click config for Claude Code, Cursor, Codex, and any OpenAI-compatible tool. Free encrypted key vault; filters for no-credit-card and no-phone-verification providers. Companion list: [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) (3.4K★). **Note: still lists some retired providers (e.g., GitHub Models was retired Jul 30, 2026) — cross-check before relying.**
 - [Ollama Library](https://ollama.com/library) — Browse models available for one-command local setup.
 
 ---
 
 ## 👥 Communities
 
-> 📅 Last checked: September 20, 2026
+> 📅 Last checked: September 27, 2026
 
 - [Hugging Face Discord](https://hf.co/join/discord) — Model releases, discussions, and community support. *(Link fixed: discord.gg/huggingface invite is no longer valid.)*
 - [r/LocalLLaMA](https://reddit.com/r/LocalLLaMA) — The largest Reddit community for running local LLMs. **(HTTP 403 at check time; may block automation).**
