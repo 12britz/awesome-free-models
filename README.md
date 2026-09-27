@@ -100,12 +100,12 @@ Providers offering free tiers to access models via API — no local hardware req
 - [OpenRouter](https://openrouter.ai/) — **~21 free models** — Aggregates 450+ models. Filter by "Free" to see models available at no cost. **Note: free models require a positive credit balance (balance may be $0).** Includes experimental and subsidized open-weight models. **Note: the free lineup churns constantly — treat this as a snapshot.**
 - [AnyAPI](https://anyapi.ai/) — **15 free models** — 400+ models with OpenAI-compatible API. Free tier: 100K tokens/day, unlimited users. Includes free and basic models. No credit card required.
 - [Groq](https://console.groq.com/) — **12 free models** — Ultra-fast LPU inference. Free tier includes Llama 3.x/4, Qwen, GPT-OSS, and Whisper models with generous daily rate limits (no credit card).
-- [Hugging Face Inference Providers](https://huggingface.co/inference-api) — **5 free models** — Free tier for thousands of community models. Rate-limited but excellent for testing.
+- [Hugging Face Inference Providers](https://huggingface.co/inference-api) — **Free tier is only $0.10/month** for free accounts ($2.00/month for PRO/Team) — Free access to thousands of community models. Effectively unusable at that allowance; pay-as-you-go for anything real.
 - [NVIDIA NIM](https://build.nvidia.com/) — **100+ free models** — Free, rate-limited API access to accelerated versions of Llama, Mistral, Gemma, and more on NVIDIA infrastructure.
-- [DeepInfra](https://deepinfra.com/) — **⚠️ No permanent free-model tier; free tier is now a recurring monthly credit (site advertises ~$10/month; reports cite ~$5 signup + $5/mo recurring).** Serverless inference for popular open-source models.
+- [DeepInfra](https://deepinfra.com/) — **⚠️ No free tier.** Their pricing page states you must add a card or pre-pay before you can use the service. Serverless inference for popular open-source models.
 - [Together AI](https://www.together.ai/) — **⚠️ Mostly paid, but at least one model is genuinely $0: Ternary Bonsai 27B is listed at $0.00 input / $0.00 output.** Everything else is per-token, and a minimum credit purchase is typically required. Fast inference on many open-source models.
 - [Fireworks AI](https://fireworks.ai/) — **⚠️ No free models; ~$1 signup credit only.** Optimized for low latency on open-source models.
-- [SiliconFlow](https://siliconflow.cn/) — **3 free models** — Rising platform with free access to many open-source models.
+- [SiliconFlow](https://siliconflow.cn/) — **15+ free models** — Chinese platform with a large free tier: Qwen-Image, Hunyuan-MT-7B, BGE-M3, bge-reranker-v2-m3, and others listed at ¥0. No credit card required.
 - [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) — **50+ free models** — Free tier for running select open-source models at the edge.
 - [Black Forest Labs](https://api.bfl.ai/) — **2 free models** — Free Flux 2 Dev and Flux Kontext Dev image generation via API. Rate-limited, no credit card required.
 - [Replicate](https://replicate.com/) — Limited free runs on select "Try for Free" models, no credit card required; then prepaid pay-as-you-go.
