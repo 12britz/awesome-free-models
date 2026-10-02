@@ -1,0 +1,31 @@
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="/" class="nav-brand">
+            <svg class="nav-icon" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.813 14.146A3.87 3.87 0 0116.16 5.969a3.87 3.87 0 11-6.325 3.177L9.813 14.146zM6.6 10.5a1.2 1.2 0 112.4-2.4 1.2 1.2 0 01-2.4 2.4z"/>
+            </svg>
+            <span>Awesome Free Models</span>
+        </a>
+        
+        <div class="nav-links">
+            <a href="/" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
+            <a href="/categories.html" class="nav-link {% if page.url == '/categories.html' %}active{% endif %}">Browse</a>
+            <a href="/about.html" class="nav-link {% if page.url == '/about.html' %}active{% endif %}">About</a>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <svg class="sun-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+                </svg>
+                <svg class="moon-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9 9 0 0120.354 15.354z"/>
+                </svg>
+            </button>
+        </div>
+        
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+        </button>
+    </div>
+</nav>

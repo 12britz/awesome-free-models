@@ -1,0 +1,112 @@
+---
+layout: default
+title: About - Awesome Free Models
+description: Learn about the Awesome Free Models project, its methodology, and how to contribute.
+---
+
+<div class="about-page">
+    <section class="page-header">
+        <div class="container">
+            <h1>About Awesome Free Models</h1>
+            <p class="lead">A community-driven project to catalog and verify free AI models, APIs, and tools.</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="content-grid">
+                <div class="content-main">
+                    <h2>Our Mission</h2>
+                    <p>Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.</p>
+                    
+                    <h2>How We Verify</h2>
+                    <p>All links are re-verified regularly (last check: October 1, 2026) across 343 unique links. We test each endpoint and note any issues like HTTP 403/530/522/401 responses that may block automation but work for real users.</p>
+                    
+                    <h2>What Makes a Model "Free"</h2>
+                    <ul>
+                        <li><strong>Open-weight models</strong> — Downloadable weights you can run on your own hardware</li>
+                        <li><strong>Free API tiers</strong> — Cloud APIs with generous free tiers (no credit card required)</li>
+                        <li><strong>Local inference tools</strong> — Software to run models locally with full privacy</li>
+                        <li><strong>No trial traps</strong> — We flag services that are only free trials or require payment after a period</li>
+                    </ul>
+                    
+                    <h2>Stats Overview</h2>
+                    <div class="stats-overview">
+                        <div class="stat-card">
+                            <span class="stat-number">53</span>
+                            <span class="stat-label">Models</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">245</span>
+                            <span class="stat-label">Tools</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">21</span>
+                            <span class="stat-label">Categories</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">343</span>
+                            <span class="stat-label">Verified Links</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="content-sidebar">
+                    <div class="sidebar-card">
+                        <h3>Last Updated</h3>
+                        <p class="update-date">October 1, 2026</p>
+                    </div>
+                    <div class="sidebar-card">
+                        <h3>License</h3>
+                        <p>CC0 (Public Domain) — Free to use, modify, and distribute.</p>
+                    </div>
+                    <div class="sidebar-card">
+                        <h3>Maintained By</h3>
+                        <p><a href="https://github.com/12britz">@12britz</a></p>
+                    </div>
+                    <div class="sidebar-card">
+                        <h3>Source</h3>
+                        <p><a href="https://github.com/12britz/awesome-free-models">GitHub Repository</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contribute-section">
+        <div class="container">
+            <h2>Contribute</h2>
+            <p>Found a new free model or noticed an outdated link? Contributions are welcome!</p>
+            <a href="https://github.com/12britz/awesome-free-models/blob/main/CONTRIBUTING.md" class="btn-primary" target="_blank">View Contributing Guidelines</a>
+        </div>
+    </section>
+</div>
+
+<style>
+.page-header {
+    padding: 6rem 0 3rem;
+    background: linear-gradient(135deg, var(--secondary-50) 0%, var(--primary-50) 100%);
+    text-align: center;
+}
+.dark-mode .page-header {
+    background: linear-gradient(135deg, var(--dark-bg) 0%, var(--dark-surface) 100%);
+}
+.lead { font-size: 1.25rem; color: var(--secondary-500); max-width: 42rem; margin: 1.5rem auto 0; }
+.content-section { padding: var(--section-padding) 0; }
+.content-grid { display: grid; grid-template-columns: 1fr 300px; gap: 3rem; }
+@media (max-width: 900px) { .content-grid { grid-template-columns: 1fr; } }
+.content-main h2 { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--secondary-200); }
+.dark-mode .content-main h2 { border-color: var(--dark-border); }
+.content-main h2:first-child { margin-top: 0; border-top: none; }
+.content-main ul { margin: 1rem 0; padding-left: 1.5rem; }
+.content-main li { margin-bottom: 0.5rem; color: var(--secondary-500); }
+.stats-overview { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; margin-top: 1.5rem; }
+.stat-card { background: white; padding: 1.5rem; border-radius: var(--radius-xl); border: 1px solid var(--secondary-200); text-align: center; }
+.dark-mode .stat-card { background: var(--dark-surface); border-color: var(--dark-border); }
+.sidebar-card { background: white; padding: 1.5rem; border-radius: var(--radius-xl); border: 1px solid var(--secondary-200); margin-bottom: 1.5rem; }
+.dark-mode .sidebar-card { background: var(--dark-surface); border-color: var(--dark-border); }
+.sidebar-card h3 { font-size: 1rem; margin-bottom: 0.5rem; color: var(--secondary-600); }
+.update-date { font-size: 1.5rem; font-weight: 700; color: var(--primary-600); }
+.contribute-section { padding: var(--section-padding) 0; background: var(--secondary-50); text-align: center; }
+.dark-mode .contribute-section { background: var(--dark-surface); }
+</style>

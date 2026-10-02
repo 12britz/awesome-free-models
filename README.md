@@ -1,4 +1,4 @@
-# Awesome Free Models [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# Awesome Free Models [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re) [![Website](https://img.shields.io/badge/Website-awesome--free--models-blue?style=for-the-badge)](https://12britz.github.io/awesome-free-models/)
 
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
