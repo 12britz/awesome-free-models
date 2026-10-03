@@ -234,6 +234,7 @@ Free, open-source web interfaces for chatting with AI models — self-host or us
 - [Mistral Le Chat](https://chat.mistral.ai/) — Web UI for Mistral Large 3, Medium 3.5, and Codestral; multimodal input (images, code). Free tier with rate‑limited calls (≈2 RPM, 500 K tokens / month). No credit‑card required. **(HTTP 403 at check time; may block automation).**
 - [Google AI Studio Chat](https://aistudio.google.com/) — Direct chat interface for Gemini 3.5 Flash & Gemini 2.5 Pro; multimodal (image + text) and code‑execution blocks. Same free limits as AI Studio API (15 RPM, 1 500 tokens / day).
 - [OpenCode (GitHub‑hosted)](https://github.com/opencode-ai/opencode) — IDE‑style coding assistant that can be pointed at any free API (Groq, Google AI Studio, OpenRouter). Free backend integration; supports file editing, terminal commands, multi‑turn conversations. **⚠️ Repo archived (read-only, last commit Sep 18, 2025); the active project now lives at opencode.ai.**
+- [GetAskAI](https://getaskai.com/) - Hosted assistant that is free to use with no account, card or API key. Web-backed replies carry numbered source links, and you can upload a PDF or photo to ask about it. Ad-supported and closed source; interface in 14 languages.
 
 ---
 
