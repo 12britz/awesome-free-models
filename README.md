@@ -511,6 +511,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 ---
 
+- [ModelBenchmark](https://modelbenchmark.io) — Independent AI model rankings combining 16 public benchmarks for 202 models, plus prices, context windows, release dates, and a 2,406-model catalog.
 ## 👥 Communities
 
 > 📅 Last checked: October 1, 2026
