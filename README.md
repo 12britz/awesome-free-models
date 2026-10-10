@@ -502,6 +502,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 - [Perplexity](https://www.perplexity.ai/) — Free AI search and research assistant with real-time answers and source citations. **(HTTP 403 at check time; may block automation).**
 - [BenchLM.ai](https://benchlm.ai/) — LLM leaderboard with 508 models across agentic coding, reasoning, knowledge, math, multimodal, instruction following, multilingual, and voice categories. Ranking methodology BenchAlign v5.7; data refreshed daily.
+- [The Aggregate](https://theaggregate.ai/) — Free LLM leaderboard that fits one daily ranking across public benchmark leaderboards, with a standard error on every rating and each score linked to its source. Covers open-weight and API models alike; no account needed.
 - [Hugging Face Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) — The primary benchmark for open-weight models. Updated regularly.
 - [LMSYS Chatbot Arena](https://arena.ai/) — Human preference rankings of models. Best source for real-world quality comparisons.
 - [StudyArena](https://studyarena.com) - Free blind comparisons of three AI answers to a study question, with voting followed by model reveal.
