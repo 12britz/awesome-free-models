@@ -153,6 +153,7 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Nscale](https://console.nscale.com/) — **2 free models** — Free tier (registration only) with Llama 3.3 70B and DeepSeek-R1-Distill-70B. 128K context. OpenAI-compatible.
 - [OrcaRouter](https://www.orcarouter.ai/offers) — **4 free models** — DeepSeek V4 Pro, DeepSeek V4 Flash, Qwen3.8 27B, and Tencent Hy3 at $0 per token, plus an `orcarouter/free` alias that auto-routes across the free lineup. OpenAI-, Anthropic-, and Gemini-compatible endpoints. No credit card and no trial expiry. The same page also gives away free vouchers for frontier models — e.g. $10 (~5M tokens) on Grok 4.5 — plus student programs and partner-hackathon credit, browsable without an account; each card shows its own terms and flags any card requirement.
 - [TypeSafe (Jev)](https://typesafe.ai/) — Structured decision models (System One family) that return a typed choice instead of free-form text, for routing and classification inside applications. **Free output tokens** on OpenRouter (`typesafe/jev-latest`); 32K context.
+- [Bowhard Speech](https://bowhard.ru/api) — **Free tier: 15 min/day speech-to-text + 5,000 chars/day text-to-speech** — Transcribes audio and video files with punctuation, SRT timecodes, and JSON word timings, and synthesizes speech in 15 voices with MP3 export. No API key required. Open-source clients: [GitHub](https://github.com/VavilkinAlex/bowhard-speech)
 
 ---
 
