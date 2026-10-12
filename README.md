@@ -142,7 +142,9 @@ Providers offering free tiers to access models via API — no local hardware req
 - [CloudCode.ONE](https://cloudcode.one/) — **⚠️ No free tier — credit-based ($2 to start).** OpenAI and Anthropic-compatible API for coding agents. Powered by GLM-4.7-Flash.
 - [ZeroLimitAI](https://www.zerolimitai.com/developers) — **⚠️ Free tier is only a 3-day trial; permanent access is a one-time $99 "Lifetime" purchase.** OpenAI-compatible (`model: "auto"` auto-routes to the best free model). No subscriptions. 30-day money-back guarantee. Site intermittently returns HTTP 402 — retry if you hit it.
 
-- [FreeAIapikey](https://freeaiapikey.com) — **100K free tokens daily** — OpenAI-compatible gateway with GPT-5.5, GPT-5.6 Sol, GPT-6 Sol, GPT-6 Astra, Claude Opus 4.7/4.8/5/5.5, and Sonnet 5. No credit card, 9 models. [$2 free credit on signup](https://freeaiapikey.com/dashboard).- [Chat Oripe](https://api.oriper.com/) — **⚠️ Currently unreachable (HTTP 530).** Previously offered free tokens via OpenAI-compatible API; service appears unavailable.
+- [FreeAIapikey](https://freeaiapikey.com) — **100K free tokens daily** — OpenAI-compatible gateway with GPT-5.5, GPT-5.6 Sol, GPT-6 Sol, GPT-6 Astra, Claude Opus 4.7/4.8/5/5.5, and Sonnet 5. No credit card, 9 models. [$2 free credit on signup](https://freeaiapikey.com/dashboard).
+
+- [Chat Oripe](https://api.oriper.com/) — **⚠️ Currently unreachable (HTTP 530).** Previously offered free tokens via OpenAI-compatible API; service appears unavailable.
 - [FreeTheAi](https://github.com/Free-The-Ai/free-ai) — Open-source Discord signup/free OpenAI-compatible API with 50+ models. No credit card. **Small/community-run project (~20★, 1 fork); last commit Aug 2026 — treat as best-effort.**
 - [OpenCode Zen](https://opencode.ai/zen) — **9 free models** — Curated AI gateway with free general and coding models (DeepSeek V4 Flash Free, MiMo-V2.5 Free, Nemotron 3 Ultra Free, Big Pickle, Qwen 3.6 Plus Free, MiniMax M3 Free, North Mini Code Free, and more). OpenAI-compatible API. No credit card required. **Note: docs mark the free models as limited-time; Zen also offers a $20 prepaid balance option.**
 - [LLM7.io](https://llm7.io/) — **15 free models**, no credit card required. DeepSeek R1/V3, GPT-4o mini and more. 1M context, multimodal. 30 RPM free (120 RPM with optional token).
@@ -185,6 +187,7 @@ Open-source tools that route requests across multiple AI providers — unified A
 - [Portkey AI Gateway](https://portkey.ai/) — Production guardrails and routing for AI apps. Hybrid open-source (community) and managed (enterprise) tiers. [GitHub](https://github.com/Portkey-AI/gateway)
 
 - [FreeAIapikey](https://freeaiapikey.com) — **100K free tokens daily** — OpenAI-compatible gateway with GPT-5.5, GPT-5.6 Sol, GPT-6 Sol, GPT-6 Astra, Claude Opus 4.7/4.8/5/5.5, and Sonnet 5. No credit card, 9 models. [$2 free credit on signup](https://freeaiapikey.com/dashboard).
+
 ---
 
 ## 💻 Local Inference Tools
