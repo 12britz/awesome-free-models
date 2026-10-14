@@ -493,6 +493,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 - [LearnLLM.dev](https://learnllm.dev/) — Free AI engineering course with 110+ lessons, runnable code, in-browser playground. Covers fundamentals to production agents.
 - [LLM Zoomcamp (DataTalksClub)](https://github.com/DataTalksClub/llm-zoomcamp) — Free 10-week course on building LLM applications with RAG, agents, vector search, and evaluation.
 - [AI Engineering from Scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — **2026.** 503 lessons across 20 phases. Build LLMs, agents, and MCP servers from scratch. MIT. 51K+ stars.
+- [Nano Banana Live](https://nano-banana.live/) — Unofficial free guide to Google's Nano Banana image model: how it works, API options, and local alternatives.
 
 ---
 
