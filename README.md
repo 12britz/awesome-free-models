@@ -183,6 +183,7 @@ Open-source tools that route requests across multiple AI providers — unified A
 - [OmniRoute](https://omniroute.online/) — Full-stack AI gateway with 250+ providers, 90+ free. TypeScript, runs on Web/Desktop/Android. Prompt compression, 3-level proxy for geo restrictions. [GitHub](https://github.com/diegosouzapw/OmniRoute)
 - [LiteLLM](https://litellm.ai/) — Python-based proxy unifying 100+ LLMs behind a single API. Spend tracking, virtual keys, production-ready. MIT license. [GitHub](https://github.com/BerriAI/litellm)
 - [Portkey AI Gateway](https://portkey.ai/) — Production guardrails and routing for AI apps. Hybrid open-source (community) and managed (enterprise) tiers. [GitHub](https://github.com/Portkey-AI/gateway)
+- [AtmoRouter](https://atmorouter.dev) — Hosted OpenAI-compatible gateway with 90+ models and native Anthropic Messages support. One DeepSeek-class model served at $0/token (unlocked with a one-time $1 lifetime top-up); paid models are usage-based per million tokens.
 
 - [FreeAIapikey](https://freeaiapikey.com) — **100K free tokens daily** — OpenAI-compatible gateway with GPT-5.5, GPT-5.6 Sol, GPT-6 Sol, GPT-6 Astra, Claude Opus 4.7/4.8/5/5.5, and Sonnet 5. No credit card, 9 models. [$2 free credit on signup](https://freeaiapikey.com/dashboard).
 ---
