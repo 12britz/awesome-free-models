@@ -170,6 +170,7 @@ Free, open-weight image and video generation models — run locally or via free 
 - [OpenImageGen (Hugging Face)](https://huggingface.co/spaces/OpenImageGen/OpenImageGen) — Free, open-source image generation playground. Supports multiple community models via diffusers. Apache 2.0. **Note: login/auth may be required (HTTP 401 at check time).**
 - [FLUX Video Edit (Black Forest Labs)](https://bfl.ai/) — **Sep 2026.** Prompt-based video editing: add, remove, or replace objects/characters, rebuild the setting, edit on-screen text, change colors/materials, translate dialogue with lip sync. Preserves source duration, aspect ratio, and audio. Source clips up to 15s / 50 MiB. Available via OpenRouter (paid per second).
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) — **135K★.** Node-based image and video generation UI. Run FLUX, Stable Diffusion, and more locally. GPL-3.0.
+- [Veida AI](https://veida.ai/) — **Free image generation API.** No API key or signup: send a prompt with any client id and poll for the image; photo edits work the same way. One run per client id and about seven a day per IP; free output is 1K with a small mark, and signing in makes the base model unlimited. SDKs for Python, JS, Go, Rust and more. [Docs](https://veida.readthedocs.io/)
 
 ---
 
