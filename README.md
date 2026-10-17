@@ -170,6 +170,7 @@ Free, open-weight image and video generation models — run locally or via free 
 - [OpenImageGen (Hugging Face)](https://huggingface.co/spaces/OpenImageGen/OpenImageGen) — Free, open-source image generation playground. Supports multiple community models via diffusers. Apache 2.0. **Note: login/auth may be required (HTTP 401 at check time).**
 - [FLUX Video Edit (Black Forest Labs)](https://bfl.ai/) — **Sep 2026.** Prompt-based video editing: add, remove, or replace objects/characters, rebuild the setting, edit on-screen text, change colors/materials, translate dialogue with lip sync. Preserves source duration, aspect ratio, and audio. Source clips up to 15s / 50 MiB. Available via OpenRouter (paid per second).
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) — **135K★.** Node-based image and video generation UI. Run FLUX, Stable Diffusion, and more locally. GPL-3.0.
+- [ReelForge](https://github.com/abicevoice1-sudo/reelforge) — **Oct 2026.** Open-source prompt-to-viral-short pipeline: a text prompt becomes a finished 1080x1920 video with AI script, neural voiceover, karaoke captions, and ducked music. A local CLIP vision model inspects every clip and rejects wrong footage automatically. Runs on free API tiers (Gemini, NVIDIA NIM); publishes to 8 platforms via official APIs; includes trend harvesting, batch mode, 7-language dubbing, web Studio UI, and MCP server. MIT license.
 
 ---
 
