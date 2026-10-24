@@ -218,7 +218,8 @@ Run models on your own machine — no API keys needed, full privacy.
 - [Microsoft Foundry Toolkit for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-windows-ai-studio.windows-ai-studio) — VS Code extension to browse, test, fine-tune, and deploy models locally. Integrates ONNX and llama.cpp.
 - [Ollama Grid Search](https://github.com/dezoito/ollama-grid-search) — Desktop utility for systematic model evaluation. Test multiple models, prompts, and inference parameters side-by-side via a Rust/React GUI.
 - [oMLX](https://github.com/jundot/omlx) — **22.3K★.** LLM inference server for Apple Silicon with continuous batching, tiered KV caching (hot RAM + cold SSD), and macOS menu bar app. OpenAI and Anthropic compatible. Apache 2.0.
-- [MTPLX](https://github.com/youssofal/MTPLX) — **2.5K★.** Native MTP speculative decoding on Apple Silicon — ~2x faster decode with no external drafter. Mac app + CLI, OpenAI/Anthropic compatible server. Auto-tunes draft depth per machine. Apache 2.0.
+- [MTPLX](https://github.com/youssofal/MTPLX) — **2.5K★.** Native MTP speculative decoding on Apple Silicon — ~2x faster decode with no external drafter. Mac app + CLI, OpenAI/Anthropic compatible  server. Auto-tunes draft depth per machine. Apache 2.0.
+- [TensorSharp](https://github.com/zhongkaifu/TensorSharp) — Native .NET LLM inference engine and agent runtime for GGUF models. CUDA/Metal/Vulkan backends, multimodal support, Ollama/OpenAI-compatible APIs. BSD-3-Clause, free, runs fully locally.
 
 ---
 
