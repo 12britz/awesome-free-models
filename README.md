@@ -2,14 +2,14 @@
 
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-October%210%2C%202026-brightgreen?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-October%2027%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-53-blue?style=flat-square)
 ![Tools](https://img.shields.io/badge/Tools-245-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-21-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 [![GitGem](https://gitgem.org/api/badge/github/12britz/awesome-free-models.svg)](https://gitgem.org/github/12britz/awesome-free-models)
 
-> ✅ All links re-verified on October 1, 2026 (343 unique links). (Poe/Reddit/Perplexity/chat.mistral.ai return HTTP 403 — they block automated checks, not real users; api.oriper.com HTTP 530 and glhf.chat HTTP 526 remain unreachable; Common-Corpus and OpenImageGen on Hugging Face return HTTP 401 and may require authentication). **Corrections this run: ZeroLimitAI is back up (HTTP 200) but its "free tier" is only a 3-day trial — permanent use is a $99 one-time purchase; AI21's trial is $10 for 7 days, not 3 months; BenchLM now tracks 508 models, not 281; FreeLLM.net tracks 505+.** OpenRouter's free lineup is ~17 models right now.
+> ✅ All links re-verified on October 27, 2026 (343 unique links). (Poe/Reddit/Perplexity/chat.mistral.ai return HTTP 403 — they block automated checks, not real users; api.oriper.com HTTP 530 and glhf.chat HTTP 526 remain unreachable; Common-Corpus and OpenImageGen on Hugging Face return HTTP 401 and may require authentication). **Corrections this run: ZeroLimitAI is back up (HTTP 200) but its "free tier" is only a 3-day trial — permanent use is a $99 one-time purchase; AI21's trial is $10 for 7 days, not 3 months; BenchLM now tracks 508 models, not 281; FreeLLM.net tracks 505+.** OpenRouter's free lineup is ~17 models right now.
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
@@ -43,7 +43,7 @@ Running AI shouldn't require a credit card. This list curates genuinely free mod
 
 ## 🧠 Open-Weight Models
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Notable open-weight models you can download and run on your own hardware.
 
@@ -92,7 +92,7 @@ Notable open-weight models you can download and run on your own hardware.
 
 ## 🔌 Free API Providers
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Providers offering free tiers to access models via API — no local hardware required.
 
@@ -159,7 +159,7 @@ Providers offering free tiers to access models via API — no local hardware req
 
 ## 🖼️ Image & Video Generation
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Free, open-weight image and video generation models — run locally or via free APIs.
 
@@ -176,7 +176,7 @@ Free, open-weight image and video generation models — run locally or via free 
 
 ## 🔀 Free API Routers
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Open-source tools that route requests across multiple AI providers — unified API, automatic failover, and cost optimization.
 
@@ -190,7 +190,7 @@ Open-source tools that route requests across multiple AI providers — unified A
 
 ## 💻 Local Inference Tools
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Run models on your own machine — no API keys needed, full privacy.
 
@@ -220,12 +220,13 @@ Run models on your own machine — no API keys needed, full privacy.
 - [Ollama Grid Search](https://github.com/dezoito/ollama-grid-search) — Desktop utility for systematic model evaluation. Test multiple models, prompts, and inference parameters side-by-side via a Rust/React GUI.
 - [oMLX](https://github.com/jundot/omlx) — **22.3K★.** LLM inference server for Apple Silicon with continuous batching, tiered KV caching (hot RAM + cold SSD), and macOS menu bar app. OpenAI and Anthropic compatible. Apache 2.0.
 - [MTPLX](https://github.com/youssofal/MTPLX) — **2.5K★.** Native MTP speculative decoding on Apple Silicon — ~2x faster decode with no external drafter. Mac app + CLI, OpenAI/Anthropic compatible server. Auto-tunes draft depth per machine. Apache 2.0.
+- [TensorSharp](https://github.com/zhongkaifu/TensorSharp) — Native .NET LLM inference engine and agent runtime for GGUF models. CUDA/Metal/Vulkan backends, multimodal support, Ollama/OpenAI-compatible APIs. BSD-3-Clause, free, runs fully locally.
 
 ---
 
 ## 💬 AI Chatbot UIs
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Free, open-source web interfaces for chatting with AI models — self-host or use hosted versions.
 
@@ -242,7 +243,7 @@ Free, open-source web interfaces for chatting with AI models — self-host or us
 
 ## 🎵 Audio & Speech Models
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generation models you can run locally.
 
@@ -258,7 +259,7 @@ Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generati
 
 ## 🤖 AI Coding Assistants
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Free tools that integrate AI into your development workflow.
 
@@ -286,7 +287,7 @@ Free tools that integrate AI into your development workflow.
 
 ## 📝 Code Models
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Specialized for code generation, completion, and analysis.
 
@@ -312,7 +313,7 @@ Specialized for code generation, completion, and analysis.
 
 ## 🧬 Embedding Models
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Free, open-weight embedding and reranker models for semantic search, RAG, and text representation.
 
@@ -328,7 +329,7 @@ Free, open-weight embedding and reranker models for semantic search, RAG, and te
 
 ## 🔍 RAG & Vector Databases
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Free tools for building retrieval-augmented generation pipelines — vector storage, embedding search, and document retrieval.
 
@@ -348,7 +349,7 @@ Free tools for building retrieval-augmented generation pipelines — vector stor
 
 ## 🧩 Agentic Frameworks
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Free, open-source frameworks for building AI agents and multi-agent systems.
 
@@ -385,7 +386,7 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 
 ## 🔧 MCP Servers & Tools
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Model Context Protocol (MCP) servers that connect AI assistants to external tools, data sources, and APIs.
 
@@ -397,7 +398,7 @@ Model Context Protocol (MCP) servers that connect AI assistants to external tool
 
 ## 🎛 Fine-tuning Tools
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Tools to fine-tune free models on your own data — all free and open-source.
 
@@ -412,7 +413,7 @@ Tools to fine-tune free models on your own data — all free and open-source.
 
 ## ✨ Prompt Engineering Tools
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Free tools for testing, managing, and optimizing prompts.
 
@@ -426,7 +427,7 @@ Free tools for testing, managing, and optimizing prompts.
 
 ## 📊 LLM Evaluation & Observability
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Free, open-source tools for tracing, evaluating, and monitoring LLM applications in development and production.
 
@@ -440,7 +441,7 @@ Free, open-source tools for tracing, evaluating, and monitoring LLM applications
 
 ## 📊 Datasets
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Free, open datasets for training, fine-tuning, and evaluating models.
 
@@ -460,7 +461,7 @@ Free, open datasets for training, fine-tuning, and evaluating models.
 
 ## ☁ Model Hosting Platforms
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Free platforms that host models — run inference without downloading anything.
 
@@ -478,7 +479,7 @@ Free platforms that host models — run inference without downloading anything.
 
 ## 📚 Learning Resources
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 Free courses, books, and tutorials for learning AI and LLMs.
 
@@ -499,7 +500,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 ## 🏆 Resources & Leaderboards
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 - [Perplexity](https://www.perplexity.ai/) — Free AI search and research assistant with real-time answers and source citations. **(HTTP 403 at check time; may block automation).**
 - [BenchLM.ai](https://benchlm.ai/) — LLM leaderboard with 508 models across agentic coding, reasoning, knowledge, math, multimodal, instruction following, multilingual, and voice categories. Ranking methodology BenchAlign v5.7; data refreshed daily.
@@ -517,7 +518,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 
 ## 👥 Communities
 
-> 📅 Last checked: October 1, 2026
+> 📅 Last checked: October 27, 2026
 
 - [Hugging Face Discord](https://hf.co/join/discord) — Model releases, discussions, and community support. *(Link fixed: discord.gg/huggingface invite is no longer valid.)*
 - [r/LocalLLaMA](https://reddit.com/r/LocalLLaMA) — The largest Reddit community for running local LLMs. **(HTTP 403 at check time; may block automation).**
