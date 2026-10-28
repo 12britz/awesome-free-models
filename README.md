@@ -510,6 +510,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 - [Artificial Analysis](https://artificialanalysis.ai/) — Independent benchmarks for speed, pricing, and quality across providers.
 - [Hugging Face Models](https://huggingface.co/models) — Search 1M+ models. Filter by license, task, framework.
 - [OpenRouter Models](https://openrouter.ai/models) — Browse models available via API with pricing and free tiers.
+- [Jvlang AI](https://jvlangai.com/models) — Free Chinese-language lookup of public model/API-provider quotes and original sources. No signup; third-party inference is billed separately.
 - [FreeLLM.net](https://freellm.net/) — Directory of 505+ free AI models from 30+ providers (Google, Groq, NVIDIA, OpenRouter, and more) with live daily verification. One-click config for Claude Code, Cursor, Codex, and any OpenAI-compatible tool. Free encrypted key vault; filters for no-credit-card and no-phone-verification providers. Companion list: [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) (3.4K★). **Note: still lists some retired providers (e.g., GitHub Models was retired Jul 30, 2026) — cross-check before relying.**
 - [Ollama Library](https://ollama.com/library) — Browse models available for one-command local setup.
 
