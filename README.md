@@ -251,6 +251,7 @@ Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generati
 - [MOSS-TTS Family (MOSI.AI/OpenMOSS)](https://github.com/OpenMOSS/MOSS-TTS) — **4.1K★.** 8B flagship + 100M Nano (CPU). Voice cloning, dialogue generation, sound effects, realtime streaming. Apache 2.0.
 - [Orpheus-TTS (Canopy Labs)](https://github.com/canopyai/Orpheus-TTS) — **6.3K★.** Llama-3b backbone, human-like speech, zero-shot voice cloning, emotion tags. ~200ms streaming latency. Apache 2.0.
 - [NeuTTS (Neuphonic)](https://github.com/neuphonic/neutts) — **6.3K★.** On-device TTS with instant voice cloning. GGUF quantized for CPU/mobile. 120M Nano and 360M Air variants. Apache 2.0.
+- [Supertonic 3 (Supertone)](https://huggingface.co/supertone-oss-archive/supertonic-3) — **13.7K★.** On-device multilingual TTS in ONNX: 31 languages, runs on an ordinary CPU, no GPU needed. Weights under OpenRAIL-M (no impersonation without consent). [SuperClonica](https://pypi.org/project/superclonica-cpu/) is a free Apache-2.0 engine for it with extra voice files and a free API tier.
 - [Faster-Whisper](https://github.com/SYSTRAN/faster-whisper) — **25.6K★.** CTranslate2-based Whisper for 4x faster transcription. MIT.
 - [Muse Voice Transcribe 1.0 (Meta)](https://openrouter.ai/meta/muse-voice-transcribe-1.0) — **Sep 2026.** Synchronous speech-to-text for push-to-talk, endpointing, and speaker-aware transcription. Keyword biasing for domain terms and language-name hints. Accepts mono 16-bit PCM WAV (16/24 kHz, up to 10 min). Available via OpenRouter.
 
