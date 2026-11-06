@@ -390,6 +390,7 @@ Free, open-source frameworks for building AI agents and multi-agent systems.
 
 Model Context Protocol (MCP) servers that connect AI assistants to external tools, data sources, and APIs.
 
+- [Custom Song Gift MCP](https://customsonggift.org/) — Public Model Context Protocol server for personalized AI song and lyric generation. Exposes tools for exploring 12 gift occasions, 16 musical genres, songwriting story guidance, and keepsake delivery. Free streamable HTTP endpoint at `https://customsonggift.org/api/mcp`.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) — **33.2K★.** Official GitHub MCP server by GitHub. Repository management, issue/PR automation, CI/CD intelligence, code analysis. OAuth or PAT auth. MIT license.
 - [GitMCP](https://github.com/idosal/git-mcp) — **8.4K★.** Free, open-source, remote MCP server for any GitHub project. Zero-setup documentation and code access for AI assistants. Apache 2.0. **Note: quiet since May 2026.**
 - [MCP Reference Servers (Anthropic)](https://github.com/modelcontextprotocol/servers) — **90.6K★.** Official reference implementations: Filesystem, Git, Fetch, Memory, Time, Sequential Thinking. Apache 2.0 / MIT.
