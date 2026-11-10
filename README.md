@@ -434,6 +434,7 @@ Free tools for testing, managing, and optimizing prompts.
 - [PromptLayer](https://promptlayer.com/) — Open-source prompt management and observability platform. Track, version, and analyze prompts across providers. [GitHub](https://github.com/promptlayer/promptlayer-python)
 - [OpenP](https://openp.ai/) — Open-source platform for prompt engineering and evaluation. Visual playground, dataset management, and experiment tracking. Apache 2.0.
 - [PromptScout](https://github.com/prompts-catalog/prompts) — Community-driven catalog of curated prompts for popular AI models. Free MIT licensed.
+- [Prompt Generator](https://trypromptgenerator.com) — Writes prompts in the syntax of the AI tool you pick (ChatGPT, Claude, Gemini, Midjourney, Nano Banana, Veo, Sora and more). Free tier: 10 prompts a day without an account, 20 with a free account, no credit card; paid plans add unlimited use.
 
 ---
 
