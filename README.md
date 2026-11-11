@@ -522,6 +522,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 - [LMSYS Chatbot Arena](https://arena.ai/) — Human preference rankings of models. Best source for real-world quality comparisons.
 - [StudyArena](https://studyarena.com) - Free blind comparisons of three AI answers to a study question, with voting followed by model reveal.
 - [Artificial Analysis](https://artificialanalysis.ai/) — Independent benchmarks for speed, pricing, and quality across providers.
+- [Models Rank](https://modelsrank.org/en/) — Free, minimal AI model leaderboard that answers three questions: which model is smartest, fastest and cheapest. Aggregates public third-party benchmarks (Artificial Analysis, Arena), updated weekly; no signup. [GitHub](https://github.com/Samuel-Shek/modelsrank)
 - [Hugging Face Models](https://huggingface.co/models) — Search 1M+ models. Filter by license, task, framework.
 - [OpenRouter Models](https://openrouter.ai/models) — Browse models available via API with pricing and free tiers.
 - [FreeLLM.net](https://freellm.net/) — Directory of 505+ free AI models from 30+ providers (Google, Groq, NVIDIA, OpenRouter, and more) with live daily verification. One-click config for Claude Code, Cursor, Codex, and any OpenAI-compatible tool. Free encrypted key vault; filters for no-credit-card and no-phone-verification providers. Companion list: [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) (3.4K★). **Note: still lists some retired providers (e.g., GitHub Models was retired Jul 30, 2026) — cross-check before relying.**
