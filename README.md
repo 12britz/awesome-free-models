@@ -170,6 +170,7 @@ Free, open-weight image and video generation models — run locally or via free 
 - [OpenImageGen (Hugging Face)](https://huggingface.co/spaces/OpenImageGen/OpenImageGen) — Free, open-source image generation playground. Supports multiple community models via diffusers. Apache 2.0. **Note: login/auth may be required (HTTP 401 at check time).**
 - [FLUX Video Edit (Black Forest Labs)](https://bfl.ai/) — **Sep 2026.** Prompt-based video editing: add, remove, or replace objects/characters, rebuild the setting, edit on-screen text, change colors/materials, translate dialogue with lip sync. Preserves source duration, aspect ratio, and audio. Source clips up to 15s / 50 MiB. Available via OpenRouter (paid per second).
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) — **135K★.** Node-based image and video generation UI. Run FLUX, Stable Diffusion, and more locally. GPL-3.0.
+- [TrendSwap](https://trendswap.app/) — Turns a single portrait photo into viral AI short-form videos with synced motion, voice, and strict facial identity preservation. Features one-click trending template replication with free trial credits.
 
 ---
 
