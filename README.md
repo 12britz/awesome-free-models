@@ -398,6 +398,7 @@ Model Context Protocol (MCP) servers that connect AI assistants to external tool
 - [Context7 MCP](https://github.com/upstash/context7) — **13.3K★.** Up-to-date documentation retrieval MCP server. Fetches current docs for libraries instead of relying on stale training data. MIT license.
 - [Serena MCP](https://github.com/serena-ai/serena) — **13.8K★.** Semantic code navigation MCP server. Indexes your codebase for precise, context-aware find/rename operations. Apache 2.0.
 - [Sequential Thinking MCP](https://github.com/anthropic-ai/claude-code/blob/main/claude_code/utils/thinking/README.md) — Built-in MCP server in Claude Code. Structured reasoning with step-by-step thinking. MIT license.
+- [Perq MCP](https://perq.sh/mcp) — Free remote MCP server (no signup or API key) that answers "what free AI credits can I get for X" from a directory of verified free tiers and startup programs. Every offer has a source link and a last-verified date. Agent skill: [perq-skill](https://github.com/f-o-x11/perq-skill).
 
 ---
 
