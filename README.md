@@ -524,6 +524,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 - [Hugging Face Models](https://huggingface.co/models) — Search 1M+ models. Filter by license, task, framework.
 - [OpenRouter Models](https://openrouter.ai/models) — Browse models available via API with pricing and free tiers.
 - [FreeLLM.net](https://freellm.net/) — Directory of 505+ free AI models from 30+ providers (Google, Groq, NVIDIA, OpenRouter, and more) with live daily verification. One-click config for Claude Code, Cursor, Codex, and any OpenAI-compatible tool. Free encrypted key vault; filters for no-credit-card and no-phone-verification providers. Companion list: [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) (3.4K★). **Note: still lists some retired providers (e.g., GitHub Models was retired Jul 30, 2026) — cross-check before relying.**
+- [TokenMost](https://tokenmost.com/) — Chinese-language intelligence site tracking 260+ free-credit and discount offers for LLM platforms (GLM, Kimi, Qwen, DeepSeek, Gemini, and more). Every listing carries a manual verification date, and expired offers are delisted automatically — useful for keeping tabs on time-limited free tiers alongside the provider tables above.
 - [Ollama Library](https://ollama.com/library) — Browse models available for one-command local setup.
 
 ---
