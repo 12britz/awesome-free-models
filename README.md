@@ -153,6 +153,7 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Nscale](https://console.nscale.com/) — **2 free models** — Free tier (registration only) with Llama 3.3 70B and DeepSeek-R1-Distill-70B. 128K context. OpenAI-compatible.
 - [OrcaRouter](https://www.orcarouter.ai/offers) — **4 free models** — DeepSeek V4 Pro, DeepSeek V4 Flash, Qwen3.8 27B, and Tencent Hy3 at $0 per token, plus an `orcarouter/free` alias that auto-routes across the free lineup. OpenAI-, Anthropic-, and Gemini-compatible endpoints. No credit card and no trial expiry. The same page also gives away free vouchers for frontier models — e.g. $10 (~5M tokens) on Grok 4.5 — plus student programs and partner-hackathon credit, browsable without an account; each card shows its own terms and flags any card requirement.
 - [TypeSafe (Jev)](https://typesafe.ai/) — Structured decision models (System One family) that return a typed choice instead of free-form text, for routing and classification inside applications. **Free output tokens** on OpenRouter (`typesafe/jev-latest`); 32K context.
+- [AMD Radeon Cloud Token Factory](https://developer.amd.com.cn/login?source=bjOVsdlfc) — **12 free models** — Official AMD GPU cloud, OpenAI-compatible (`https://developer.amd.com.cn/radeon/api/v1`). Free daily allowance: 1 credit/day (5/day for the first 14 days), resets daily. DeepSeek V4.1 Flash, GLM-5.3 Flash, MiMo V2.6 Flash, Qwen3.8 27B, Gemma 4 31B, MiniCPM and more. Sign-up needs a phone number (default +86), no credit card.
 
 ---
 
