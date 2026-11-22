@@ -2,14 +2,14 @@
 
 > A curated list of free AI models, APIs, and tools you can use without paying a cent.
 
-![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2014%2C%202026-brightgreen?style=for-the-badge)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-November%2022%2C%202026-brightgreen?style=for-the-badge)
 ![Models](https://img.shields.io/badge/Models-55-blue?style=flat-square)
 ![Tools](https://img.shields.io/badge/Tools-250-blue?style=flat-square)
 ![Sections](https://img.shields.io/badge/Sections-21-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-CC0-lightgrey?style=flat-square)
 [![GitGem](https://gitgem.org/api/badge/github/12britz/awesome-free-models.svg)](https://gitgem.org/github/12britz/awesome-free-models)
 
-> ✅ All links re-verified on November 14, 2026 (350+ unique links). (Poe/Reddit/Perplexity/chat.mistral.ai return HTTP 403 — they block automated checks, not real users; api.oriper.com HTTP 530 and glhf.chat HTTP 522 remain unreachable; Common-Corpus and OpenImageGen on Hugging Face return HTTP 401 and may require authentication). **Corrections this run: ZeroLimitAI free tier is a 3-day trial only ($99 lifetime); AI21 trial is $10/7 days; Cerebras free tier replaced with $5/30-day trial requiring payment method; Chutes.ai free tier ended; Flowise acquired by Workday (archived); Continue.dev acquired by Cursor (OSS repo community-maintained); Hugging Face TGI archived; AutoGen in maintenance mode; MetaGPT development slowed.** OpenRouter's free lineup is ~20 models.
+> ✅ All links re-verified on November 22, 2026 (350+ unique links). (Poe/Reddit/Perplexity/chat.mistral.ai return HTTP 403 — they block automated checks, not real users; api.oriper.com HTTP 530 and glhf.chat HTTP 522 remain unreachable; Common-Corpus and OpenImageGen on Hugging Face return HTTP 401 and may require authentication). **Corrections this run: ZeroLimitAI free tier is a 3-day trial only ($99 lifetime); AI21 trial is $10/7 days; Cerebras free tier replaced with $5/30-day trial requiring payment method; Chutes.ai free tier ended; Flowise acquired by Workday (archived); Continue.dev acquired by Cursor (OSS repo community-maintained); Hugging Face TGI archived; AutoGen in maintenance mode; MetaGPT development slowed.** OpenRouter's free lineup is ~20 models.
 
 Running AI shouldn't require a credit card. This list curates genuinely free models — open-weight models you can self-host, free API tiers from major providers, and tools to run everything locally.
 
