@@ -173,6 +173,8 @@ Free, open-weight image and video generation models — run locally or via free 
 - [ComfyUI](https://github.com/Comfy-Org/ComfyUI) — **135K★.** Node-based image and video generation UI. Run FLUX, Stable Diffusion, and more locally. GPL-3.0.
 
 ---
+- [Free Image to Video](https://freeimagetovideo.ai/) — Free image to video AI with no daily cap: start with no sign-up, keep going on a free account. Every video comes with sound and no watermark. Browser generator, REST API, and [hosted MCP server](https://github.com/hanshs474/fitv-mcp).
+
 
 ## 🔀 Free API Routers
 
