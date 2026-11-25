@@ -526,6 +526,7 @@ Free courses, books, and tutorials for learning AI and LLMs.
 - [OpenRouter Models](https://openrouter.ai/models) — Browse models available via API with pricing and free tiers.
 - [FreeLLM.net](https://freellm.net/) — Directory of 505+ free AI models from 30+ providers (Google, Groq, NVIDIA, OpenRouter, and more) with live daily verification. One-click config for Claude Code, Cursor, Codex, and any OpenAI-compatible tool. Free encrypted key vault; filters for no-credit-card and no-phone-verification providers. Companion list: [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis) (3.4K★). **Note: still lists some retired providers (e.g., GitHub Models was retired Jul 30, 2026) — cross-check before relying.**
 - [Ollama Library](https://ollama.com/library) — Browse models available for one-command local setup.
+- [Free LLM API Hub](https://freellmapihub.com/) - Dated, sourced dataset of 60+ free-tier and trial-credit AI model APIs with no-card and commercial-use filters and a no-auth JSON API. [GitHub](https://github.com/pacocartones/free-llm-api-hub)
 
 ---
 
