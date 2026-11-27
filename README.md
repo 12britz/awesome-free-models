@@ -264,6 +264,7 @@ Free, open-weight text-to-speech (TTS), speech-to-text (STT), and voice generati
 Free tools that integrate AI into your development workflow.
 
 - [Continue.dev](https://www.continue.dev/) — **⚠️ Acquired by Cursor (Jun 2026); standalone product & cloud were shut down (data deleted Jul 15, 2026). OSS repo handed to the community under Apache 2.0 (last commit Jul 21, 2026).** Open-source AI code assistant for VS Code and JetBrains. [GitHub](https://github.com/continuedev/continue)
+- [AshuTeacher](https://ashuteacher.vercel.app) - Free AI-powered learning PWA & Android app with an interactive voice blackboard tutor in 24+ languages, exam paper solver, adaptive quizzes, and a Project, Thesis & Research Studio.
 - [Aider](https://aider.chat/) — AI pair programming in the terminal. Edits code in your local git repo. Supports GPT, Claude, and local models. [GitHub](https://github.com/Aider-AI/aider)
 - [Gemini CLI (Google)](https://github.com/google-gemini/gemini-cli) — **Jul 2026.** Open-source terminal agent with generous free Gemini quota. Supports agentic coding workflows.
 - [Kilo Code](https://github.com/Kilo-Org/kilocode) — **2026.** VS Code/JetBrains agentic coding extension with model-agnostic support and Plan/Act oversight. **Note: acquired by Anaconda (2026); repo remains active.**
