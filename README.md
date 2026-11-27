@@ -186,6 +186,7 @@ Open-source tools that route requests across multiple AI providers — unified A
 - [Portkey AI Gateway](https://portkey.ai/) — Production guardrails and routing for AI apps. Hybrid open-source (community) and managed (enterprise) tiers. [GitHub](https://github.com/Portkey-AI/gateway)
 
 - [FreeAIapikey](https://freeaiapikey.com) — **100K free tokens daily** — OpenAI-compatible gateway with GPT-5.5, GPT-5.6 Sol, GPT-6 Sol, GPT-6 Astra, Claude Opus 4.7/4.8/5/5.5, and Sonnet 5. No credit card, 9 models. [$2 free credit on signup](https://freeaiapikey.com/dashboard).
+- [SubRouter](https://subrouter.ai) — **1,000,000 free tokens on signup, no credit card** — Unified API gateway for Claude, GPT, Gemini, DeepSeek and Grok behind one OpenAI-compatible key. Pay-as-you-go from $0.94, balance never expires. Smart routing with automatic failover.
 ---
 
 ## 💻 Local Inference Tools
