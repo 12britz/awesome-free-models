@@ -98,6 +98,7 @@ Providers offering free tiers to access models via API — no local hardware req
 - [Google AI Studio](https://aistudio.google.com/) — **~15 free models** — **Most generous free tier.** Rate-limited free access to Gemini 3.x Flash / Flash-Lite models (Gemini 2.0 Flash was shut down Jun 1, 2026). Generous limits for prototyping, no credit card required.
 - [OpenRouter](https://openrouter.ai/) — **~21 free models** — Aggregates 450+ models. Filter by "Free" to see models available at no cost. **Note: free models require a positive credit balance (balance may be $0).** Includes experimental and subsidized open-weight models. **Note: the free lineup churns constantly — treat this as a snapshot.**
 - [AnyAPI](https://anyapi.ai/) — **15 free models** — 400+ models with OpenAI-compatible API. Free tier: 100K tokens/day, unlimited users. Includes free and basic models. No credit card required.
+- [SubRouter](https://subrouter.ai/register?aff=nP93) — **1,000,000 free tokens on signup, no credit card** — Unified API gateway for Claude, GPT, Gemini, DeepSeek and Grok behind one OpenAI-compatible key. Pay-as-you-go from $0.94, balance never expires. Smart routing with automatic failover.
 - [Groq](https://console.groq.com/) — **12 free models** — Ultra-fast LPU inference. Free tier includes Llama 3.x/4, Qwen, GPT-OSS, and Whisper models with generous daily rate limits (no credit card).
 - [Hugging Face Inference Providers](https://huggingface.co/inference-api) — **Free tier is only $0.10/month** for free accounts ($2.00/month for PRO/Team) — Free access to thousands of community models. Effectively unusable at that allowance; pay-as-you-go for anything real.
 - [NVIDIA NIM](https://build.nvidia.com/) — **100+ free models** — Free, rate-limited API access to accelerated versions of Llama, Mistral, Gemma, and more on NVIDIA infrastructure.
@@ -186,7 +187,7 @@ Open-source tools that route requests across multiple AI providers — unified A
 - [Portkey AI Gateway](https://portkey.ai/) — Production guardrails and routing for AI apps. Hybrid open-source (community) and managed (enterprise) tiers. [GitHub](https://github.com/Portkey-AI/gateway)
 
 - [FreeAIapikey](https://freeaiapikey.com) — **100K free tokens daily** — OpenAI-compatible gateway with GPT-5.5, GPT-5.6 Sol, GPT-6 Sol, GPT-6 Astra, Claude Opus 4.7/4.8/5/5.5, and Sonnet 5. No credit card, 9 models. [$2 free credit on signup](https://freeaiapikey.com/dashboard).
-- [SubRouter](https://subrouter.ai) — **1,000,000 free tokens on signup, no credit card** — Unified API gateway for Claude, GPT, Gemini, DeepSeek and Grok behind one OpenAI-compatible key. Pay-as-you-go from $0.94, balance never expires. Smart routing with automatic failover.
+- [SubRouter](https://subrouter.ai/register?aff=nP93) — **1,000,000 free tokens on signup, no credit card** — Unified API gateway for Claude, GPT, Gemini, DeepSeek and Grok behind one OpenAI-compatible key. Pay-as-you-go from $0.94, balance never expires. Smart routing with automatic failover.
 ---
 
 ## 💻 Local Inference Tools
