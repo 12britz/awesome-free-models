@@ -392,6 +392,7 @@ Model Context Protocol (MCP) servers that connect AI assistants to external tool
 
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) — **33.2K★.** Official GitHub MCP server by GitHub. Repository management, issue/PR automation, CI/CD intelligence, code analysis. OAuth or PAT auth. MIT license.
 - [GitMCP](https://github.com/idosal/git-mcp) — **8.4K★.** Free, open-source, remote MCP server for any GitHub project. Zero-setup documentation and code access for AI assistants. Apache 2.0. **Note: quiet since May 2026.**
+- [The SEO Agent MCP](https://github.com/jeremy665/theseoagent-mcp) - Open-source TypeScript MCP server for automated technical SEO site audits, keyword research, and publishing workflows. MIT license.
 - [MCP Reference Servers (Anthropic)](https://github.com/modelcontextprotocol/servers) — **90.6K★.** Official reference implementations: Filesystem, Git, Fetch, Memory, Time, Sequential Thinking. Apache 2.0 / MIT.
 - [MCP Starter Kit](https://github.com/anthropic-ai/mcp-starter-kit) — **4.1K★.** Starter kit for building your own MCP servers with Python and FastAPI. MIT license.
 - [MCP Tools](https://github.com/anthropic-ai/mcp-tools) — **3.2K★.** Utilities for testing, monitoring, and debugging MCP servers. MIT license.
