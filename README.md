@@ -282,6 +282,7 @@ Free tools that integrate AI into your development workflow.
 - [CodeWhale](https://github.com/Hmbown/CodeWhale) — **2026.** Terminal coding agent with 41K+ stars. 30+ providers, local models via Ollama/vLLM. TUI, headless mode, web UI. MIT license.
 - [nanobot (HKUDS)](https://github.com/HKUDS/nanobot) — **2026.** Open-source, ultra-lightweight personal AI agent with WebUI, chat channels, MCP, memory, and scheduling. 48.6K★. MIT.
 - [MiMoCode (Xiaomi)](https://github.com/XiaomiMiMo/MiMo-Code) — **Jun 2026.** Terminal-native coding agent with persistent memory, subagent orchestration, and goal-driven autonomous loops. 13.5K★. MIT.
+- [Tesseract](https://tesseract.dev/) — Free desktop app for macOS, Windows and Linux that runs 14 coding agents (Claude Code, Codex, Gemini CLI, OpenCode, Qwen Code and others) in one window, with a code editor, terminal and live preview. Uses your own Claude or ChatGPT plan or API key, or an ad-supported free AI allowance; no credit card. Closed source.
 
 ---
 
